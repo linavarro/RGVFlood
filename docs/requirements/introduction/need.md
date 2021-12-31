@@ -18,7 +18,7 @@ espoused by the informatics discipline. As adopted by REON, DIKW refers to:
 -   **Knowledge**: Educating decision makers and elected officials to promote
     knowledge-based decision making.
 
--   Wisdom: Supporting implementation through facilitation of collaborative
+-   **Wisdom**: Supporting implementation through facilitation of collaborative
     efforts between stakeholders such as municipalities, academic institutions,
     not-for-profits, conservancy & environmental groups as well as state and
     federal regulatory agencies.
