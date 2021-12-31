@@ -9,13 +9,13 @@ Making*
 Figure: DIKW Pyramid depicts the Data, Information, Knowledge, Wisdom pyramid
 espoused by the informatics discipline. As adopted by REON, DIKW refers to:
 
--   Data: Addressing the monitoring needs of under-served areas to ensure
+-   **Data**: Addressing the monitoring needs of under-served areas to ensure
     technology and monitoring solutions are available to all.
 
--   Information: Translating water & environmental data into actionable
+-   **Information**: Translating water & environmental data into actionable
     intelligence.
 
--   Knowledge: Educating decision makers and elected officials to promote
+-   **Knowledge**: Educating decision makers and elected officials to promote
     knowledge-based decision making.
 
 -   Wisdom: Supporting implementation through facilitation of collaborative
