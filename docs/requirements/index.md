@@ -5,3 +5,7 @@
 * [Description of Development Process](process.md)
 * [Platform Identification](platform.md)
 * [End-User Needs Identification](needs.md)
+* [Data](data/index.md)
+* [Information](information.md)
+* [Knowledge](knowledge.md)
+* [Wisdom](wisdom.md)
