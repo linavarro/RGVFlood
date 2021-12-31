@@ -9,3 +9,4 @@
 * [Information](information.md)
 * [Knowledge](knowledge.md)
 * [Wisdom](wisdom.md)
+* [Workflow Implications](workflow.md)
