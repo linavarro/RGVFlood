@@ -23,7 +23,7 @@ espoused by the informatics discipline. As adopted by REON, DIKW refers to:
     not-for-profits, conservancy & environmental groups as well as state and
     federal regulatory agencies.
 
-![DIKW Pyramid](https://commons.wikimedia.org/wiki/File:DIKW_Pyramid.svg)
+![DIKW Pyramid](https://upload.wikimedia.org/wikipedia/commons/0/06/DIKW_Pyramid.svg)
 
 Source: <https://commons.wikimedia.org/wiki/File:DIKW_Pyramid.svg>
 
