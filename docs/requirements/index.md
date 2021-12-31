@@ -10,3 +10,5 @@
 * [Knowledge](knowledge.md)
 * [Wisdom](wisdom.md)
 * [Workflow Implications](workflow.md)
+* [Approach](approach.md)
+* [Glossary](../glossary.md)
