@@ -2,7 +2,7 @@ from invoke import task
 from os import system
 
 @task
-def install_package(c):
+def install(c):
     """
     Install the package
     """
