@@ -1,0 +1,9 @@
+@startuml
+User -> REON.cc: Query
+GeoNode -> REON.wm: Geospatial Data
+RTHS.us -> REON.cc: Early Warning
+RTHS.us -> REON.wm: Forcing Data
+REON.wm -> REON.cc: Forecast
+GeoNode -> REON.cc: Analysis
+REON.cc -> User: Decision Support
+@enduml
