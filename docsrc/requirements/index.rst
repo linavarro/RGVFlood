@@ -16,9 +16,6 @@ RGVFlood User Requirements Determination
    wisdom/index.rst
    workflow.md
    approach.md
-   ../glossary.md
-
-
 
 Indices and tables
 ==================

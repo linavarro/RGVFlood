@@ -1,4 +1,4 @@
 Introduction
 ============
 
-The predevelopment plan introduces RGVFlood, the handle and internet domain name (RGVFlood.com) used to define the LRGV instantiation of REON.cc.
+The predevelopment plan introduces :term:`RGVFlood`, the handle and internet domain name (:term:`RGVFlood.com`) used to define the :term:`LRGV` instantiation of :term:`REON.cc`.

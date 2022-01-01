@@ -10,17 +10,16 @@ Welcome to RGVFlood's documentation!
    :maxdepth: 2
    :caption: Contents:
    
-   introduction.md
+   introduction.rst
    requirements/index.rst
-   predevelopment/index.md
+   predevelopment/index.rst
+   glossary.rst
 ..   Requirements Validation
 ..   Implementation
 ..   Quality Assurance Demonstration
 ..   Deployment
 ..   End-User Acceptance Testing
 ..   End-User Interface Development Report
-
-
 
 Indices and tables
 ==================

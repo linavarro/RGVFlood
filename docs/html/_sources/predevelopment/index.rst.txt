@@ -9,9 +9,6 @@ RGVFlood Pre-Development Plan
    components/index.rst
    component-interactions/index.rst
    use-cases/use-cases.rst
-   ../glossary.md
-
-
 
 Indices and tables
 ==================

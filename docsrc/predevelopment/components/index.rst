@@ -5,7 +5,7 @@ Components
 
    Components of the RGVFlood Platform
    
-* **RGVFlood** is the 
+* **RGVFlood** is the instantiation of the REON Cyberinfrastructure specific to the :term:`LRGV`.
 * **REON.cc** is the ov
 * **GeoNode** is
 * **REON/WM** is
