@@ -19,6 +19,6 @@ needs. End-user needs are, in order of priority:
     applications of REON.cc are expected to expand to address ecosystem
     services, including **Freshwater** and **instream flows** management.
 
-![](media/5efccee44494dc1b4b630564f9e93169.jpeg)
+![REON.cc Information Flow](information_flow.jpg)
 
 Figure: REON.cc Information Flow

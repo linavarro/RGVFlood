@@ -16,6 +16,6 @@ on the Django web framework for the Python programming language, GeoNode is
 ideally suited to being adapted for addressing the Goals and Objectives of the
 REON.cc platform.
 
-![](media/acb21bb1f699165196fd529147531669.jpeg)
+![REON.cc User Interface](user_interface.jpg)
 
 Figure: REON.cc User Interface
