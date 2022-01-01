@@ -37,10 +37,8 @@ Some key elements of hydrologic modeling include:
 
 WRF-Hydro was selected for the initial deployment within the REON/WM system for Tier I modeling because:
 
-    -   It is an open-source, community-supported framework, allowing for
-        extensibility.
+-   It is an open-source, community-supported framework, allowing for extensibility.
 
-    -   It is what the NWC uses for the NWM.
+-   It is what the NWC uses for the NWM.
 
-    -   Facilitates a pathway for contribution to, and the adoption of, the
-        Nextgen-NWM as it matures.
+-   Facilitates a pathway for contribution to, and the adoption of, the Nextgen-NWM as it matures.

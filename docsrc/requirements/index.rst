@@ -13,7 +13,7 @@ RGVFlood User Requirements Determination
    data/index.rst
    information/index.rst
    knowledge/index.rst
-   wisdom.md
+   wisdom/index.rst
    workflow.md
    approach.md
    ../glossary.md
