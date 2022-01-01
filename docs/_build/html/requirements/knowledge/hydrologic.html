@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Hydrologic Modeling &#8212; RGVFlood 0.0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="hydrologic-modeling">
+<h1>Hydrologic Modeling<a class="headerlink" href="#hydrologic-modeling" title="Permalink to this headline">¶</a></h1>
+<p>Hydrologic modeling focuses on simulation of water quantity in the environment.
+Some key elements of hydrologic modeling include:</p>
+<ul class="simple">
+<li><p>Conservation of Mass: A focus on balancing the amount, or mass, of water in
+the system.</p></li>
+<li><p>Stochastic Processes: Hydrologic processes are often represented as
+Stochastic.</p></li>
+<li><p>Land Surface Models: LSM’s are critical in rigorous hydrologic forecasting,
+since forecasts can be significantly influenced by meteorological processes.</p></li>
+<li><p>Groundwater Models: Groundwater Models are necessary components if
+significant interaction is expected between surface water and groundwater.
+Groundwater timescales are often orders of magnitude higher than surface
+water. Exceptions such as Karst formations will often require coupled
+Surface and Groundwater modeling.</p></li>
+<li><p>Hydrologic Routing: Hydrologic routing of surface water is necessary to
+translate land surface Models into lateral transport through defined
+channels. While grid-based land surface Models will allow for lateral
+transport between cells, simulation of channelized flow is necessary under
+most topographic conditions where channelized flow dominates.</p></li>
+<li><p>Hydrologic Models: Several hydrologic models were considered for initial
+incorporation into the REON/WM, including:</p>
+<ul>
+<li><p>WRF-Hydro</p></li>
+<li><p>HEC-HMS</p></li>
+<li><p>VIC</p></li>
+</ul>
+</li>
+</ul>
+<section id="tier-i-real-time-hydrologic-model">
+<h2>TIER I Real-Time Hydrologic Model<a class="headerlink" href="#tier-i-real-time-hydrologic-model" title="Permalink to this headline">¶</a></h2>
+<p>WRF-Hydro was selected for the initial deployment within the REON/WM system for Tier I modeling because:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>-   It is an open-source, community-supported framework, allowing for
+    extensibility.
+
+-   It is what the NWC uses for the NWM.
+
+-   Facilitates a pathway for contribution to, and the adoption of, the
+    Nextgen-NWM as it matures.
+</pre></div>
+</div>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../index.html">RGVFlood</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, Andrew Ernest.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.3.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/requirements/knowledge/hydrologic.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
