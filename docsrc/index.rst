@@ -1,3 +1,8 @@
+.. slide:: Title Slide
+   :level: 1
+
+   Blah
+
 ========
 RGVFlood
 ========
@@ -24,7 +29,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
-.. slide:: Title Slide
-
-   Blah
