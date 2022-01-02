@@ -1,0 +1,139 @@
+<!--
+Google IO 2012/2013 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+--><!DOCTYPE html>
+
+
+<html>
+<head>
+  <title>Hydrologic Modeling &mdash; RGVFlood</title>
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="hieroglyph-title" data-config-title>
+  <meta name="hieroglyph-subtitle" data-config-subtitle>
+  <meta name="hieroglyph-presenter" data-config-presenter>
+
+  
+  <link rel="stylesheet" media="all"
+        href="../../_static/theme/css/default.css">
+  <link rel="stylesheet" media="all"
+        href="../../_static/theme/css/hieroglyph.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)"
+        href="../../_static/theme/css/phone.css">
+
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/slides.css" type="text/css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+
+    <script data-main="../../_static/js/slides"
+            src="../../_static/js/require-1.0.8.min.js"></script>
+    <script type="text/javascript" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="top" title="RGVFlood" href="../../index.html" />
+    <link rel="up" title="Forecasting" href="forecasting.html" />
+    <link rel="next" title="Hydraulic Modeling" href="hydraulic.html" />
+    <link rel="prev" title="Forecasting" href="forecasting.html" /> 
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  
+
+  
+    <slide class="title-slide segue nobackground level-1" id="hydrologic-modeling">
+    <hgroup>
+      <h1>Hydrologic Modeling</h1>
+    </hgroup>
+    <article class="">
+      <p>Hydrologic modeling focuses on simulation of water quantity in the environment.
+Some key elements of hydrologic modeling include:</p>
+<ul class="simple">
+<li>Conservation of Mass: A focus on balancing the amount, or mass, of water in
+the system.</li>
+<li>Stochastic Processes: Hydrologic processes are often represented as
+Stochastic.</li>
+<li>Land Surface Models: LSM’s are critical in rigorous hydrologic forecasting,
+since forecasts can be significantly influenced by meteorological processes.</li>
+<li>Groundwater Models: Groundwater Models are necessary components if
+significant interaction is expected between surface water and groundwater.
+Groundwater timescales are often orders of magnitude higher than surface
+water. Exceptions such as Karst formations will often require coupled
+Surface and Groundwater modeling.</li>
+<li>Hydrologic Routing: Hydrologic routing of surface water is necessary to
+translate land surface Models into lateral transport through defined
+channels. While grid-based land surface Models will allow for lateral
+transport between cells, simulation of channelized flow is necessary under
+most topographic conditions where channelized flow dominates.</li>
+<li>Hydrologic Models: Several hydrologic models were considered for initial
+incorporation into the REON/WM, including:<ul>
+<li>WRF-Hydro</li>
+<li>HEC-HMS</li>
+<li>VIC</li>
+</ul>
+</li>
+</ul>
+
+
+
+
+    </article>
+  </slide>  <slide class="level-2" id="tier-i-real-time-hydrologic-model">
+    <hgroup>
+      <h2>TIER I Real-Time Hydrologic Model</h2>
+    </hgroup>
+    <article class="">
+      <p>WRF-Hydro was selected for the initial deployment within the REON/WM system for Tier I modeling because:</p>
+<ul class="simple">
+<li>It is an open-source, community-supported framework, allowing for extensibility.</li>
+<li>It is what the NWC uses for the NWM.</li>
+<li>Facilitates a pathway for contribution to, and the adoption of, the Nextgen-NWM as it matures.</li>
+</ul>
+
+
+
+
+    </article>
+  </slide>
+
+
+  
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>

@@ -36,7 +36,7 @@ As adopted by :term:`REON`, :term:`DIKW` refers to:
 
    *Democratizing Water Intelligence for Knowledge-Enabled Policy & Decision Making*
 
- .. slide:: DIKW Pyramid
+.. slide:: DIKW Pyramid
 
     .. figure:: https://upload.wikimedia.org/wikipedia/commons/0/06/DIKW_Pyramid.svg
        :class: full
@@ -44,7 +44,7 @@ As adopted by :term:`REON`, :term:`DIKW` refers to:
        Data, Information, Knowledge, Wisdom pyramid espoused by the informatics
        discipline. Source: https://commons.wikimedia.org/wiki/File:DIKW_Pyramid.svg
 
- .. slide::
+.. slide::
 
     As adopted by :term:`REON`, :term:`DIKW` refers to:
 

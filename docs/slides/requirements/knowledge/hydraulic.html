@@ -1,0 +1,130 @@
+<!--
+Google IO 2012/2013 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+--><!DOCTYPE html>
+
+
+<html>
+<head>
+  <title>Hydraulic Modeling &mdash; RGVFlood</title>
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="hieroglyph-title" data-config-title>
+  <meta name="hieroglyph-subtitle" data-config-subtitle>
+  <meta name="hieroglyph-presenter" data-config-presenter>
+
+  
+  <link rel="stylesheet" media="all"
+        href="../../_static/theme/css/default.css">
+  <link rel="stylesheet" media="all"
+        href="../../_static/theme/css/hieroglyph.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)"
+        href="../../_static/theme/css/phone.css">
+
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/slides.css" type="text/css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+
+    <script data-main="../../_static/js/slides"
+            src="../../_static/js/require-1.0.8.min.js"></script>
+    <script type="text/javascript" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="top" title="RGVFlood" href="../../index.html" />
+    <link rel="up" title="Forecasting" href="forecasting.html" />
+    <link rel="next" title="Urban Stormwater Modeling" href="stormwater.html" />
+    <link rel="prev" title="Hydrologic Modeling" href="hydrologic.html" /> 
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  
+
+  
+    <slide class="title-slide segue nobackground level-1" id="hydraulic-modeling">
+    <hgroup>
+      <h1>Hydraulic Modeling</h1>
+    </hgroup>
+    <article class="">
+      <p>Hydraulic modeling is typically differentiated from Hydrologic Modeling in that
+formulations balance system energy rather than mass. This is typically required
+in situations where the timescales of transport and transformation phenomena are
+short.</p>
+<p>Some key elements of hydrologic modeling include:</p>
+<ul class="simple">
+<li>Conservation of Energy: A focus on balancing energy in the system.</li>
+<li>Mechanistic Processes: Hydraulic systems are often represented as
+combinations of Mechanistic processes.</li>
+<li>Hydraulic Models: Several hydraulic models were considered for initial
+incorporation into the REON/WM, including:<ul>
+<li>HEC-RAS</li>
+<li>SPRNT</li>
+<li>Primo</li>
+</ul>
+</li>
+</ul>
+
+
+
+
+    </article>
+  </slide>  <slide class="level-2" id="tier-ii-on-demand-hydraulic-modeling">
+    <hgroup>
+      <h2>Tier II On-Demand Hydraulic Modeling</h2>
+    </hgroup>
+    <article class="">
+      <p>HEC-RAS was selected for initial deployment in the REON/WM as the Tier II model
+because:</p>
+<ul class="simple">
+<li>It is extensively used by practitioners</li>
+<li>Though closed-source, it is freely available for use by end-users.</li>
+<li>It enjoys strong and stable development support by the USACE/HEC</li>
+</ul>
+
+
+
+
+    </article>
+  </slide>
+
+
+  
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
