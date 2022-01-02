@@ -1,22 +1,43 @@
-<!DOCTYPE html>
+<!--
+Google IO 2012/2013 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+--><!DOCTYPE html>
 
 
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
-    <title>RGVFlood User Requirements Determination &mdash; RGVFlood 0.0.1 documentation</title>
-    
-    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/styles.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/slides.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    
-    
-    
-    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/slides.css" type="text/css" />
-    
+<head>
+  <title>RGVFlood User Requirements Determination &mdash; RGVFlood</title>
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="hieroglyph-title" data-config-title>
+  <meta name="hieroglyph-subtitle" data-config-subtitle>
+  <meta name="hieroglyph-presenter" data-config-presenter>
+
+  
+  <link rel="stylesheet" media="all"
+        href="../_static/theme/css/default.css">
+  <link rel="stylesheet" media="all"
+        href="../_static/theme/css/hieroglyph.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)"
+        href="../_static/theme/css/phone.css">
+
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/slides.css" type="text/css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    '../',
@@ -26,75 +47,54 @@
         HAS_SOURCE:  true
       };
     </script>
+
+    <script data-main="../_static/js/slides"
+            src="../_static/js/require-1.0.8.min.js"></script>
     <script type="text/javascript" src="../_static/documentation_options.js"></script>
     <script type="text/javascript" src="../_static/jquery.js"></script>
     <script type="text/javascript" src="../_static/underscore.js"></script>
     <script type="text/javascript" src="../_static/doctools.js"></script>
-    <script type="text/javascript" src="../_static/common.js"></script>
-    
-    <script type="text/javascript" src="../_static/slides.js"></script>
-    <script type="text/javascript" src="../_static/sync.js"></script>
-    <script type="text/javascript" src="../_static/controller.js"></script>
-    <script type="text/javascript" src="../_static/init.js"></script>
-    
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="top" title="RGVFlood 0.0.1 documentation" href="../index.html" />
+    <link rel="top" title="RGVFlood" href="../index.html" />
     <link rel="next" title="Introduction" href="introduction/index.html" />
     <link rel="prev" title="Introduction" href="../introduction.html" /> 
-  </head>
-  <body>
+</head>
+<body style="opacity: 0">
 
-<section
-   id="slide_container"
-   class='slides layout-regular'>
-
+<slides class="layout-widescreen">
 
   
-<article class="slide level-1" id="rgvflood-user-requirements-determination">
 
-<h1>RGVFlood User Requirements Determination</h1>
+  
+    <slide class="title-slide segue nobackground level-1" id="rgvflood-user-requirements-determination">
+    <hgroup>
+      <h1>RGVFlood User Requirements Determination</h1>
+    </hgroup>
+    <article class="">
+      <p>Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE</p>
 
-<div class="toctree-wrapper compound">
-<p class="caption" role="heading"><span class="caption-text">Table of Contents</span></p>
+
+
+
+    </article>
+  </slide>  <slide class="admonition-outline level-2">
+    <hgroup>
+      <h2>Outline</h2>
+    </hgroup>
+    <article class="">
+      <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="introduction/index.html">Introduction</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="introduction/need.html">Need &amp; Philosophical Basis for REON.cc</a></li>
-<li class="toctree-l2"><a class="reference internal" href="introduction/cop.html">The Need for a Common Operating Picture</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="introduction/index.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="goals.html">Goals &amp; Objectives of the User Interface</a></li>
 <li class="toctree-l1"><a class="reference internal" href="process.html">Description of Development Process</a></li>
 <li class="toctree-l1"><a class="reference internal" href="platform.html">Platform Identification</a></li>
 <li class="toctree-l1"><a class="reference internal" href="needs.html">End-User Needs Identification</a></li>
-<li class="toctree-l1"><a class="reference internal" href="data/index.html">Data</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="data/crowdsource.html">Crowdsource Data</a></li>
-<li class="toctree-l2"><a class="reference internal" href="data/observed.html">Observed Data</a></li>
-<li class="toctree-l2"><a class="reference internal" href="data/domain.html">Domain Data</a></li>
-<li class="toctree-l2"><a class="reference internal" href="data/processed.html">Processed Data</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="information/index.html">Information</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="information/analytics.html">Analytics</a></li>
-<li class="toctree-l2"><a class="reference internal" href="information/visualization.html">Visualization</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="knowledge/index.html">Knowledge</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="knowledge/assimilation.html">Assimilation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="knowledge/forecasting.html">Forecasting</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="knowledge/hydrologic.html">Hydrologic Modeling</a></li>
-<li class="toctree-l3"><a class="reference internal" href="knowledge/hydraulic.html">Hydraulic Modeling</a></li>
-<li class="toctree-l3"><a class="reference internal" href="knowledge/stormwater.html">Urban Stormwater Modeling</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="wisdom/index.html">Wisdom</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="wisdom/dss.html">Decision Support</a></li>
-<li class="toctree-l2"><a class="reference internal" href="wisdom/collaboration.html">User Collaboration</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="data/index.html">Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="information/index.html">Information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="knowledge/index.html">Knowledge</a></li>
+<li class="toctree-l1"><a class="reference internal" href="wisdom/index.html">Wisdom</a></li>
 <li class="toctree-l1"><a class="reference internal" href="workflow.html">Workflow Implications</a></li>
 <li class="toctree-l1"><a class="reference internal" href="approach.html">Approach</a></li>
 </ul>
@@ -103,13 +103,19 @@
 
 
 
-</article>
+    </article>
+  </slide>
 
-</section>
 
-<section id="slide_notes">
+  
 
-</section>
+  <slide class="backdrop"></slide>
 
-  </body>
+</slides>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
 </html>

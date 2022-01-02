@@ -1,26 +1,50 @@
+========================================
 RGVFlood User Requirements Determination
 ========================================
 
-.. toctree::
-   :maxdepth: 3
-   :caption: Table of Contents
-   
-   introduction/index.rst
-   goals.md
-   process.md
-   platform.md
-   needs.md
-   data/index.rst
-   information/index.rst
-   knowledge/index.rst
-   wisdom/index.rst
-   workflow.md
-   approach.md
-   
 .. ifnotslides::
-    Indices and tables
-    ==================
 
-    * :ref:`genindex`
-    * :ref:`modindex`
-    * :ref:`search`
+   .. toctree::
+      :maxdepth: 2
+      :caption: Table of Contents
+
+      introduction/index.rst
+      goals.md
+      process.md
+      platform.md
+      needs.md
+      data/index.rst
+      information/index.rst
+      knowledge/index.rst
+      wisdom/index.rst
+      workflow.md
+      approach.md
+
+   Indices and tables
+   ==================
+
+   * :ref:`genindex`
+   * :ref:`modindex`
+   * :ref:`search`
+
+.. ifslides::
+
+   Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE
+
+.. slide:: Outline
+   :level: 2
+
+   .. toctree::
+      :maxdepth: 1
+
+      introduction/index.rst
+      goals.md
+      process.md
+      platform.md
+      needs.md
+      data/index.rst
+      information/index.rst
+      knowledge/index.rst
+      wisdom/index.rst
+      workflow.md
+      approach.md
