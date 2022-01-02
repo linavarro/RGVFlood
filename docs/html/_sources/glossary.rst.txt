@@ -1,3 +1,5 @@
+.. ifnotslides::
+
 Glossary
 ========
 
@@ -36,202 +38,179 @@ Glossary
    URL
        Uniform Resource Locator
    
-Bernoulli
-> The Bernoulli equation is a simplification of the Navier-Stokes equations assuming inviscid fluid and steady (non-time-variant) flow.
+   Bernoulli
+       The Bernoulli equation is a simplification of the Navier-Stokes equations assuming inviscid fluid and steady (non-time-variant) flow.
 
-COP
-> Common Operating Picture
+   COP
+       Common Operating Picture
 
-Crowdsource
-> Data collection from open, relatively un-controlled, sources.
+   Crowdsource
+       Data collection from open, relatively un-controlled, sources.
 
-CUAHSI
-> Consortium of Universities for the Advancement of Hydrologic Science
+   CUAHSI
+       Consortium of Universities for the Advancement of Hydrologic Science
 
-Deterministic
-> Approaches to describing processes that do not rely on randomness.
+   Deterministic
+       Approaches to describing processes that do not rely on randomness.
 
-Mechanistic
-> Formulations describing physical, biological or chemical processes based on a theoretical understanding.
+   Mechanistic
+       Formulations describing physical, biological or chemical processes based on a theoretical understanding.
 
-Navier-Stokes
-> The Navier–Stokes equations are mathematically representations of conservation of mass and momentum for simple fluids such as water.
+   Navier-Stokes
+       The Navier–Stokes equations are mathematically representations of conservation of mass and momentum for simple fluids such as water.
 
-Stochastic
-> Approaches to describing processes in statistical terms.
+   Stochastic
+       Approaches to describing processes in statistical terms.
 
+   DHS 
+       Department of Homeland Security
 
+   DIKW 
+       Data, Information, Knowledge, Wisdom
 
+   FIF 
+       Flood Infrastructure Fund
 
+   GIS 
+       Geospatial Information System
 
-DHS Department of Homeland Security
+   HEC 
+       Hydrologic Engineering Center
 
-DIKW Data, Information, Knowledge, Wisdom
+   HEC-HMS 
+       Hydrologic Engineering Center Hydrologic Modeling System
 
-FIF Flood Infrastructure Fund
+   HEC-RAS 
+       Hydrologic Engineering Center River Analysis System
 
-GIS Geospatial Information System
+   HEC-RTS 
+       Hydrologic Engineering Center Real Time Simulation
 
-HEC Hydrologic Engineering Center
+   LLM/BSC 
+       Lower Laguna Madre/Brownsville Ship Channel watershed.
 
-HEC-HMS Hydrologic Engineering Center Hydrologic Modeling System
+   LRGVDC 
+       Lower Rio Grande Valley Development Council
 
-HEC-RAS Hydrologic Engineering Center River Analysis System
+   LSM
+       Land Surface Models focus on describing the processes driving the exchange of terrestrial water with atmospheric.
 
-HEC-RTS Hydrologic Engineering Center Real Time Simulation
+   NLDAS 
+       North American Land Data Assimilation System
 
-LLM/BSC Lower Laguna Madre/Brownsville Ship Channel watershed.
+   NOAA 
+       National Oceanic and Atmospheric Agency
 
-LRGVDC Lower Rio Grande Valley Development Council
+   NWC 
+       National Water Center
 
-LSM Land Surface Models focus on describing the processes driving the exchange
-of terrestrial water with atmospheric.
+   NWM 
+       National Water Model
 
-NLDAS North American Land Data Assimilation System
+   NWS 
+       National Weather Service
 
-NOAA National Oceanic and Atmospheric Agency
+   ODM 
+       Observations Data Model
 
-NWC National Water Center
+   Primo 
+       Parallel raster inundation model
 
-NWM National Water Model
+   RATES 
+       Research, Applied Technology, Education and Service, Inc., a non-profit technology-based company.
 
-NWS National Weather Service
+   TWDB 
+       Texas Water Development Board
 
-ODM Observations Data Model
+   TWDB/FIF 
+       The Texas Water Development Board Flood Infrastructure Fund.
 
-Primo Parallel raster inundation model
+   USACE 
+       United States Army Corps of Engineers
 
-RATES Research, Applied Technology, Education and Service, Inc., a non-profit
-technology-based company.
+   VIC 
+       Variable Infiltration Capacity (VIC) Macroscale Hydrologic Model
 
+   WPS 
+       WRF Preprocessing System
 
+   WRF-Hydro 
+       Weather Research and Forecasting Model Hydrological modeling system
 
-TWDB Texas Water Development Board
+   SWMM 
+       Stormwater Management Model
 
-TWDB/FIF The Texas Water Development Board Flood Infrastructure Fund.
+   SPRNT 
+       Simulation Program for River Networks
 
-USACE United States Army Corps of Engineers
+   Eeyore
+       URL: Eeyore.ratesresearch.org CPU: Dual Intel(R) Xeon(R) E-2124 CPU @ 3.30GHz Memory: 16GB HD: 4TB OS: Ubuntu Linux 20.04
 
-VIC Variable Infiltration Capacity (VIC) Macroscale Hydrologic Model
+   Tigger
+       URL: Tigger.water-wizard.org CPU: Dual Intel(R) Xeon(R) CPU E3-1245 v3 @ 3.40GHz Memory: 16GB HD: 4TB OS: Ubuntu Linux 20.04
 
-WPS WRF Preprocessing System
+   GeoNode
+       <https://geonode.org/>
 
-WRF-Hydro Weather Research and Forecasting Model Hydrological modeling system
+   Gutenson et al, 2020
+       <http://www.jeiletters.org/index.php?journal=mys&page=article&op=view&path%5B%5D=202000048>
 
-SWMM Stormwater Management Model
+   Django
+       <https://www.djangoproject.com/>
 
-SPRNT Simulation Program for River Networks
+   HEC-HMS
+       <https://www.hec.usace.army.mil/software/hec-hms/>
 
-**Eeyore**
+   HEC-RAS
+       <https://www.hec.usace.army.mil/software/hec-ras/>
 
-URL: Eeyore.ratesresearch.org
+   InfoWorks ICM
+       <https://www.innovyze.com/en-us/products/infoworks-icm>
 
-CPU: Dual Intel(R) Xeon(R) E-2124 CPU @ 3.30GHz
+   MIKE Urban+
+        <https://www.mikepoweredbydhi.com/download/mike-2019/mike-urban-plus?ref=%7B5399F5D6-40C6-4BB2-8311-37B615A652C6%7D>
 
-Memory: 16GB
+   National Water Center
+       <https://water.noaa.gov/about/nwc>
 
-HD: 4TB
+   National Water Model
+       <https://water.noaa.gov/about/nwm>
 
-OS: Ubuntu Linux 20.04
+   Navarro et al, 2021
+       <https://www.mdpi.com/2071-1050/13/20/11186>
 
-**Tigger**
+   Exhausted Grape Marc Derived Biochars: Effect of Pyrolysis Temperature on the Yield and Quality of Biochar for Soil Amendment
+       <https://www.mdpi.com/2071-1050/13/20/11187>
 
-URL: Tigger.water-wizard.org
+   Eco-Efficiency for the G18: Trends and Future Outlook
+       <https://www.mdpi.com/2071-1050/13/20/11196>
 
-CPU: Dual Intel(R) Xeon(R) CPU E3-1245 v3 @ 3.40GHz
+   Corporate Social Responsibility Reporting in the Casino Industry: A Content Analysis
+       <https://www.mdpi.com/2071-1050/13/20/11185>
 
-Memory: 16GB
+   Analytical Models for Seawater and Boron Removal through Reverse Osmosis
+       <https://www.mdpi.com/2071-1050/13/16/8999>
 
-HD: 4TB
+   NOAA-OWP/ngen: Next Generation Water Modeling Engine and Framework Prototype
+       <https://github.com/NOAA-OWP/ngen>
 
-OS: Ubuntu Linux 20.04
+   PRIMo: Parallel raster inundation model
+          <https://www.sciencedirect.com/science/article/abs/pii/S0309170818308698>
 
-GeoNode
+   Python
+       <https://www.python.org/>
 
-<https://geonode.org/>
+   Simulation Program for River Networks
+       <https://github.com/frank-y-liu/SPRNT>
 
-Gutenson et al, 2020
+   Storm Water Management Model (SWMM) \| US EPA
+       <https://www.epa.gov/water-research/storm-water-management-model-swmm>
 
-<http://www.jeiletters.org/index.php?journal=mys&page=article&op=view&path%5B%5D=202000048>
+   VIC
+       <https://vic.readthedocs.io/en/master/>
 
-Django
+   WRF-Hydro
+       <https://ral.ucar.edu/projects/wrf_hydro/overview>
 
-<https://www.djangoproject.com/>
-
-HEC-HMS
-
-<https://www.hec.usace.army.mil/software/hec-hms/>
-
-HEC-RAS
-
-<https://www.hec.usace.army.mil/software/hec-ras/>
-
-InfoWorks ICM
-
-<https://www.innovyze.com/en-us/products/infoworks-icm>
-
-MIKE Urban+
-
-<https://www.mikepoweredbydhi.com/download/mike-2019/mike-urban-plus?ref=%7B5399F5D6-40C6-4BB2-8311-37B615A652C6%7D>
-
-National Water Center
-
-<https://water.noaa.gov/about/nwc>
-
-National Water Model
-
-<https://water.noaa.gov/about/nwm>
-
-Navarro et al, 2021
-
-<https://www.mdpi.com/2071-1050/13/20/11186>
-
-Exhausted Grape Marc Derived Biochars: Effect of Pyrolysis Temperature on the
-Yield and Quality of Biochar for Soil Amendment
-
-<https://www.mdpi.com/2071-1050/13/20/11187>
-
-Eco-Efficiency for the G18: Trends and Future Outlook
-
-<https://www.mdpi.com/2071-1050/13/20/11196>
-
-Corporate Social Responsibility Reporting in the Casino Industry: A Content
-Analysis
-
-<https://www.mdpi.com/2071-1050/13/20/11185>
-
-Analytical Models for Seawater and Boron Removal through Reverse Osmosis
-
-<https://www.mdpi.com/2071-1050/13/16/8999>
-
-NOAA-OWP/ngen: Next Generation Water Modeling Engine and Framework Prototype
-
-<https://github.com/NOAA-OWP/ngen>
-
-PRIMo: Parallel raster inundation model
-
-<https://www.sciencedirect.com/science/article/abs/pii/S0309170818308698>
-
-Python
-
-<https://www.python.org/>
-
-Simulation Program for River Networks
-
-<https://github.com/frank-y-liu/SPRNT>
-
-Storm Water Management Model (SWMM) \| US EPA
-
-<https://www.epa.gov/water-research/storm-water-management-model-swmm>
-
-VIC
-
-<https://vic.readthedocs.io/en/master/>
-
-WRF-Hydro
-
-<https://ral.ucar.edu/projects/wrf_hydro/overview>
-
-Setting Up an Ubuntu Linux Cluster
-
-<https://www.particleincell.com/2020/ubuntu-linux-cluster/>
+   Setting Up an Ubuntu Linux Cluster
+       <https://www.particleincell.com/2020/ubuntu-linux-cluster/>
