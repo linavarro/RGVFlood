@@ -1,5 +1,3 @@
-.. ifnotslides::
-
 Glossary
 ========
 
@@ -78,10 +76,10 @@ Glossary
        Hydrologic Engineering Center
 
    HEC-HMS 
-       Hydrologic Engineering Center Hydrologic Modeling System
+       Hydrologic Engineering Center Hydrologic Modeling System. <https://www.hec.usace.army.mil/software/hec-hms/>
 
    HEC-RAS 
-       Hydrologic Engineering Center River Analysis System
+       Hydrologic Engineering Center River Analysis System.  <https://www.hec.usace.army.mil/software/hec-ras/>
 
    HEC-RTS 
        Hydrologic Engineering Center Real Time Simulation
@@ -129,13 +127,14 @@ Glossary
        United States Army Corps of Engineers
 
    VIC 
-       Variable Infiltration Capacity (VIC) Macroscale Hydrologic Model
+       Variable Infiltration Capacity (VIC) Macroscale Hydrologic Model.  <https://vic.readthedocs.io/en/master/>
 
    WPS 
        WRF Preprocessing System
 
    WRF-Hydro 
-       Weather Research and Forecasting Model Hydrological modeling system
+       Weather Research and Forecasting Model Hydrological modeling system.   <https://ral.ucar.edu/projects/wrf_hydro/overview>
+
 
    SWMM 
        Stormwater Management Model
@@ -157,12 +156,6 @@ Glossary
 
    Django
        <https://www.djangoproject.com/>
-
-   HEC-HMS
-       <https://www.hec.usace.army.mil/software/hec-hms/>
-
-   HEC-RAS
-       <https://www.hec.usace.army.mil/software/hec-ras/>
 
    InfoWorks ICM
        <https://www.innovyze.com/en-us/products/infoworks-icm>
@@ -205,12 +198,6 @@ Glossary
 
    Storm Water Management Model (SWMM) \| US EPA
        <https://www.epa.gov/water-research/storm-water-management-model-swmm>
-
-   VIC
-       <https://vic.readthedocs.io/en/master/>
-
-   WRF-Hydro
-       <https://ral.ucar.edu/projects/wrf_hydro/overview>
 
    Setting Up an Ubuntu Linux Cluster
        <https://www.particleincell.com/2020/ubuntu-linux-cluster/>

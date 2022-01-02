@@ -10,9 +10,10 @@ RGVFlood Pre-Development Plan
    component-interactions/index.rst
    use-cases/use-cases.rst
 
-Indices and tables
-==================
+.. ifnotslides::
+    Indices and tables
+    ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+    * :ref:`genindex`
+    * :ref:`modindex`
+    * :ref:`search`

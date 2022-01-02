@@ -1,14 +1,9 @@
-.. slide:: Title Slide
-   :level: 1
-
-   Blah
-
 ========
 RGVFlood
 ========
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
    
    introduction.rst
@@ -22,10 +17,10 @@ RGVFlood
 ..   End-User Acceptance Testing
 ..   End-User Interface Development Report
 
+.. ifnotslides::
+    Indices and tables
+    ==================
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+    * :ref:`genindex`
+    * :ref:`modindex`
+    * :ref:`search`

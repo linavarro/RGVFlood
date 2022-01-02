@@ -28,6 +28,32 @@ def slides(c):
     Make slides 
     """
     c.run("make slides --debug")
+    
+@task
+def up(c):
+    """
+    Run docker-compose
+    """
+    html(c)
+    c.run("cd src/docker; docker-compose up -d")
+    
+@task
+def down(c):
+    """
+    Bring down docker images
+    """
+    c.run("cd src/docker; docker-compose down")
+    
+@task
+def all(c):
+    """
+    Do it all
+    """
+    c.run("cd src/docker; docker-compose down -v --rmi all")
+    clean(c)
+    html(c)
+    slides(c)
+    up(c)
 
 if __name__ == "__main__":
 
