@@ -22,6 +22,13 @@ def html(c):
     """
     c.run("make html --debug")
 
+@task
+def slides(c):
+    """
+    Make slides 
+    """
+    c.run("make slides --debug")
+
 if __name__ == "__main__":
 
     #system("inv make-html")

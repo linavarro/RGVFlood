@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Hydrologic Modeling &mdash; Bite Me</title>
+    
+    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/styles.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/slides.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    
+    
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/slides.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/common.js"></script>
+    
+    <script type="text/javascript" src="../../_static/slides.js"></script>
+    <script type="text/javascript" src="../../_static/sync.js"></script>
+    <script type="text/javascript" src="../../_static/controller.js"></script>
+    <script type="text/javascript" src="../../_static/init.js"></script>
+    
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="top" title="Bite Me" href="../../index.html" />
+    <link rel="up" title="Forecasting" href="forecasting.html" />
+    <link rel="next" title="Hydraulic Modeling" href="hydraulic.html" />
+    <link rel="prev" title="Forecasting" href="forecasting.html" /> 
+  </head>
+  <body>
+
+<section
+   id="slide_container"
+   class='slides layout-regular'>
+
+
+  
+<article class="slide level-1" id="hydrologic-modeling">
+
+<h1>Hydrologic Modeling</h1>
+
+<p>Hydrologic modeling focuses on simulation of water quantity in the environment.
+Some key elements of hydrologic modeling include:</p>
+<ul class="simple">
+<li>Conservation of Mass: A focus on balancing the amount, or mass, of water in
+the system.</li>
+<li>Stochastic Processes: Hydrologic processes are often represented as
+Stochastic.</li>
+<li>Land Surface Models: LSM’s are critical in rigorous hydrologic forecasting,
+since forecasts can be significantly influenced by meteorological processes.</li>
+<li>Groundwater Models: Groundwater Models are necessary components if
+significant interaction is expected between surface water and groundwater.
+Groundwater timescales are often orders of magnitude higher than surface
+water. Exceptions such as Karst formations will often require coupled
+Surface and Groundwater modeling.</li>
+<li>Hydrologic Routing: Hydrologic routing of surface water is necessary to
+translate land surface Models into lateral transport through defined
+channels. While grid-based land surface Models will allow for lateral
+transport between cells, simulation of channelized flow is necessary under
+most topographic conditions where channelized flow dominates.</li>
+<li>Hydrologic Models: Several hydrologic models were considered for initial
+incorporation into the REON/WM, including:<ul>
+<li>WRF-Hydro</li>
+<li>HEC-HMS</li>
+<li>VIC</li>
+</ul>
+</li>
+</ul>
+
+
+
+
+</article>
+<article class="slide level-2" id="tier-i-real-time-hydrologic-model">
+
+<h2>TIER I Real-Time Hydrologic Model</h2>
+
+<p>WRF-Hydro was selected for the initial deployment within the REON/WM system for Tier I modeling because:</p>
+<ul class="simple">
+<li>It is an open-source, community-supported framework, allowing for extensibility.</li>
+<li>It is what the NWC uses for the NWM.</li>
+<li>Facilitates a pathway for contribution to, and the adoption of, the Nextgen-NWM as it matures.</li>
+</ul>
+
+
+
+
+</article>
+
+</section>
+
+<section id="slide_notes">
+
+</section>
+
+  </body>
+</html>
