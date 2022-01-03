@@ -32,7 +32,6 @@ RGVFlood User Requirements Determination
    Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE
 
 .. slide:: Outline
-   :level: 2
 
    .. toctree::
       :maxdepth: 1
@@ -42,6 +41,12 @@ RGVFlood User Requirements Determination
       process.md
       platform.md
       needs.md
+      
+.. slide:: Outline
+
+   .. toctree::
+      :maxdepth: 1
+
       data/index.rst
       information/index.rst
       knowledge/index.rst

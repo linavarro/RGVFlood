@@ -28,6 +28,12 @@ RGVFlood
 
 .. ifslides::
 
+   Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE
+   
+   Research, Applied Technology, Education & Service, Inc.
+   
+.. slide::
+
     .. toctree::
        :maxdepth: 1
        :caption: Outline

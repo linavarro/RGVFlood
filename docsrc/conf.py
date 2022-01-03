@@ -59,17 +59,17 @@ pygments_style = 'sphinx'
 
 # -- Options for HTML Slide output ---------------------------------------------------
 
-slide_theme = 'slides2'
-slide_theme_options = { 'title': 'RGVFlood',
-    'presenters': [
-        {
-            'name': 'Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE',
-            # 'twitter': '@author',
-            # 'www': 'http://example.com/author',
-            # 'github': 'http://github.com/author/example'
-        },
-    ],
-}
+slide_theme = 'slides'
+#slide_theme_options = {
+#    'presenters': [
+#        {
+#            'name': 'Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE',
+#            # 'twitter': '@author',
+#            # 'www': 'http://example.com/author',
+#            # 'github': 'http://github.com/author/example'
+#        },
+#    ],
+#}
 #slide_theme_options = {'custom_css':'custom.css'}
 
 # slide_link_html_to_slides = not on_rtd

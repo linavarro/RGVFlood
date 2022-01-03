@@ -32,11 +32,12 @@ As adopted by :term:`REON`, :term:`DIKW` refers to:
     not-for-profits, conservancy & environmental groups as well as state and
     federal regulatory agencies.
 
-.. slide::
+.. slide:: Need & Philosophical Basis for REON.cc
 
    *Democratizing Water Intelligence for Knowledge-Enabled Policy & Decision Making*
 
 .. slide:: DIKW Pyramid
+   :level: 3
 
     .. figure:: https://upload.wikimedia.org/wikipedia/commons/0/06/DIKW_Pyramid.svg
        :class: full
@@ -44,9 +45,8 @@ As adopted by :term:`REON`, :term:`DIKW` refers to:
        Data, Information, Knowledge, Wisdom pyramid espoused by the informatics
        discipline. Source: https://commons.wikimedia.org/wiki/File:DIKW_Pyramid.svg
 
-.. slide::
-
-    As adopted by :term:`REON`, :term:`DIKW` refers to:
+.. slide:: D I K W
+   :level: 3
 
     -   **Data**: Addressing the monitoring needs of under-served areas to ensure
         technology and monitoring solutions are available to all.

@@ -1,6 +1,6 @@
 .. slideconf::
    :autoslides: False
-
+   
 Introduction
 ============
 
@@ -11,8 +11,7 @@ extensions from REON_. :term:`REON` Extensions  include
 integration of geolocated real-time data streams and application hooks to
 execute decision support tools based on the geospatial data.
 
-.. slide:: Introduction
-   :level: 2
+.. slide:: RGVFlood
 
    * Regional Water Resource Decision Support System
    * Cloud-Based
