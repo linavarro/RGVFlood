@@ -45,15 +45,28 @@ def down(c):
     c.run("cd src/docker; docker-compose down")
     
 @task
-def all(c):
+def dall(c):
     """
-    Do it all
+    Do it all with docker
     """
     c.run("cd src/docker; docker-compose down -v --rmi all")
     clean(c)
     html(c)
     slides(c)
     up(c)
+    
+@task
+def all(c):
+    """
+    Do it all
+    """
+    #c.run("cd src/docker; docker-compose down -v --rmi all")
+    clean(c)
+    html(c)
+    slides(c)
+    #up(c)
+
+
 
 if __name__ == "__main__":
 
