@@ -51,6 +51,8 @@
 <li class="toctree-l2 current"><a class="reference internal" href="index.html">Knowledge</a><ul class="current">
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Assimilation</a></li>
 <li class="toctree-l3"><a class="reference internal" href="forecasting.html">Forecasting</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Assimilation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="forecasting.html">Forecasting</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../wisdom/index.html">Wisdom</a></li>
@@ -65,6 +67,8 @@
 <li class="toctree-l3"><a class="reference internal" href="../data/index.html">Data</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../information/index.html">Information</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="index.html">Knowledge</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Assimilation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="forecasting.html">Forecasting</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">Assimilation</a></li>
 <li class="toctree-l4"><a class="reference internal" href="forecasting.html">Forecasting</a></li>
 </ul>
@@ -93,6 +97,8 @@
 <li class="toctree-l2 current"><a class="reference internal" href="index.html">Knowledge</a><ul class="current">
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Assimilation</a></li>
 <li class="toctree-l3"><a class="reference internal" href="forecasting.html">Forecasting</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Assimilation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="forecasting.html">Forecasting</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../wisdom/index.html">Wisdom</a></li>
@@ -107,6 +113,8 @@
 <li class="toctree-l3"><a class="reference internal" href="../data/index.html">Data</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../information/index.html">Information</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="index.html">Knowledge</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Assimilation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="forecasting.html">Forecasting</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">Assimilation</a></li>
 <li class="toctree-l4"><a class="reference internal" href="forecasting.html">Forecasting</a></li>
 </ul>
@@ -150,22 +158,14 @@
              
   <section id="assimilation">
 <h1>Assimilation<a class="headerlink" href="#assimilation" title="Permalink to this headline">¶</a></h1>
-<p>The Assimilation tools are used import or transform Observed Data into the
-required format for ingestion into Analytics or other Forecasting tools. The key
-application is for “nudging” deterministic tools using timely forcing data.</p>
+<p>The Assimilation tools are used import or transform Observed Data into the required format for ingestion into Analytics or other Forecasting tools. The key application is for “nudging” deterministic tools using timely forcing data.</p>
 <ul class="simple">
-<li><p>They include routines that retrieve and ingest domain and forcing data for
-the mechanistic forecasting tools.</p></li>
+<li><p>They include routines that retrieve and ingest domain and forcing data for the mechanistic forecasting tools.</p></li>
+<li><p>Processing capacity needs can be significant, and can increase exponentially with the scale of the domain</p></li>
+<li><p>Storage needs can be orders of magnitude greater than the input Data and Information used, especially with time-variant computations.</p></li>
+<li><p>Reduction of output storage needs can be significantly reduced by transforming it through analytic tools.</p></li>
 </ul>
-<ul class="simple">
-<li><p>Processing capacity needs can be significant, and can increase exponentially
-with the scale of the domain</p></li>
-<li><p>Storage needs can be orders of magnitude greater than the input Data and
-Information used, especially with time-variant computations.</p></li>
-<li><p>Reduction of output storage needs can be significantly reduced by
-transforming it through analytic tools.</p></li>
-</ul>
-</section>
+<span class="admonition-assimilation"></span></section>
 
 
            </div>

@@ -48,8 +48,8 @@ Information
 
    -   Tools:
 
-   .. toctree::
-      :maxdepth: 1
+      .. toctree::
+         :maxdepth: 1
 
-      analytics.rst
-      visualization.rst
+         analytics.rst
+         visualization.rst

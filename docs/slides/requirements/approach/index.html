@@ -53,9 +53,9 @@
 
 
   
-<article class="slide level-1" id="approach">
+<article class="admonition-approach slide level-3" id="approach">
 
-<h1>Approach</h1>
+<h3>Approach</h3>
 
 <ul class="simple">
 <li><strong>GeoNode</strong>: The primary user interface platform will rely on the GeoNode
@@ -63,13 +63,24 @@ open-source geospatial content management system. GeoNode will be extended
 with web applications to provide the tools and services described herein.</li>
 <li><strong>Data Ingestion</strong>: Server-side scripts will be developed to automate
 ingestion of Data to maintain currency.</li>
-<li>WRF-Hydro: The WRF-Hydro hydrologic forecast model will run continuously in
+<li><strong>WRF-Hydro</strong>: The WRF-Hydro hydrologic forecast model will run continuously in
 the background. The primary interaction between the WRF-Hydro instance and
 the REON.cc interface will be for visualization of forecast data. The long
 term goal of the hydrologic forecasting tool development process is to be
 model agnostic, allowing for ingestion of forecast data from a variety of
 platforms, including the ability to provide ensemble forecasts.</li>
-<li>HEC-RAS: Scripts will be developed to extract and transform Data from the
+</ul>
+
+
+
+
+</article>
+<article class="admonition-approach slide level-3">
+
+<h3>Approach</h3>
+
+<ul class="simple">
+<li><strong>HEC-RAS</strong>: Scripts will be developed to extract and transform Data from the
 WRF-Hydro model to be used in HEC-RAS hydraulic models. Elements of this
 process will include extraction of domain data, including topographic and
 hydraulic survey results, along with hydrologic forecasts, all clipped to
@@ -78,7 +89,18 @@ computer, utilizing the analytics and visualization tools available locally,
 however, a long-term goal will be to provide up-load capability for model
 scenarios and outputs to REON.cc for contribution to the knowledge base and
 potential inclusion in server-side analytics and decision support tools.</li>
-<li>SWMM: Similar to HEC-RAS, scripts will be developed to extract and transform
+</ul>
+
+
+
+
+</article>
+<article class="admonition-approach slide level-3">
+
+<h3>Approach</h3>
+
+<ul class="simple">
+<li><strong>SWMM</strong>: Similar to HEC-RAS, scripts will be developed to extract and transform
 Data from the WRF-Hydro model to be used in the SWMM urban stormwater
 models. Elements of this process will include extraction of domain data,
 including topographic and hydraulic survey results, along with hydrologic
@@ -90,6 +112,17 @@ not defined in the existing REON.cc repositories. Future goals will include
 ingestion of the urban stormwater networks for automated generation of the
 input data for client-side execution, and potentially server-side execution
 as well.</li>
+</ul>
+
+
+
+
+</article>
+<article class="admonition-approach slide level-3">
+
+<h3>Approach</h3>
+
+<ul class="simple">
 <li><strong>Dashboard</strong>: The web-portal for REON.cc will provide a dashboard,
 providing information tuned to the users’ specific interests and needs. The
 dashboard will also allow for execution of analytics, visualization and

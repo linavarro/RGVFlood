@@ -1,3 +1,6 @@
+.. slideconf::
+   :autoslides: False
+
 Knowledge
 =========
 
@@ -6,22 +9,25 @@ Knowledge
 -   These mechanisms are **represented** as **mathematical** or **statistical
     transformations**, with the resulting outputs being **reproducible**
 
-.. nextslide::
-
 -   Several **processing components** are integrated into REON.cc:
 
-.. ifnotslides::
+.. toctree::
+   :maxdepth: 2
 
-   .. toctree::
-      :maxdepth: 2
+   assimilation.md
+   forecasting.rst
 
-      assimilation.md
-      forecasting.rst
+.. slide:: Knowledge
+   :level: 3
 
-.. ifslides::
+   **Knowledge** refers to the **transformation** of Data and Information through a fundamental understanding of the **physical**, **chemical** and **biological** mechanisms into **Actionable Intelligence**.
 
-   .. toctree::
-      :maxdepth: 1
+   -   These mechanisms are **represented** as **mathematical** or **statistical transformations**, with the resulting outputs being **reproducible**
 
-      assimilation.md
-      forecasting.rst
+   -   Several **processing components** are integrated into REON.cc:
+
+      .. toctree::
+         :maxdepth: 1
+
+         assimilation.md
+         forecasting.rst
