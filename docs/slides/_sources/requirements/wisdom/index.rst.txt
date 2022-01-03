@@ -8,5 +8,5 @@ requiring an integration between scientific principles and policy drivers
 .. toctree::
    :maxdepth: 2
 
-   dss.md
-   collaboration.md
+   dss.rst
+   collaboration.rst

@@ -8,8 +8,7 @@ underground pipe flow to try to capture as much of the urban stormwater
 environment as possible. These are complex models requiring a significant amount
 of domain data to be effective and useful.
 
-Tier III Urban Stormwater Modeling
-++++++++++++++++++++++++++++++++++
+.. nextslide::
 
-Due to the complexity of the data requirements, urban stormwater modeling is not
+**Tier III Urban Stormwater Modeling**: Due to the complexity of the data requirements, urban stormwater modeling is not
 expected to be directly linked or embedded into REON.cc.

@@ -42,11 +42,9 @@ Some key elements of hydrologic modeling include:
 
     -   VIC
 
+.. nextslide::
 
-TIER I Real-Time Hydrologic Model
-+++++++++++++++++++++++++++++++++
-
-WRF-Hydro was selected for the initial deployment within the REON/WM system for Tier I modeling because:
+**TIER I Real-Time Hydrologic Model**: WRF-Hydro was selected for the initial deployment within the REON/WM system for Tier I modeling because:
 
 -   It is an open-source, community-supported framework, allowing for extensibility.
 

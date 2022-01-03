@@ -1,4 +1,5 @@
-## Decision Support
+Decision Support
+----------------
 
 Decision Support Tools are generally combinations Analytics and Visualization,
 sometimes with inference logic built in, that guide the end-user through
