@@ -1,4 +1,5 @@
-# Approach
+Approach
+========
 
 -   **GeoNode**: The primary user interface platform will rely on the GeoNode
     open-source geospatial content management system. GeoNode will be extended
