@@ -6,6 +6,7 @@ The Need for a Common Operating Picture
    *Six Blind Men and the Elephant*
 
 .. slide:: Six Blind Men and the Elephant
+   :level: 3
 
    .. figure:: https://upload.wikimedia.org/wikipedia/commons/0/07/Blind_men_and_elephant4.jpg
       :class: fill
@@ -14,6 +15,7 @@ The Need for a Common Operating Picture
       Source: https://commons.wikimedia.org/wiki/File:Blind_men_and_elephant4.jpg
 
 .. slide:: Six Blind Men and the Elephant
+   :level: 3
 
    * Each stakeholder or decision maker views the
      water “elephant” from their own **parochial perspective**

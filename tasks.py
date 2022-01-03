@@ -70,8 +70,8 @@ def all(c):
 
 if __name__ == "__main__":
 
-    #system("inv make-html")
-    #exit()
+    system("inv slides")
+    exit()
 
     ans=True
     while ans:

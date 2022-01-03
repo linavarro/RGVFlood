@@ -9,8 +9,8 @@ RGVFlood User Requirements Determination
       :caption: Table of Contents
 
       introduction/index.rst
-      goals.md
-      process.md
+      goals/index.rst
+      process/index.rst
       platform.md
       needs.md
       data/index.rst
@@ -37,8 +37,8 @@ RGVFlood User Requirements Determination
       :maxdepth: 1
 
       introduction/index.rst
-      goals.md
-      process.md
+      goals/index.rst
+      process/index.rst
       platform.md
       needs.md
       
