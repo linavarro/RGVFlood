@@ -1,4 +1,5 @@
-### Hydraulic Modeling
+Hydraulic Modeling
+------------------
 
 Hydraulic modeling is typically differentiated from Hydrologic Modeling in that
 formulations balance system energy rather than mass. This is typically required
@@ -21,7 +22,8 @@ Some key elements of hydrologic modeling include:
 
     -   Primo
 
-#### Tier II On-Demand Hydraulic Modeling
+Tier II On-Demand Hydraulic Modeling
+++++++++++++++++++++++++++++++++++++
 
 HEC-RAS was selected for initial deployment in the REON/WM as the Tier II model
 because:

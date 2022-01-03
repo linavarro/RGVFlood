@@ -1,15 +1,20 @@
-## Analytics
+Analytics
+---------
 
 Most analytic tools are unlikely to require output data storage, as the
 **computational effort** needed to process the tool are likely to be
 **nominal**, and as such can be executed **on-demand**, allowing for outputs
 reflective of the current state of available data.
 
+.. nextslide::
+
 -   For **example**, a simple analytic tool that takes stage height data from
     hydrologically connected RTHS stations, and produces travel time estimates
     between the two, produces a single data point for each execution.
 
 -   Both the computational **cost** and the storage cost are **nominal**.
+
+.. nextslide::
 
 -   However, travel time **estimates** for two RTHS stations can **change over
     time** as the bathymetry of the intervening channel evolves, and under

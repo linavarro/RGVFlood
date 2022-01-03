@@ -1,10 +1,13 @@
-## Visualization
+Visualization
+-------------
 
 Visualization tools can potentially generate **large volumes** of produced data,
 ranging from static **imagery** to **videos**.
 
 -   Visualization tools can also be **off-loaded** for **client-side
     execution**, in which case server-side storage of outputs is not applicable.
+
+.. nextslide::
 
 -   Visualization is a **core tool** for establishing COP between
     **collaborating decision makers**, and is anticipated to be critical
@@ -13,6 +16,8 @@ ranging from static **imagery** to **videos**.
 -   Except in the case of large volumes of source data, the **computational
     effort** required to produce the visualization outputs is generally
     **nominal**.
+
+.. nextslide::
 
 -   A **balance** between ensuring **consistency** in source data between runs,
     and minimizing **latency** between requests for visuals and their
