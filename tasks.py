@@ -70,6 +70,8 @@ def all(c):
 
 if __name__ == "__main__":
 
+    system("inv clean")
+    system("inv html")
     system("inv slides")
     exit()
 

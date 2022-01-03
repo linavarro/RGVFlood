@@ -11,7 +11,7 @@ RGVFlood User Requirements Determination
       introduction/index.rst
       goals/index.rst
       process/index.rst
-      platform.md
+      platform/index.rst
       needs.md
       data/index.rst
       information/index.rst
@@ -39,7 +39,7 @@ RGVFlood User Requirements Determination
       introduction/index.rst
       goals/index.rst
       process/index.rst
-      platform.md
+      platform/index.rst
       needs.md
       
 .. slide:: Outline
