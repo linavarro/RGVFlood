@@ -12,7 +12,7 @@ RGVFlood User Requirements Determination
       goals/index.rst
       process/index.rst
       platform/index.rst
-      needs.md
+      needs/index.rst
       data/index.rst
       information/index.rst
       knowledge/index.rst
@@ -40,8 +40,8 @@ RGVFlood User Requirements Determination
       goals/index.rst
       process/index.rst
       platform/index.rst
-      needs.md
-      
+      needs/index.rst
+
 .. slide:: Outline
 
    .. toctree::

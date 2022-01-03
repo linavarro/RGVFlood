@@ -1,4 +1,8 @@
-# End-User Needs Identification
+.. slideconf::
+   :autoslides: False
+
+End-User Needs Identification
+=============================
 
 Based on feedback during initial end-user meetings, the Figure: REON.cc
 Information Flow depicts the information flow necessary to meet the end-user
@@ -19,6 +23,22 @@ needs. End-user needs are, in order of priority:
     applications of REON.cc are expected to expand to address ecosystem
     services, including **Freshwater** and **instream flows** management.
 
-![REON.cc Information Flow](information_flow.jpg)
+.. figure:: information_flow.jpg
 
-Figure: REON.cc Information Flow
+   REON.cc Information Flow
+
+.. slide:: End-User Needs Identification
+
+   -   Hydrologic Extremes
+
+   -   Water Supply
+
+   -   Ecosystem Services
+
+.. slide:: Information Flow
+   :level: 3
+
+   .. figure:: information_flow.jpg
+      :class: full
+
+      REON.cc Information Flow
