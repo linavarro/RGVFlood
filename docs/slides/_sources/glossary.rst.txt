@@ -3,6 +3,12 @@ Glossary
 
 .. glossary::
   
+   FEMA
+       Federal Emergency Management Agency
+       
+   TGLO
+       Texas General Land Office
+   
    NGINX
        High performance web server.
 
