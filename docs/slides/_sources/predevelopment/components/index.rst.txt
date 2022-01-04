@@ -1,3 +1,6 @@
+.. slideconf::
+   :autoslides: False
+
 Components
 ==========
 
@@ -10,3 +13,14 @@ Components
 * **GeoNode** is
 * **REON/WM** is
 * **RTHS.us** is
+
+.. slide:: Components
+   :level: 3
+   
+   .. figure:: http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RATESResearch/RGVFlood/main/docsrc/uml/rgvflood-sequence.uml
+      :class: full
+
+      Components of the RGVFlood Platform
+
+   
+   

@@ -1,5 +1,5 @@
 @startuml
-left to right direction
+
 package JurisdictionA {
     :Decision Maker A: as DeciderA
     :Planner A: as PlannerA
