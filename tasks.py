@@ -1,33 +1,41 @@
 from invoke import task
 from os import system
+import sys
+
+IS_ANDROID: bool = hasattr(sys, 'getandroidapilevel')
+
+if IS_ANDROID:
+    IN_STREAM_ARG = False
+else:
+	IN_STREAM_ARG = None
 
 @task
 def install(c):
     """
     Install the package
     """
-    c.run("pip install --upgrade -e .")
+    c.run("pip install --upgrade -e .", in_stream = IN_STREAM_ARG)
 
 @task
 def clean(c):
     """
     Clean the docs _build directory
     """
-    c.run("make clean")
+    c.run("make clean", in_stream = IN_STREAM_ARG)
 
 @task
 def html(c):
     """
     Make html documents
     """
-    c.run("make html --debug")
+    c.run("make html --debug", in_stream = IN_STREAM_ARG)
 
 @task
 def slides(c):
     """
     Make slides 
     """
-    c.run("make slides --debug")
+    c.run("make slides --debug", in_stream = IN_STREAM_ARG)
     
 @task
 def up(c):
@@ -35,21 +43,21 @@ def up(c):
     Run docker-compose
     """
     html(c)
-    c.run("cd src/docker; docker-compose up -d")
+    c.run("cd src/docker; docker-compose up -d", in_stream = IN_STREAM_ARG)
     
 @task
 def down(c):
     """
     Bring down docker images
     """
-    c.run("cd src/docker; docker-compose down")
+    c.run("cd src/docker; docker-compose down", in_stream = IN_STREAM_ARG)
     
 @task
 def dall(c):
     """
     Do it all with docker
     """
-    c.run("cd src/docker; docker-compose down -v --rmi all")
+    c.run("cd src/docker; docker-compose down -v --rmi all", in_stream = IN_STREAM_ARG)
     clean(c)
     html(c)
     slides(c)
@@ -70,10 +78,10 @@ def all(c):
 
 if __name__ == "__main__":
 
-#    system("inv clean")
-#    system("inv html")
-#    system("inv slides")
-#    exit()
+    system("inv clean")
+    system("inv html")
+    system("inv slides")
+    exit()
 
     ans=True
     while ans:
