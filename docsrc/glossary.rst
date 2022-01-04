@@ -2,8 +2,20 @@ Glossary
 ========
 
 .. glossary::
+  
+   NGINX
+       High performance web server.
 
-   :term:`REON/db`
+   Celery
+       A task scheduling and messaging application used to maximize parallel task processing.
+
+   GeoServer
+       Open source server for sharing geospatial data.
+
+   GeoNode/db
+       :term:`PostgreSQL` with :term:`PostGIS` extensions database server storing :term:`GeoNode` :term:`Django` and :term:`GeoServer` data.   
+
+   REON/db
        :term:`PostgreSQL` with :term:`PostGIS` extensions database server storing :term:`REON` specific data for :term:`RTHS`, :term:`REON/WM` & :term:`REON.cc` data.
 
    PostgreSQL

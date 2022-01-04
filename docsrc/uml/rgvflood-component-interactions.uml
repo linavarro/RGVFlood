@@ -9,7 +9,7 @@ package GeoNode {
   object "Django" as django
   object "Geoserver" as geoserver
   object "Celery" as celery
-  object "NGinX" as nginx
+  object "NGINX" as nginx
   database "GeoNode/db" as gndb
 }
 package REON {

@@ -91,16 +91,36 @@
              
   <section id="component-interactions">
 <h1>Component Interactions<a class="headerlink" href="#component-interactions" title="Permalink to this headline">¶</a></h1>
-<figure class="align-default" id="id3">
+<figure class="align-default" id="id1">
 <img alt="http://www.plantuml.com/plantuml/proxy?cache=no&amp;src=https://raw.githubusercontent.com/RATESResearch/RGVFlood/main/docsrc/uml/rgvflood-component-interactions.uml" src="http://www.plantuml.com/plantuml/proxy?cache=no&amp;src=https://raw.githubusercontent.com/RATESResearch/RGVFlood/main/docsrc/uml/rgvflood-component-interactions.uml" />
 <figcaption>
-<p><span class="caption-text">RGVFlood Component Interactions</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p><span class="caption-text">RGVFlood Component Interactions</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
-<div class="admonition-todo admonition" id="id1">
-<p class="admonition-title">Todo</p>
-<p>Explain figure and components</p>
-</div>
+<dl class="simple">
+<dt>RGV Hydrography</dt><dd><p>Hydrologic data specific to the <a class="reference internal" href="../../glossary.html#term-LRGV"><span class="xref std std-term">LRGV</span></a>. Includes national &amp; state level data, along with locally collected data as well as local forcings from <a class="reference internal" href="../../glossary.html#term-RTHS.us"><span class="xref std std-term">RTHS.us</span></a>. Data stored in <a class="reference internal" href="../../glossary.html#term-REON"><span class="xref std std-term">REON</span></a> <a class="reference internal" href="../../glossary.html#term-PostgreSQL"><span class="xref std std-term">PostgreSQL</span></a> database</p>
+</dd>
+<dt>RGV Water Model</dt><dd><p><a class="reference internal" href="../../glossary.html#term-REON-WM"><span class="xref std std-term">REON/WM</span></a> driven by RGV Hydrography and tuned using local forcings</p>
+</dd>
+<dt><a class="reference internal" href="../../glossary.html#term-RGVFlood.com"><span class="xref std std-term">RGVFlood.com</span></a></dt><dd><p>User interface to <a class="reference internal" href="../../glossary.html#term-REON.cc"><span class="xref std std-term">REON.cc</span></a> tuned to the specific needs of the <a class="reference internal" href="../../glossary.html#term-LRGV"><span class="xref std std-term">LRGV</span></a> users.</p>
+</dd>
+<dt><a class="reference internal" href="../../glossary.html#term-RTHS.us"><span class="xref std std-term">RTHS.us</span></a></dt><dd><p><a class="reference internal" href="../../glossary.html#term-RTHS"><span class="xref std std-term">RTHS</span></a> Network Server, serving forcing data, station metadata and flood early warning information.</p>
+</dd>
+<dt><a class="reference internal" href="../../glossary.html#term-REON-WM"><span class="xref std std-term">REON/WM</span></a></dt><dd><p>Ecosystem of hydrologic, hydraulic &amp; stormwater forecast models.</p>
+</dd>
+<dt><a class="reference internal" href="../../glossary.html#term-REON.cc"><span class="xref std std-term">REON.cc</span></a></dt><dd><p>Framework of <a class="reference internal" href="../../glossary.html#term-REON"><span class="xref std std-term">REON</span></a> analytic &amp; decision support applications, pulling data through the <a class="reference internal" href="../../glossary.html#term-GeoNode"><span class="xref std std-term">GeoNode</span></a> <a class="reference internal" href="../../glossary.html#term-Django"><span class="xref std std-term">Django</span></a> interface as needed.</p>
+</dd>
+<dt><a class="reference internal" href="../../glossary.html#term-REON-db"><span class="xref std std-term">REON/db</span></a></dt><dd><p><a class="reference internal" href="../../glossary.html#term-PostgreSQL"><span class="xref std std-term">PostgreSQL</span></a> with <a class="reference internal" href="../../glossary.html#term-PostGIS"><span class="xref std std-term">PostGIS</span></a> extensions database server storing <a class="reference internal" href="../../glossary.html#term-REON"><span class="xref std std-term">REON</span></a> specific data for <a class="reference internal" href="../../glossary.html#term-RTHS"><span class="xref std std-term">RTHS</span></a>, <a class="reference internal" href="../../glossary.html#term-REON-WM"><span class="xref std std-term">REON/WM</span></a> &amp; <a class="reference internal" href="../../glossary.html#term-REON.cc"><span class="xref std std-term">REON.cc</span></a> data.</p>
+</dd>
+<dt><a class="reference internal" href="../../glossary.html#term-RTHS.us"><span class="xref std std-term">RTHS.us</span></a></dt><dd><p><a class="reference internal" href="../../glossary.html#term-RTHS"><span class="xref std std-term">RTHS</span></a> Network Server, serving forcing data, station metadata and flood early warning information.</p>
+</dd>
+<dt><a class="reference internal" href="../../glossary.html#term-REON-WM"><span class="xref std std-term">REON/WM</span></a></dt><dd><p>Ecosystem of hydrologic, hydraulic &amp; stormwater forecast models.</p>
+</dd>
+<dt><a class="reference internal" href="../../glossary.html#term-REON.cc"><span class="xref std std-term">REON.cc</span></a></dt><dd><p>Framework of <a class="reference internal" href="../../glossary.html#term-REON"><span class="xref std std-term">REON</span></a> analytic &amp; decision support applications, pulling data through the <a class="reference internal" href="../../glossary.html#term-GeoNode"><span class="xref std std-term">GeoNode</span></a> <a class="reference internal" href="../../glossary.html#term-Django"><span class="xref std std-term">Django</span></a> interface as needed.</p>
+</dd>
+<dt><a class="reference internal" href="../../glossary.html#term-REON-db"><span class="xref std std-term">REON/db</span></a></dt><dd><p><a class="reference internal" href="../../glossary.html#term-PostgreSQL"><span class="xref std std-term">PostgreSQL</span></a> with <a class="reference internal" href="../../glossary.html#term-PostGIS"><span class="xref std std-term">PostGIS</span></a> extensions database server storing <a class="reference internal" href="../../glossary.html#term-REON"><span class="xref std std-term">REON</span></a> specific data for <a class="reference internal" href="../../glossary.html#term-RTHS"><span class="xref std std-term">RTHS</span></a>, <a class="reference internal" href="../../glossary.html#term-REON-WM"><span class="xref std std-term">REON/WM</span></a> &amp; <a class="reference internal" href="../../glossary.html#term-REON.cc"><span class="xref std std-term">REON.cc</span></a> data.</p>
+</dd>
+</dl>
 <span class="admonition-component-interactions"></span><span class="admonition-term-lrgv"></span><span class="admonition-term-rgvflood"></span><span class="admonition-term-geonode"></span></section>
 
 
