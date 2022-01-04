@@ -23,3 +23,4 @@ help:
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 	@touch docs/.nojekyll
 	@cp docsrc/github-pages.html docs/index.html
+	@cp docsrc/CNAME docs/
