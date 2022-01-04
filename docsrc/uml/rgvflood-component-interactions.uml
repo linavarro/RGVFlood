@@ -10,13 +10,13 @@ package GeoNode {
   object "Geoserver" as geoserver
   object "Celery" as celery
   object "NGinX" as nginx
-  database "PostgreSQL" as gndb
+  database "GeoNode/db" as gndb
 }
 package REON {
   object "REON.cc" as cc
-  object "REON-WM" as wm
-  object "RTHS" as rths
-  database "PostgreSQL" as reondb
+  object "REON/WM" as wm
+  object "RTHS.us" as rths
+  database "REON/db" as reondb
 }
 rgvcc -- cc
 rgvwm -- wm

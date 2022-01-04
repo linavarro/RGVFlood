@@ -40,6 +40,7 @@ release = '0.0.1'
 extensions = ['myst_parser',
 'sphinxcontrib.plantuml',
 'hieroglyph',
+'sphinx.ext.todo',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -55,7 +56,8 @@ pygments_style = 'sphinx'
 
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
-
+# Display todos by setting to True 
+todo_include_todos = True
 
 # -- Options for HTML Slide output ---------------------------------------------------
 

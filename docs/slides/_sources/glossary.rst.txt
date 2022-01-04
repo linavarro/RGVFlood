@@ -3,6 +3,15 @@ Glossary
 
 .. glossary::
 
+   :term:`REON/db`
+       :term:`PostgreSQL` with :term:`PostGIS` extensions database server storing :term:`REON` specific data for :term:`RTHS`, :term:`REON/WM` & :term:`REON.cc` data.
+
+   PostgreSQL
+       Open source object-relational database system, available with :term:`PostGIS` extensions
+
+   PostGIS       
+       Spatial database extender for :term:`PostgreSQL`
+
    LRGV
        Lower Rio Grande Valley
        
@@ -26,6 +35,9 @@ Glossary
    
    RTHS 
        Real Time Hydrologic System
+       
+   RTHS.us
+       Cloud server of :term:`RTHS` network data
 
    RWRAC 
        Regional Water Resources Advisory Committee
