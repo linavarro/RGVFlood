@@ -6,7 +6,7 @@ RGVFlood User Requirements Determination
 ========================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Table of Contents
 
    introduction/index.rst

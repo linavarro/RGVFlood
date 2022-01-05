@@ -9,7 +9,7 @@ RGVFlood
     .. _Survey: https://forms.office.com/r/eY6WkHNyzL
 
     .. toctree::
-       :maxdepth: 3
+       :maxdepth: 1
        :caption: Contents:
 
        introduction.rst
