@@ -4,6 +4,10 @@ RGVFlood
 
 .. ifnotslides::
 
+    Please respond to a quick RGVFlood Survey_.
+
+    .. _Survey: https://forms.office.com/r/eY6WkHNyzL
+
     .. toctree::
        :maxdepth: 3
        :caption: Contents:
@@ -29,9 +33,9 @@ RGVFlood
 .. ifslides::
 
    Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE
-   
+
    Research, Applied Technology, Education & Service, Inc.
-   
+
 .. slide::
 
     .. toctree::
