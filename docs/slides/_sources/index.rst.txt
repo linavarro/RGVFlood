@@ -9,7 +9,7 @@ RGVFlood
     .. _Survey: https://forms.office.com/r/eY6WkHNyzL
 
     .. toctree::
-       :maxdepth: 1
+       :maxdepth: 2
        :caption: Contents:
 
        introduction.rst
@@ -45,7 +45,7 @@ RGVFlood
        introduction.rst
        requirements/index.rst
        predevelopment/index.rst
-       glossary.rst
+    ..   glossary.rst
     ..   Requirements Validation
     ..   Implementation
     ..   Quality Assurance Demonstration
