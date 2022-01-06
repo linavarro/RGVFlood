@@ -67,7 +67,8 @@ def dall(c):
     c.run("cd src/docker; docker-compose down -v --rmi all", in_stream = IN_STREAM_ARG)
     clean(c)
     html(c)
-    slides(c)
+    #slides(c)
+    single(c)
     up(c)
     
 @task
@@ -78,7 +79,7 @@ def all(c):
     #c.run("cd src/docker; docker-compose down -v --rmi all")
     clean(c)
     html(c)
-    slides(c)
+    #slides(c)
     single(c)
     #up(c)
 

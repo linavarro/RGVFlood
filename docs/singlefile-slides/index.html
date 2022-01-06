@@ -711,6 +711,177 @@ RTHS network and forecast tools.</li>
 
 
 
+</article><span id="document-predevelopment/index"></span>
+<article class="slide level--27" id="rgvflood-pre-development-plan">
+
+<h-27>RGVFlood Pre-Development Plan</h-27>
+
+<p>Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE</p>
+<p>Research, Applied Technology, Education &amp; Service, Inc.</p>
+
+
+
+
+</article><span id="document-predevelopment/introduction"></span>
+<article class="slide level--27" id="introduction">
+
+<h-27>Introduction</h-27>
+
+<p>The predevelopment plan introduces <a class="reference internal" href="index.html#term-RGVFlood"><span class="xref std std-term">RGVFlood</span></a>, the handle and internet domain name (<a class="reference internal" href="index.html#term-RGVFlood.com"><span class="xref std std-term">RGVFlood.com</span></a>) used to define the <a class="reference internal" href="index.html#term-LRGV"><span class="xref std std-term">LRGV</span></a> instantiation of <a class="reference internal" href="index.html#term-REON.cc"><span class="xref std std-term">REON.cc</span></a>.</p>
+
+
+
+
+</article><span id="document-predevelopment/components/index"></span>
+<article class="slide level--28" id="components">
+
+<h-28>Components</h-28>
+
+<div class="figure align-default" id="id2">
+<img alt="http://www.plantuml.com/plantuml/proxy?cache=no&amp;src=https://raw.githubusercontent.com/RATESResearch/RGVFlood/main/docsrc/uml/rgvflood-sequence.uml" class="full" src="http://www.plantuml.com/plantuml/proxy?cache=no&amp;src=https://raw.githubusercontent.com/RATESResearch/RGVFlood/main/docsrc/uml/rgvflood-sequence.uml" />
+<p class="caption"><span class="caption-text">Components of the RGVFlood Platform</span></p>
+</div>
+
+
+
+
+</article>
+<article class="admonition-rgvflood-components slide level-3">
+
+<h3>RGVFlood Components</h3>
+
+<dl class="docutils">
+<dt><a class="reference internal" href="index.html#term-RGVFlood"><span class="xref std std-term">RGVFlood</span></a></dt><dd>Instantiation of <a class="reference internal" href="index.html#term-REON"><span class="xref std std-term">REON</span></a> cyberinfrastructure specific to <a class="reference internal" href="index.html#term-LRGV"><span class="xref std std-term">LRGV</span></a></dd>
+<dt>Primary User Interaction</dt><dd>Through <a class="reference internal" href="index.html#term-REON.cc"><span class="xref std std-term">REON.cc</span></a> for decision support</dd>
+<dt><a class="reference internal" href="index.html#term-REON.cc"><span class="xref std std-term">REON.cc</span></a></dt><dd>Framework of <a class="reference internal" href="index.html#term-REON"><span class="xref std std-term">REON</span></a> analytic &amp; decision support applications</dd>
+<dt><a class="reference internal" href="index.html#term-GeoNode"><span class="xref std std-term">GeoNode</span></a></dt><dd>Geospatial content management server, serving &amp; storing geospatial and <a class="reference internal" href="index.html#term-RTHS"><span class="xref std std-term">RTHS</span></a> station metadata</dd>
+</dl>
+
+
+
+
+</article>
+<article class="slide level--27" id="id3">
+
+<h-27>RGVFlood Components (2)</h-27>
+
+<dl class="docutils">
+<dt><a class="reference internal" href="index.html#term-REON-WM"><span class="xref std std-term">REON/WM</span></a></dt><dd>Ecosystem of hydrologic, hydraulic &amp; stormwater forecast models, pulling geospatial data from <a class="reference internal" href="index.html#term-GeoNode"><span class="xref std std-term">GeoNode</span></a> and forcing data from <a class="reference internal" href="index.html#term-RTHS.us"><span class="xref std std-term">RTHS.us</span></a></dd>
+<dt><a class="reference internal" href="index.html#term-RTHS.us"><span class="xref std std-term">RTHS.us</span></a></dt><dd><a class="reference internal" href="index.html#term-RTHS"><span class="xref std std-term">RTHS</span></a> Network Server, serving forcing data, station metadata and flood early warning information</dd>
+</dl>
+
+
+
+
+</article><span id="document-predevelopment/component-interactions/index"></span>
+<article class="slide level--29" id="component-interactions">
+
+<h-29>Component Interactions</h-29>
+
+<div class="figure align-default" id="id2">
+<img alt="http://www.plantuml.com/plantuml/proxy?cache=no&amp;src=https://raw.githubusercontent.com/RATESResearch/RGVFlood/main/docsrc/uml/rgvflood-component-interactions.uml" class="full" src="http://www.plantuml.com/plantuml/proxy?cache=no&amp;src=https://raw.githubusercontent.com/RATESResearch/RGVFlood/main/docsrc/uml/rgvflood-component-interactions.uml" />
+<p class="caption"><span class="caption-text">RGVFlood Component Interactions</span></p>
+</div>
+
+
+
+
+</article>
+<article class="admonition-term-lrgv slide level-3">
+
+<h3><a class="reference internal" href="index.html#term-LRGV"><span class="xref std std-term">LRGV</span></a></h3>
+
+<dl class="docutils">
+<dt>RGV Hydrography</dt><dd>Hydrologic data specific to the <a class="reference internal" href="index.html#term-LRGV"><span class="xref std std-term">LRGV</span></a>. Includes national &amp; state level data, along with locally collected data as well as local forcings from <a class="reference internal" href="index.html#term-RTHS.us"><span class="xref std std-term">RTHS.us</span></a>. Data stored in <a class="reference internal" href="index.html#term-REON"><span class="xref std std-term">REON</span></a> <a class="reference internal" href="index.html#term-PostgreSQL"><span class="xref std std-term">PostgreSQL</span></a> database</dd>
+<dt>RGV Water Model</dt><dd><a class="reference internal" href="index.html#term-REON-WM"><span class="xref std std-term">REON/WM</span></a> driven by RGV Hydrography and tuned using local forcings</dd>
+<dt><a class="reference internal" href="index.html#term-RGVFlood.com"><span class="xref std std-term">RGVFlood.com</span></a></dt><dd>User interface to <a class="reference internal" href="index.html#term-REON.cc"><span class="xref std std-term">REON.cc</span></a> tuned to the specific needs of the <a class="reference internal" href="index.html#term-LRGV"><span class="xref std std-term">LRGV</span></a> users.</dd>
+</dl>
+
+
+
+
+</article>
+<article class="admonition-term-rgvflood slide level-3">
+
+<h3><a class="reference internal" href="index.html#term-RGVFlood"><span class="xref std std-term">RGVFlood</span></a></h3>
+
+<dl class="docutils">
+<dt><a class="reference internal" href="index.html#term-RTHS.us"><span class="xref std std-term">RTHS.us</span></a></dt><dd><a class="reference internal" href="index.html#term-RTHS"><span class="xref std std-term">RTHS</span></a> Network Server, serving forcing data, station metadata and flood early warning information.</dd>
+<dt><a class="reference internal" href="index.html#term-REON-WM"><span class="xref std std-term">REON/WM</span></a></dt><dd>Ecosystem of hydrologic, hydraulic &amp; stormwater forecast models.</dd>
+<dt><a class="reference internal" href="index.html#term-REON.cc"><span class="xref std std-term">REON.cc</span></a></dt><dd>Framework of <a class="reference internal" href="index.html#term-REON"><span class="xref std std-term">REON</span></a> analytic &amp; decision support applications, pulling data through the <a class="reference internal" href="index.html#term-GeoNode"><span class="xref std std-term">GeoNode</span></a> <a class="reference internal" href="index.html#term-Django"><span class="xref std std-term">Django</span></a> interface as needed.</dd>
+<dt><a class="reference internal" href="index.html#term-REON-db"><span class="xref std std-term">REON/db</span></a></dt><dd><a class="reference internal" href="index.html#term-PostgreSQL"><span class="xref std std-term">PostgreSQL</span></a> with <a class="reference internal" href="index.html#term-PostGIS"><span class="xref std std-term">PostGIS</span></a> extensions database server storing <a class="reference internal" href="index.html#term-REON"><span class="xref std std-term">REON</span></a> specific data for <a class="reference internal" href="index.html#term-RTHS"><span class="xref std std-term">RTHS</span></a>, <a class="reference internal" href="index.html#term-REON-WM"><span class="xref std std-term">REON/WM</span></a> &amp; <a class="reference internal" href="index.html#term-REON.cc"><span class="xref std std-term">REON.cc</span></a> data.</dd>
+</dl>
+
+
+
+
+</article>
+<article class="admonition-term-geonode slide level-3">
+
+<h3><a class="reference internal" href="index.html#term-GeoNode"><span class="xref std std-term">GeoNode</span></a></h3>
+
+<dl class="docutils">
+<dt><a class="reference internal" href="index.html#term-Django"><span class="xref std std-term">Django</span></a></dt><dd><a class="reference internal" href="index.html#term-Python"><span class="xref std std-term">Python</span></a> web framework upon which <a class="reference internal" href="index.html#term-GeoNode"><span class="xref std std-term">GeoNode</span></a> is built.</dd>
+<dt><a class="reference internal" href="index.html#term-NGINX"><span class="xref std std-term">NGINX</span></a></dt><dd>High performance web server used to serve <a class="reference internal" href="index.html#term-GeoNode"><span class="xref std std-term">GeoNode</span></a> components.</dd>
+<dt><a class="reference internal" href="index.html#term-Celery"><span class="xref std std-term">Celery</span></a></dt><dd>A task scheduling and messaging application used to maximize parallel task processing.</dd>
+<dt><a class="reference internal" href="index.html#term-GeoServer"><span class="xref std std-term">GeoServer</span></a></dt><dd>Geospatial data server for sharing to <a class="reference internal" href="index.html#term-GeoNode"><span class="xref std std-term">GeoNode</span></a> and end-users directly.</dd>
+<dt><a class="reference internal" href="index.html#term-GeoNode-db"><span class="xref std std-term">GeoNode/db</span></a></dt><dd><a class="reference internal" href="index.html#term-PostgreSQL"><span class="xref std std-term">PostgreSQL</span></a> with <a class="reference internal" href="index.html#term-PostGIS"><span class="xref std std-term">PostGIS</span></a> extensions database server storing <a class="reference internal" href="index.html#term-GeoNode"><span class="xref std std-term">GeoNode</span></a> <a class="reference internal" href="index.html#term-Django"><span class="xref std std-term">Django</span></a> and <a class="reference internal" href="index.html#term-GeoServer"><span class="xref std std-term">GeoServer</span></a> data.</dd>
+</dl>
+
+
+
+
+</article><span id="document-predevelopment/use-cases/use-cases"></span>
+<article class="slide level--30" id="use-cases">
+
+<h-30>Use Cases</h-30>
+
+
+
+
+
+</article>
+<article class="admonition-use-cases slide level-3">
+
+<h3>Use Cases</h3>
+
+<div class="figure align-default" id="id2">
+<img alt="http://www.plantuml.com/plantuml/proxy?cache=no&amp;src=https://raw.githubusercontent.com/RATESResearch/RGVFlood/main/docsrc/uml/rgvflood-use-cases.uml" class="full" src="http://www.plantuml.com/plantuml/proxy?cache=no&amp;src=https://raw.githubusercontent.com/RATESResearch/RGVFlood/main/docsrc/uml/rgvflood-use-cases.uml" />
+<p class="caption"><span class="caption-text">RGVFlood Use Cases</span></p>
+</div>
+
+
+
+
+</article>
+<article class="admonition-stakeholders slide level-3">
+
+<h3>Stakeholders</h3>
+
+<dl class="docutils">
+<dt>Decision Makers</dt><dd>Elected officials responsible for regional policy making and recruitment of state &amp; federal funds.</dd>
+<dt>Planners</dt><dd>Jurisdictional and multi-jurisdictional planners needing to make both operational and strategic decisions in coordination with Elected officials.</dd>
+<dt>Federal Agencies</dt><dd>Agencies such as <a class="reference internal" href="index.html#term-FEMA"><span class="xref std std-term">FEMA</span></a> and <a class="reference internal" href="index.html#term-NWS"><span class="xref std std-term">NWS</span></a> that provide financial and technical resources for flood response, recovery &amp; resiliency planning.</dd>
+<dt>State Agencies</dt><dd>Agencies such as <a class="reference internal" href="index.html#term-TGLO"><span class="xref std std-term">TGLO</span></a> and <a class="reference internal" href="index.html#term-TWDB"><span class="xref std std-term">TWDB</span></a> that provide financial and technical resources for flood response, recovery &amp; resiliency planning.</dd>
+</dl>
+
+
+
+
+</article>
+<article class="admonition-stakeholders slide level-3">
+
+<h3>Stakeholders</h3>
+
+<dl class="docutils">
+<dt>First Responders</dt><dd>Emergency Management Agencies and First Responders utilizing Early Warning information generated by the <a class="reference internal" href="index.html#term-RTHS"><span class="xref std std-term">RTHS</span></a> stations themselves, or from <a class="reference internal" href="index.html#term-REON.cc"><span class="xref std std-term">REON.cc</span></a> utilizing higher order analytics.</dd>
+<dt>Engineers</dt><dd>Both public sector and private sector engineers, relying on the <a class="reference internal" href="index.html#term-REON-WM"><span class="xref std std-term">REON/WM</span></a> Tier II (<a class="reference internal" href="index.html#term-HEC-RAS"><span class="xref std std-term">HEC-RAS</span></a>), Tier III (<a class="reference internal" href="index.html#term-HEC-HMS"><span class="xref std std-term">HEC-HMS</span></a>) &amp; Tier IV (<a class="reference internal" href="index.html#term-SWMM"><span class="xref std std-term">SWMM</span></a>) supported models for design development or review.</dd>
+<dt>Researchers</dt><dd>Research engineers and hydrologists are likely use the <a class="reference internal" href="index.html#term-REON-WM"><span class="xref std std-term">REON/WM</span></a> <a class="reference internal" href="index.html#term-WRF-Hydro"><span class="xref std std-term">WRF-Hydro</span></a> instance directly, along with real time data from <a class="reference internal" href="index.html#term-RTHS.us"><span class="xref std std-term">RTHS.us</span></a>.</dd>
+</dl>
+
+
+
+
 </article></div></blockquote>
 
 
