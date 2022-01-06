@@ -165,7 +165,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'hieroglyphdoc'
+htmlhelp_basename = 'RGVFlood'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -178,14 +178,14 @@ latex_elements = {
 #'pointsize': '10pt',
 
 # Additional stuff for the LaTeX preamble.
-#'preamble': '',
+'preamble': '\\usepackage{svg}',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'hieroglyph.tex', u'Hieroglyph Documentation',
-   u'Nathan R. Yergler', 'manual'),
+  ('index', 'RGVFlood.tex', u'RGVFlood',
+   u'Andrew Ernest', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -207,51 +207,3 @@ latex_documents = [
 
 # If false, no module index is generated.
 #latex_domain_indices = True
-
-
-# -- Options for manual page output --------------------------------------------
-
-# One entry per manual page. List of tuples
-# (source start file, name, description, authors, manual section).
-man_pages = [
-    ('index', 'hieroglyph', u'hieroglyph Documentation',
-     [u'Nathan R. Yergler'], 1)
-]
-
-# If true, show URL addresses after external links.
-#man_show_urls = False
-
-
-# -- Options for Texinfo output ------------------------------------------------
-
-# Grouping the document tree into Texinfo files. List of tuples
-# (source start file, target name, title, author,
-#  dir menu entry, description, category)
-texinfo_documents = [
-  ('index', 'hieroglyph', u'Hieroglyph Documentation',
-   u'Nathan R. Yergler', 'hieroglyph', 'One line description of project.',
-   'Miscellaneous'),
-]
-
-# Documents to append as an appendix to all manuals.
-#texinfo_appendices = []
-
-# If false, no module index is generated.
-#texinfo_domain_indices = True
-
-# How to display URL addresses: 'footnote', 'no', or 'inline'.
-#texinfo_show_urls = 'footnote'
-
-intersphinx_map = {
-    'sphinx': ('http://sphinx-doc.org/', None),
-}
-
-googleanalytics_enabled = True
-googleanalytics_id = 'UA-188298-8'
-
-
-def setup(app):
-
-    app.add_object_type('confval', 'confval',
-                        objname='configuration value',
-                        indextemplate='pair: %s; configuration value')
