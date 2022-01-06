@@ -10,7 +10,7 @@ Need & Philosophical Basis for REON.cc
    .. figure:: dikw.png
       :align: center
 
-      Data, Information, Knowledge, Wisdom pyramid espoused by the informatics discipline. Source: https://commons.wikimedia.org/wiki/File:DIKW_Pyramid.svg
+      Data, Information, Knowledge, Wisdom pyramid espoused by the informatics discipline. Source: https://www.pngegg.com/en/png-mvanj
 
    As adopted by :term:`REON`, :term:`DIKW` refers to:
 
@@ -26,10 +26,10 @@ Need & Philosophical Basis for REON.cc
 
    *Democratizing Water Intelligence for Knowledge-Enabled Policy & Decision Making*
 
-   .. figure:: https://upload.wikimedia.org/wikipedia/commons/0/06/DIKW_Pyramid.svg
+   .. figure:: dikw.png
       :class: full
 
-      Data, Information, Knowledge, Wisdom pyramid espoused by the informatics discipline. Source: https://commons.wikimedia.org/wiki/File:DIKW_Pyramid.svg
+      Data, Information, Knowledge, Wisdom pyramid espoused by the informatics discipline. Source: https://www.pngegg.com/en/png-mvanj
 
 .. nextslide::
 
