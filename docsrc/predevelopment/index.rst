@@ -19,7 +19,7 @@ RGVFlood Pre-Development Plan
     Research, Applied Technology, Education & Service, Inc.
 
     .. toctree::
-        :hidden:
+       :hidden:
 
        introduction.rst
        components/index.rst

@@ -9,11 +9,9 @@ Hydraulic modeling is typically differentiated from Hydrologic Modeling in that 
 
     -   Conservation of Energy: A focus on balancing energy in the system.
 
-    -   Mechanistic Processes: Hydraulic systems are often represented as
-    combinations of Mechanistic processes.
+    -   Mechanistic Processes: Hydraulic systems are often represented as combinations of Mechanistic processes.
 
-    -   Hydraulic Models: Several hydraulic models were considered for initial
-    incorporation into the REON/WM, including:
+    -   Hydraulic Models: Several hydraulic models were considered for initial incorporation into the REON/WM, including:
 
         -   HEC-RAS
 

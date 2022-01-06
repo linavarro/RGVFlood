@@ -2,7 +2,8 @@ Glossary
 ========
 
 .. glossary::
-  
+   :sorted: 
+
    FEMA
        Federal Emergency Management Agency
        
