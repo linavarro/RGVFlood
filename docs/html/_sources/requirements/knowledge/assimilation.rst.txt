@@ -1,21 +1,19 @@
-.. slideconf::
-   :autoslides: False
-
 Assimilation
 ------------
 
-The Assimilation tools are used import or transform Observed Data into the required format for ingestion into Analytics or other Forecasting tools. The key application is for "nudging" deterministic tools using timely forcing data.
+.. ifnotslides::
 
--   They include routines that retrieve and ingest domain and forcing data for the mechanistic forecasting tools.
+    The Assimilation tools are used import or transform Observed Data into the required format for ingestion into Analytics or other Forecasting tools. The key application is for "nudging" deterministic tools using timely forcing data.
 
--   Processing capacity needs can be significant, and can increase exponentially with the scale of the domain
+    -   They include routines that retrieve and ingest domain and forcing data for the mechanistic forecasting tools.
 
--   Storage needs can be orders of magnitude greater than the input Data and Information used, especially with time-variant computations.
+    -   Processing capacity needs can be significant, and can increase exponentially with the scale of the domain
 
--   Reduction of output storage needs can be significantly reduced by transforming it through analytic tools.
+    -   Storage needs can be orders of magnitude greater than the input Data and Information used, especially with time-variant computations.
 
-.. slide:: Assimilation
-   :level: 3
+    -   Reduction of output storage needs can be significantly reduced by transforming it through analytic tools.
+
+.. ifslides::
 
    -   import or transform Observed Data into the required format for ingestion into Analytics or other Forecasting tools
 

@@ -8,7 +8,7 @@ forecasting tools are more likely to be both Mechanistic and Deterministic.
 .. ifnotslides::
 
    Within the context of REON.cc, the immediate application of forecasting tools will fall under the following categories:
-
+   
    .. toctree::
       :maxdepth: 2
 
@@ -18,8 +18,14 @@ forecasting tools are more likely to be both Mechanistic and Deterministic.
 
 .. ifslides::
 
+   -   Hydrologic Models
+   
+   -   Hydraulic Models
+   
+   -   Urban Stormwater Models
+
    .. toctree::
-      :maxdepth: 1
+      :hidden:
 
       hydrologic.md
       hydraulic.md

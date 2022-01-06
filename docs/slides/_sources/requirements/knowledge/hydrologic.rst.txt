@@ -1,52 +1,37 @@
-.. slideconf::
-   :autoslides: False
-
 Hydrologic Modeling
 -------------------
 
-Hydrologic modeling focuses on simulation of water quantity in the environment.
-Some key elements of hydrologic modeling include:
+.. ifnotslides::
 
--   Conservation of Mass: A focus on balancing the amount, or mass, of water in
-    the system.
+   Hydrologic modeling focuses on simulation of water quantity in the environment. Some key elements of hydrologic modeling include:
 
--   Stochastic Processes: Hydrologic processes are often represented as
-    Stochastic.
+   -   Conservation of Mass: A focus on balancing the amount, or mass, of water in the system.
 
--   Land Surface Models: LSM's are critical in rigorous hydrologic forecasting,
-    since forecasts can be significantly influenced by meteorological processes.
+   -   Stochastic Processes: Hydrologic processes are often represented as Stochastic.
 
--   Groundwater Models: Groundwater Models are necessary components if
-    significant interaction is expected between surface water and groundwater.
-    Groundwater timescales are often orders of magnitude higher than surface
-    water. Exceptions such as Karst formations will often require coupled
-    Surface and Groundwater modeling.
+   -   Land Surface Models: LSM's are critical in rigorous hydrologic forecasting, since forecasts can be significantly influenced by meteorological processes.
 
--   Hydrologic Routing: Hydrologic routing of surface water is necessary to
-    translate land surface Models into lateral transport through defined
-    channels. While grid-based land surface Models will allow for lateral
-    transport between cells, simulation of channelized flow is necessary under
-    most topographic conditions where channelized flow dominates.
+   -   Groundwater Models: Groundwater Models are necessary components if significant interaction is expected between surface water and groundwater. Groundwater timescales are often orders of magnitude higher than surface water. Exceptions such as Karst formations will often require coupled Surface and Groundwater modeling.
 
--   Hydrologic Models: Several hydrologic models were considered for initial
-    incorporation into the REON/WM, including:
+   -   Hydrologic Routing: Hydrologic routing of surface water is necessary to translate land surface Models into lateral transport through defined channels. While grid-based land surface Models will allow for lateral transport between cells, simulation of channelized flow is necessary under most topographic conditions where channelized flow dominates.
 
-    -   WRF-Hydro
+   -   Hydrologic Models: Several hydrologic models were considered for initial incorporation into the REON/WM, including:
 
-    -   HEC-HMS
+       -   WRF-Hydro
 
-    -   VIC
+       -   HEC-HMS
 
-**TIER I Real-Time Hydrologic Model**: WRF-Hydro was selected for the initial deployment within the REON/WM system for Tier I modeling because:
+       -   VIC
 
--   It is an open-source, community-supported framework, allowing for extensibility.
+   **TIER I Real-Time Hydrologic Model**: WRF-Hydro was selected for the initial deployment within the REON/WM system for Tier I modeling because:
 
--   It is what the NWC uses for the NWM.
+   -   It is an open-source, community-supported framework, allowing for extensibility.
 
--   Facilitates a pathway for contribution to, and the adoption of, the Nextgen-NWM as it matures.
+   -   It is what the NWC uses for the NWM.
 
-.. slide:: Hydrologic Modeling
-   :level: 3
+   -   Facilitates a pathway for contribution to, and the adoption of, the Nextgen-NWM as it matures.
+
+.. ifslides::
 
    Hydrologic modeling focuses on simulation of water quantity in the environment.
 

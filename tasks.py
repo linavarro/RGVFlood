@@ -38,6 +38,13 @@ def slides(c):
     c.run("make slides --debug", in_stream = IN_STREAM_ARG)
     
 @task
+def single(c):
+    """
+    Make slides 
+    """
+    c.run("make singlefile-slides --debug", in_stream = IN_STREAM_ARG)
+    
+@task
 def up(c):
     """
     Run docker-compose
@@ -72,15 +79,16 @@ def all(c):
     clean(c)
     html(c)
     slides(c)
+    single(c)
     #up(c)
 
 
 
 if __name__ == "__main__":
 
-    system("inv clean")
-    system("inv html")
-    system("inv slides")
+    system("inv all")
+    #system("inv html")
+    #system("inv slides")
     exit()
 
     ans=True

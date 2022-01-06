@@ -1,40 +1,29 @@
-.. slideconf::
-   :autoslides: False
-
 Information
 ===========
 
-**Information** is a key product of REON.cc. It results from the transformation of raw data into actionable intelligence.
+.. ifnotslides::
 
--   Processing capacity needs are driven by the complexity and volume of data
-    needed for the particular analytic and visualization tool being used, but in
-    general, they are significantly lower that the mechanistic tools used in
-    Knowledge: Processing Needs.
+    **Information** is a key product of REON.cc. It results from the transformation of raw data into actionable intelligence.
 
--   Storage needs for information are driven by the outputs of the analytic and
-    procedural tools that act on the raw data.
+    -   Processing capacity needs are driven by the complexity and volume of data needed for the particular analytic and visualization tool being used, but in general, they are significantly lower that the mechanistic tools used in Knowledge: Processing Needs.
 
--   Determination of the need to store these outputs is driven by a balance
-    between the computation effort required to reproduce and the volume of
-    storage associated with the output data.
+    -   Storage needs for information are driven by the outputs of the analytic and procedural tools that act on the raw data.
 
--   Some caching and buffering must be considered for remote and cloud-served
-    data, such as National data sources, to ensure timely utilization in the
-    Processing elements of REON.cc.
+    -   Determination of the need to store these outputs is driven by a balance between the computation effort required to reproduce and the volume of storage associated with the output data.
 
--   The REON.cc cyberinfrastructure has been implemented for water quality
-    applications (Navarro et al, 2021).
+    -   Some caching and buffering must be considered for remote and cloud-served data, such as National data sources, to ensure timely utilization in the Processing elements of REON.cc.
 
--   Tools involved in transformation of Date into Information include:
+    -   The REON.cc cyberinfrastructure has been implemented for water quality applications (Navarro et al, 2021).
 
-.. toctree::
-   :maxdepth: 2
+    -   Tools involved in transformation of Date into Information include:
 
-   analytics.rst
-   visualization.rst
+    .. toctree::
+       :maxdepth: 2
 
-.. slide:: Information
-   :level: 3
+       analytics.rst
+       visualization.rst
+
+.. ifslides::
 
    -   Processing Capacity
 
@@ -45,11 +34,14 @@ Information
    -   Caching & Buffering
 
    -   Implemented for Water Quality
-
-   -   Tools:
-
-      .. toctree::
-         :maxdepth: 1
-
-         analytics.rst
-         visualization.rst
+   
+   -   Tools
+   
+       -   Analytics
+       
+       -   Visualization
+    
+       .. toctree::
+       
+          analytics.rst
+          visualization.rst

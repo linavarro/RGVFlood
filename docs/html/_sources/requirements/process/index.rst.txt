@@ -20,8 +20,7 @@ The continued development of the REON.cc User interface will follow the
 
    -   **End-User Interface Development Report**: Production and provision of a final report documenting the User Interface development and implementation.
 
-.. slide:: Process
-   :level: 3
+.. ifslides::
    
    -   **Requirements Determination**
 
