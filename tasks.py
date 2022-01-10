@@ -51,14 +51,14 @@ def up(c):
     """
     html(c)
     c.run("cd src/docker; docker-compose up -d", in_stream = IN_STREAM_ARG)
-    
+
 @task
 def down(c):
     """
     Bring down docker images
     """
     c.run("cd src/docker; docker-compose down", in_stream = IN_STREAM_ARG)
-    
+
 @task
 def dall(c):
     """
@@ -70,18 +70,16 @@ def dall(c):
     #slides(c)
     single(c)
     up(c)
-    
+
 @task
 def all(c):
     """
     Do it all
     """
-    #c.run("cd src/docker; docker-compose down -v --rmi all")
     clean(c)
     html(c)
     #slides(c)
     single(c)
-    #up(c)
 
 
 
