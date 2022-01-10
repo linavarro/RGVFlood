@@ -8,6 +8,8 @@ RGVFlood
 
     .. _Survey: https://forms.office.com/r/eY6WkHNyzL
 
+    .. include:: ../README.rst
+
     .. toctree::
        :maxdepth: 2
        :caption: Contents:
@@ -38,7 +40,7 @@ RGVFlood
 
     .. toctree::
        :hidden:
-       
+
        introduction.rst
        requirements/index.rst
        predevelopment/index.rst
