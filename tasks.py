@@ -1,19 +1,33 @@
 from invoke import task
-from os import system
-import sys
+from os import system, getenv
+import sys, shutil
+from dotenv import load_dotenv
+from invoke import Responder
 
 IS_ANDROID: bool = hasattr(sys, 'getandroidapilevel')
 
 if IS_ANDROID:
     IN_STREAM_ARG = False
+    shutil.copy("/storage/emulated/0/.ssh/.env", ".env")
 else:
-	IN_STREAM_ARG = None
+    IN_STREAM_ARG = None
+    shutil.copy(getenv("HOME")+"/.ssh/.env", ".env")
+
+sudopass = Responder(
+     pattern=r'\[sudo\] password:',
+     response=str(getenv('PASSWORD'))+'\n'
+     )
+
+load_dotenv()
 
 @task
 def install(c):
     """
     Install the package
     """
+    c.sudo("apt-get -y update", watchers=[sudopass])
+    c.sudo("apt-get -y upgrade", watchers=[sudopass])
+    c.sudo("apt-get -y install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended latexmk", watchers=[sudopass])
     c.run("pip install --upgrade -e .", in_stream = IN_STREAM_ARG)
 
 @task
@@ -36,14 +50,21 @@ def slides(c):
     Make slides 
     """
     c.run("make slides --debug", in_stream = IN_STREAM_ARG)
-    
+
 @task
 def single(c):
     """
     Make slides 
     """
     c.run("make singlefile-slides --debug", in_stream = IN_STREAM_ARG)
-    
+
+@task
+def pdf(c):
+    """
+    Make pdf 
+    """
+    c.run("make latexpdf --debug", in_stream = IN_STREAM_ARG)
+
 @task
 def up(c):
     """
