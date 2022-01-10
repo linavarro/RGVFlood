@@ -3,7 +3,7 @@ Use Cases
 
 .. ifnotslides::
 
-   .. figure:: http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RATESResearch/RGVFlood/main/docsrc/uml/rgvflood-use-cases.uml
+   .. figure:: rgvflood-use-cases.png
 
        RGVFlood Use Cases
 
@@ -31,7 +31,7 @@ Use Cases
 .. slide:: Use Cases
    :level: 3
 
-   .. figure:: http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RATESResearch/RGVFlood/main/docsrc/uml/rgvflood-use-cases.uml
+   .. figure:: rgvflood-use-cases.png
       :class: full
 
       RGVFlood Use Cases

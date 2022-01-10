@@ -25,11 +25,11 @@ on_rtd = True
 # -- Project information -----------------------------------------------------
 
 project = 'RGVFlood'
-copyright = '2021, Andrew Ernest'
-author = 'Andrew Ernest'
+copyright = '2021, Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE'
+author = 'Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.1'
+release = '0.1.1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -185,12 +185,16 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'RGVFlood.tex', u'RGVFlood',
-   u'Andrew Ernest', 'manual'),
+   u'Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE \\and Christopher B. Fuller, Ph.D. \\and William Kirkey, Ph.D. \\and Peter Kirkey', 'manual'),
+  ('requirements/index', 'Requirements.tex', u'RGVFlood User Inteface Requirements Determination',
+   u'Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE \\and Christopher B. Fuller, Ph.D. \\and William Kirkey, Ph.D. \\and Peter Kirkey', 'manual'),
+  ('predevelopment/index', 'Predevelopment.tex', u'RGVFlood Pre-Development Plan',
+   u'Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE \\and Christopher B. Fuller, Ph.D. \\and William Kirkey, Ph.D. \\and Peter Kirkey', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-#latex_logo = None
+latex_logo = "RATESLogo.png"
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.

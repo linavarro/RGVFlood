@@ -3,7 +3,7 @@ Component Interactions
 
 .. ifnotslides::
 
-   .. figure:: http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RATESResearch/RGVFlood/main/docsrc/uml/rgvflood-component-interactions.uml
+   .. figure:: rgvflood-component-interactions.png
 
        RGVFlood Component Interactions
 
@@ -45,7 +45,7 @@ Component Interactions
 
 .. ifslides::
 
-   .. figure:: http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RATESResearch/RGVFlood/main/docsrc/uml/rgvflood-component-interactions.uml
+   .. figure:: rgvflood-component-interactions.png
        :class: full
 
        RGVFlood Component Interactions

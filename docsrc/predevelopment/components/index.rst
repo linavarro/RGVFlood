@@ -3,7 +3,7 @@ Components
 
 .. ifnotslides::
 
-   .. figure:: http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RATESResearch/RGVFlood/main/docsrc/uml/rgvflood-sequence.uml
+   .. figure:: rgvflood-sequence.png
 
        Components of the RGVFlood Platform
 
@@ -27,7 +27,7 @@ Components
 
 .. ifslides::
 
-   .. figure:: http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RATESResearch/RGVFlood/main/docsrc/uml/rgvflood-sequence.uml
+   .. figure:: rgvflood-sequence.png
        :class: full
 
        Components of the RGVFlood Platform
