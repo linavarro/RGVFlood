@@ -4,8 +4,11 @@ Components
 .. ifnotslides::
 
    .. figure:: rgvflood-sequence.png
+       :name: rgvflood-sequence
 
        Components of the RGVFlood Platform
+       
+   :numref:`rgvflood-sequence` depicts the components of RGVFlood.
 
    :term:`RGVFlood`
        Instantiation of :term:`REON` cyberinfrastructure specific to :term:`LRGV`

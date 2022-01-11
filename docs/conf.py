@@ -59,6 +59,10 @@ pygments_style = 'sphinx'
 # Display todos by setting to True
 todo_include_todos = True
 
+numfig = True
+#numfig_format['figure'] = 'Figure %s'
+numfig_format = {'figure': 'Figure %s', 'table': 'Table %s', 'code-block': 'Listing %s', 'section': 'Section %s'}
+
 # -- Options for HTML Slide output ---------------------------------------------------
 
 slide_theme = 'slides'

@@ -1,4 +1,5 @@
 from invoke import task
+import os
 from os import system, getenv
 import sys, shutil
 from dotenv import load_dotenv
@@ -19,6 +20,9 @@ sudopass = Responder(
      )
 
 load_dotenv()
+
+if not os.path.exists("src/docker/.env"):
+    shutil.copy("src/docker/template.env", "src/docker/.env")
 
 @task
 def install(c):
