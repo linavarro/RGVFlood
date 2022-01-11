@@ -103,7 +103,7 @@ def all(c):
     """
     clean(c)
     html(c)
-    #slides(c)
+    pdf(c)
     single(c)
 
 

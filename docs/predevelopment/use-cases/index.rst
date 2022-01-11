@@ -1,11 +1,16 @@
-Use Cases
-=========
+Specification of Use Case Scenarios
+===================================
 
 .. ifnotslides::
 
    .. figure:: rgvflood-use-cases.png
+       :name: rgvflood-use-cases
 
        RGVFlood Use Cases
+
+   :numref:`rgvflood-use-cases` depicts the most commonly anticipated user-cases for :term:`RGVFlood`. The primary intended use for :term:`RGVFlood` is to facilitate multi-jurisdictional decision making, with jurisdictions of varying sizes, needs and capacities being able to participate with equal impact or influence. Represented in :numref:`rgvflood-use-cases` are 2 jurisdictions, *JurisdictionA* and *JurisdictionB*. *JurisdictionA* represents a local government with significant capacity, including in-house engineering, whereas *JurisdictionB* represents one of lesser capacity or resources, where the elected officials perform operational duties in addition to decision and/or policy-making. *JurisdictionB* also relies on consultants for engineering services. Within each jurisdiction are also local or regional planners, and first responders and/or emergency managers.
+
+   Decision makers are typically elected officials on whom the burden of inter-jurisdictional decision making rests. While their primary responsibility is to the constituents who elected them to public office, effective flood management requires 
 
    Decision Makers
        Elected officials responsible for regional policy making and recruitment of state & federal funds.

@@ -9,9 +9,9 @@ RGVFlood Pre-Development Plan
 
        introduction.rst
        goals/index.rst
+       use-cases/index.rst
        components/index.rst
        component-interactions/index.rst
-       use-cases/use-cases.rst
 
 .. ifslides::
 
@@ -24,9 +24,9 @@ RGVFlood Pre-Development Plan
 
        introduction.rst
        goals/index.rst
+       use-cases/index.rst
        components/index.rst
        component-interactions/index.rst
-       use-cases/use-cases.rst
 
 .. ifnotslides::
     Indices and tables

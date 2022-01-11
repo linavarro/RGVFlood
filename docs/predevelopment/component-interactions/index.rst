@@ -1,5 +1,5 @@
-Component Interactions
-======================
+Determination of Component Interactions
+=======================================
 
 .. ifnotslides::
 
@@ -9,9 +9,9 @@ Component Interactions
        RGVFlood Component Interactions
 
    Three components make :term:`RGVFlood` application ecosystem specific to the :term:`LRGV` (:numref:`rgvflood-component-interactions`).  Hydrologic data specific to the :term:`LRGV`, includes national & state level data, along with locally collected data as well as local forcings from :term:`RTHS.us`. This *RGV Hydrography* is stored in a :term:`REON` :term:`PostgreSQL` database. The *RGV Water Model* (:term:`REON/WM`), is driven by RGV Hydrography and tuned using local forcings from :term:`RTHS.us`. The user interface to :term:`REON.cc` tuned to the specific needs of the :term:`LRGV` users is accessed from :term:`RGVFlood.com`.
-   
+
    :term:`RGVFlood` relies on the :term:`REON` cyberinfrastructure, which includes the :term:`RTHS.us` serving forcing data, station metadata and flood early warning information from the :term:`RTHS` stations.
-   
+
    :term:`REON/WM`
        Ecosystem of hydrologic, hydraulic & stormwater forecast models.
 

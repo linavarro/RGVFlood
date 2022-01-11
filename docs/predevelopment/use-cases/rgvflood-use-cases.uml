@@ -1,4 +1,5 @@
 @startuml
+skinparam linetype ortho
 
 package JurisdictionA {
     :Decision Maker A: as DeciderA
@@ -8,7 +9,7 @@ package JurisdictionA {
 }
 
 package JurisdictionB {
-    :Decision Maker B: as DeciderB
+    :Decision Maker B:/ as DeciderB
     :Planner B: as PlannerB
     :First Responder B: as ResponderB
 }
