@@ -22,7 +22,7 @@ RGVFlood Pre-Development Plan
        :hidden:
 
        introduction.rst
-       goals/inddex.rst
+       goals/index.rst
        components/index.rst
        component-interactions/index.rst
        use-cases/use-cases.rst
