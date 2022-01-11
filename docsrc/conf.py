@@ -175,7 +175,7 @@ latex_elements = {
 #'papersize': 'letterpaper',
 
 # The font size ('10pt', '11pt' or '12pt').
-#'pointsize': '10pt',
+'pointsize': '12pt',
 
 # Additional stuff for the LaTeX preamble.
 'preamble': '\\usepackage{svg}',
@@ -185,7 +185,7 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'RGVFlood.tex', u'RGVFlood',
-   u'Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE \\and Christopher B. Fuller, Ph.D. \\and William Kirkey, Ph.D. \\and Peter Kirkey, \\and Linda Navarro, \\and Ivan Santos-Chavez, \\and Carlos Reyes', 'manual'),
+   u'Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE \\and Christopher B. Fuller, Ph.D. \\and William Kirkey, Ph.D. \\and Peter Kirkey, \\and Linda Navarro, \\and Ivan Santos-Chavez, \\and Carlos Reyes', 'book'),
   ('requirements/index', 'Requirements.tex', u'RGVFlood User Inteface Requirements Determination',
    u'Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE \\and Christopher B. Fuller, Ph.D. \\and William Kirkey, Ph.D. \\and Peter Kirkey, \\and Linda Navarro, \\and Ivan Santos-Chavez, \\and Carlos Reyes', 'manual'),
   ('predevelopment/index', 'Predevelopment.tex', u'RGVFlood Pre-Development Plan',
