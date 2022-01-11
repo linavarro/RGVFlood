@@ -12,7 +12,7 @@ Goals & Objectives of the RGVFlood Pre-Development Plan
        ../component-interactions/index.rst
        ../process/index.rst
        
-   .. only:: latex
+   .. only:: latexpdf
    
        .. include:
 
