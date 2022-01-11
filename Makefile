@@ -5,8 +5,8 @@
 # from the environment for the first two.
 SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
-SOURCEDIR     = docsrc
-BUILDDIR      = docs
+SOURCEDIR     = docs
+BUILDDIR      = build
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -21,6 +21,4 @@ help:
 # copy index.html to docs folder to redirect github-pages to html folder
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
-	@touch docs/.nojekyll
-	@cp docsrc/github-pages.html docs/index.html
-	@cp docsrc/CNAME docs/
+	
