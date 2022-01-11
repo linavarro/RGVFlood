@@ -25,7 +25,7 @@ on_rtd = True
 # -- Project information -----------------------------------------------------
 
 project = 'RGVFlood'
-copyright = '2021, Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE'
+copyright = '2021, Research, Applied Technology, Education & Service, Inc.'
 author = 'Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE'
 
 # The full version, including alpha/beta/rc tags

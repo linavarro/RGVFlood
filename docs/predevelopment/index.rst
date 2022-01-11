@@ -8,6 +8,7 @@ RGVFlood Pre-Development Plan
        :caption: Table of Contents
 
        introduction.rst
+       goals/index.rst
        components/index.rst
        component-interactions/index.rst
        use-cases/use-cases.rst
