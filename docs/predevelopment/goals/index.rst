@@ -11,6 +11,18 @@ Goals & Objectives of the RGVFlood Pre-Development Plan
        ../components/index.rst
        ../component-interactions/index.rst
        ../process/index.rst
+       
+   .. only:: latex
+   
+       .. include:
+
+           *   Specification of Use Case Scenarios
+
+           *   Identification of Critical Software & Hardware Components
+
+           *   Determination of Component Interactions
+
+           *   Establishment of Development Process
 
 .. ifslides::
 
