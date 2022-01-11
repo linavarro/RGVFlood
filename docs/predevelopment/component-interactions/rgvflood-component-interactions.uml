@@ -1,5 +1,7 @@
 @startuml
 allowmixing
+skinparam linetype ortho
+
 package RGVFlood {
   object "RGVFlood.com" as rgvcc
   object "RGV Water Model" as rgvwm
