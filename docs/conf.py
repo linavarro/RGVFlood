@@ -61,7 +61,7 @@ todo_include_todos = True
 
 numfig = True
 #numfig_format['figure'] = 'Figure %s'
-numfig_format = {'figure': 'Figure %s', 'table': 'Table %s', 'code-block': 'Listing %s', 'section': 'Section %s'}
+numfig_format = {'figure': 'Figure: %s', 'table': 'Table: %s', 'code-block': 'Listing: %s', 'section': 'Section: %s'}
 
 # -- Options for HTML Slide output ---------------------------------------------------
 
@@ -189,11 +189,14 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'RGVFlood.tex', u'RGVFlood',
-   u'Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE \\and Christopher B. Fuller, Ph.D. \\and William Kirkey, Ph.D. \\and Peter Kirkey, \\and Linda Navarro, \\and Ivan Santos-Chavez, \\and Carlos Reyes', 'book'),
+   u'Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE \\and Christopher B. Fuller, Ph.D. \\and William Kirkey, Ph.D. \\and Peter Kirkey, \\and Linda Navarro, \\and Ivan Santos-Chavez, \\and Carlos Reyes',
+   'manual'),
   ('requirements/index', 'Requirements.tex', u'RGVFlood User Inteface Requirements Determination',
-   u'Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE \\and Christopher B. Fuller, Ph.D. \\and William Kirkey, Ph.D. \\and Peter Kirkey, \\and Linda Navarro, \\and Ivan Santos-Chavez, \\and Carlos Reyes', 'manual'),
+   u'Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE \\and Christopher B. Fuller, Ph.D. \\and William Kirkey, Ph.D. \\and Peter Kirkey, \\and Linda Navarro, \\and Ivan Santos-Chavez, \\and Carlos Reyes',
+   'manual'),
   ('predevelopment/index', 'Predevelopment.tex', u'RGVFlood Pre-Development Plan',
-   u'Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE \\and Christopher B. Fuller, Ph.D. \\and William Kirkey, Ph.D. \\and Peter Kirkey, \\and Linda Navarro, \\and Ivan Santos-Chavez, \\and Carlos Reyes', 'manual'),
+   u'Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE \\and Christopher B. Fuller, Ph.D. \\and William Kirkey, Ph.D. \\and Peter Kirkey, \\and Linda Navarro, \\and Ivan Santos-Chavez, \\and Carlos Reyes',
+   'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

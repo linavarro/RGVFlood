@@ -51,21 +51,21 @@ def html(c):
 @task
 def slides(c):
     """
-    Make slides 
+    Make slides
     """
     c.run("make slides --debug", in_stream = IN_STREAM_ARG)
 
 @task
 def single(c):
     """
-    Make slides 
+    Make slides
     """
     c.run("make singlefile-slides --debug", in_stream = IN_STREAM_ARG)
 
 @task
 def pdf(c):
     """
-    Make pdf 
+    Make pdf
     """
     c.run("make latexpdf --debug", in_stream = IN_STREAM_ARG)
 
@@ -89,11 +89,11 @@ def dall(c):
     """
     Do it all with docker
     """
-    c.run("cd src/docker; docker-compose down -v --rmi all", in_stream = IN_STREAM_ARG)
+    c.run("cd src/docker; docker-compose down -v --rmi local", in_stream = IN_STREAM_ARG)
     clean(c)
     html(c)
-    #slides(c)
     single(c)
+    pdf(c)
     up(c)
 
 @task
