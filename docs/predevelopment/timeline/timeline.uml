@@ -15,7 +15,7 @@ printscale monthly
 Project starts 2020-10-06
 [Notice to Proceed] happens on 2020-10-06
 [Model Code Deployment] lasts 60 days and ends on 2020-12-14
-[Requirements Determination] lasts 30 days and starts 30 days after [Model Code Deployment]'s start
+[Requirements Determination] lasts 71 days and ends on 2020-12-14
 then [Requirements Validation] lasts 30 days and ends on 2021-01-14
 [Predevelopment Plan] lasts 30 days and ends on 2021-01-14
 [End User Data Dictionary Workshops] lasts 3 days and ends 7 days before [Requirements Validation]'s end
