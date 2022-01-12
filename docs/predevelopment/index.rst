@@ -12,6 +12,8 @@ RGVFlood Pre-Development Plan
        use-cases/index.rst
        components/index.rst
        component-interactions/index.rst
+       process/index.rst
+       timeline/index.rst
 
 .. ifslides::
 
