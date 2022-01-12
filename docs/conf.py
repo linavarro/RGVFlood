@@ -67,7 +67,8 @@ numfig_format = {'figure': 'Figure: %s', 'table': 'Table: %s', 'code-block': 'Li
 
 # -- Options for HTML Slide output ---------------------------------------------------
 
-slide_theme = 'slides'
+slide_theme = 'rates'
+slide_theme_path = ['.']
 #slide_theme_options = {
 #    'presenters': [
 #        {
@@ -173,10 +174,10 @@ html_static_path = ['_static']
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'RGVFlood'
 
-pdf_documents = [('index', u'rst2pdf', u'Sample rst2pdf doc', u'Your Name'),] 
-# index - master document 
-# rst2pdf - name of the generated pdf 
-# Sample rst2pdf doc - title of the pdf 
+pdf_documents = [('index', u'rst2pdf', u'Sample rst2pdf doc', u'Your Name'),]
+# index - master document
+# rst2pdf - name of the generated pdf
+# Sample rst2pdf doc - title of the pdf
 # Your Name - author name in the pdf
 
 # -- Options for LaTeX output --------------------------------------------------
