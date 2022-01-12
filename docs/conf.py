@@ -40,6 +40,7 @@ release = '0.1.1'
 extensions = [
 #'myst_parser',
 #'sphinxcontrib.plantuml',
+'rst2pdf.pdfbuilder',
 'hieroglyph',
 'sphinx.ext.todo',
 ]
@@ -172,6 +173,11 @@ html_static_path = ['_static']
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'RGVFlood'
 
+pdf_documents = [('index', u'rst2pdf', u'Sample rst2pdf doc', u'Your Name'),] 
+# index - master document 
+# rst2pdf - name of the generated pdf 
+# Sample rst2pdf doc - title of the pdf 
+# Your Name - author name in the pdf
 
 # -- Options for LaTeX output --------------------------------------------------
 

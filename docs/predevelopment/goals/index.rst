@@ -5,34 +5,22 @@ Goals & Objectives of the RGVFlood Pre-Development Plan
 
    The overarching goal of the :term:`RGVFlood` pre-development plan is to provide a roadmap for the development and instantiation of the :term:`RGVFlood` decision support system. Specific objectives include:
 
-       
-   .. only:: latex
+   *   Specification of Use Case Scenarios
 
-       *   Specification of Use Case Scenarios
+   *   Identification of Critical Software & Hardware Components
 
-       *   Identification of Critical Software & Hardware Components
+   *   Determination of Component Interactions
 
-       *   Determination of Component Interactions
-
-       *   Establishment of Development Process
-
-
-   .. toctree::
-
-       ../use-cases/index.rst
-       ../components/index.rst
-       ../component-interactions/index.rst
-       ../process/index.rst
-       
+   *   Establishment of Development Process
 
 .. ifslides::
 
    The overarching goal of the :term:`RGVFlood` pre-development plan is to provide a roadmap for the development and instantiation of the :term:`RGVFlood` decision support system.
 
-   .. toctree::
-       :hidden:
+   *   Specification of Use Case Scenarios
 
-       ../use-cases/index.rst
-       ../components/index.rst
-       ../component-interactions/index.rst
-       ../process/index.rst
+   *   Identification of Critical Software & Hardware Components
+
+   *   Determination of Component Interactions
+
+   *   Establishment of Development Process

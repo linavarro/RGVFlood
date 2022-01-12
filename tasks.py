@@ -63,11 +63,18 @@ def single(c):
     c.run("make singlefile-slides --debug", in_stream = IN_STREAM_ARG)
 
 @task
-def pdf(c):
+def latexpdf(c):
     """
     Make pdf
     """
     c.run("make latexpdf --debug", in_stream = IN_STREAM_ARG)
+
+@task
+def pdf(c):
+    """
+    Make pdf
+    """
+    c.run("make pdf --debug", in_stream = IN_STREAM_ARG)
 
 @task
 def up(c):
@@ -93,7 +100,7 @@ def dall(c):
     clean(c)
     html(c)
     single(c)
-    pdf(c)
+    latexpdf(c)
     up(c)
 
 @task
@@ -102,8 +109,8 @@ def all(c):
     Do it all
     """
     clean(c)
-    html(c)
     #pdf(c)
+    html(c)
     single(c)
 
 
