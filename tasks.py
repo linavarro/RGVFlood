@@ -102,6 +102,7 @@ def dall(c):
     single(c)
     latexpdf(c)
     up(c)
+    #pdf(c)
 
 @task
 def all(c):
