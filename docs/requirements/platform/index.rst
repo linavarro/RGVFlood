@@ -25,6 +25,8 @@ Platform Identification
    :level: 3
 
    .. figure:: user_interface.jpg
-      :class: full
+      :class: fill
+      :width: 100%
+      :height: 500
    
       REON.cc User Interface

@@ -27,6 +27,8 @@ End-User Needs Identification
    :level: 3
 
    .. figure:: information_flow.jpg
-      :class: full
+      :class: fill
+      :width: 100%
+      :height: 500
 
       REON.cc Information Flow
