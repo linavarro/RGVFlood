@@ -111,7 +111,7 @@ def all(c):
     """
     clean(c)
     #pdf(c)
-    html(c)
+    #html(c)
     single(c)
 
 

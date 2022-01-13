@@ -16,9 +16,6 @@ Goals & Objectives of the User Interface
 .. ifslides::
 
    The overarching goal of the REON.cc cyber-collaboratory is to serve as the **primary end-user interface** for all aspects of **model execution** and **data analysis**.
-   
-.. slide:: Objectives
-   :level: 3
 
    -   Serve as the **primary user Interface** for all REON related activities.
 

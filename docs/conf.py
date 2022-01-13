@@ -67,8 +67,8 @@ numfig_format = {'figure': 'Figure: %s', 'table': 'Table: %s', 'code-block': 'Li
 
 # -- Options for HTML Slide output ---------------------------------------------------
 
-slide_theme = 'rates'
-slide_theme_path = ['_static']
+slide_theme = 'slides2'
+#slide_theme_path = ['_static']
 #slide_theme_options = {
 #    'presenters': [
 #        {

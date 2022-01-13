@@ -1,18 +1,13 @@
 The Need for a Common Operating Picture
 =======================================
 
-.. ifslides::
-
-   *Six Blind Men and the Elephant*
-
-.. slide:: Six Blind Men and the Elephant
-   :level: 3
+.. ifslides:: 
 
    .. figure:: https://upload.wikimedia.org/wikipedia/commons/0/07/Blind_men_and_elephant4.jpg
       :class: fill
+      :height: 500
 
-      Depiction of the old Indian **fable of the Six Blind Men and the Elephant**.
-      Source: https://commons.wikimedia.org/wiki/File:Blind_men_and_elephant4.jpg
+      Depiction of the old Indian **fable of the Six Blind Men and the Elephant**. Source: https://commons.wikimedia.org/wiki/File:Blind_men_and_elephant4.jpg
 
 .. slide:: Six Blind Men and the Elephant
    :level: 3

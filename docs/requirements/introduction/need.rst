@@ -24,14 +24,16 @@ Need & Philosophical Basis for REON.cc
 
 .. ifslides::
 
-   *Democratizing Water Intelligence for Knowledge-Enabled Policy & Decision Making*
 
    .. figure:: dikw.png
-      :class: full
+      :class: fill
+      :height: 500
 
       Data, Information, Knowledge, Wisdom pyramid espoused by the informatics discipline. Source: https://www.pngegg.com/en/png-mvanj
 
 .. nextslide::
+
+*Democratizing Water Intelligence for Knowledge-Enabled Policy & Decision Making*
 
 -   **Data**: Addressing the monitoring needs of under-served areas to ensure technology and monitoring solutions are available to all.
 
