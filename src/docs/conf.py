@@ -40,7 +40,7 @@ release = '0.1.1'
 extensions = [
 #'myst_parser',
 #'sphinxcontrib.plantuml',
-'rst2pdf.pdfbuilder',
+'sphinx.ext.autodoc',
 'hieroglyph',
 'sphinx.ext.todo',
 ]
