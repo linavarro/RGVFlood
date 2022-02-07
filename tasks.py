@@ -64,6 +64,7 @@ def provision_reondj(c):
     c.run('docker cp background.jpg django4rgvflood:/mnt/volumes/statics/uploaded/img/2021/12/', in_stream = IN_STREAM_ARG)
     c.run('docker cp logo.png django4rgvflood:/mnt/volumes/statics/uploaded/img/2021/12/', in_stream = IN_STREAM_ARG)
     c.run('docker exec django4rgvflood sh -c "python manage.py loaddata /usr/src/geonode/theme.json"', in_stream = IN_STREAM_ARG)
+    c.run('docker exec django4rgvflood sh -c "python manage.py provision 144 145 146 147 148"', in_stream = IN_STREAM_ARG)
 
 @task
 def clean(c):
@@ -156,11 +157,12 @@ def all(c):
     Do it all
     """
     clean(c)
-    #pdf(c)
-    #html(c)
-    single(c)
-
-
+    delete(c)
+    build_no_cache(c)
+    up(c)
+    install_reondj(c)
+    add_reondf(c)
+    provision_reondj(c)
 
 if __name__ == "__main__":
 
