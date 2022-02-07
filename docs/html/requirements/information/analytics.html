@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Analytics &mdash; RGVFlood</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Visualization" href="visualization.html" />
+    <link rel="prev" title="Information" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> RGVFlood
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">RGVFlood User Requirements Determination</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction/index.html">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../goals/index.html">Goals &amp; Objectives of the User Interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../process/index.html">Description of Development Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../platform/index.html">Platform Identification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../needs/index.html">End-User Needs Identification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data/index.html">Data</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Information</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Analytics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="visualization.html">Visualization</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../knowledge/index.html">Knowledge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../wisdom/index.html">Wisdom</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../workflow/index.html">Workflow Implications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../approach/index.html">Approach</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#indices-and-tables">Indices and tables</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../predevelopment/index.html">RGVFlood Pre-Development Plan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary.html">Glossary</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">RGVFlood</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../index.html">RGVFlood User Requirements Determination</a> &raquo;</li>
+          <li><a href="index.html">Information</a> &raquo;</li>
+      <li>Analytics</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/requirements/information/analytics.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="analytics">
+<h1>Analytics<a class="headerlink" href="#analytics" title="Permalink to this headline">¶</a></h1>
+<p>Most analytic tools are unlikely to require output data storage, as the <strong>computational effort</strong> needed to process the tool are likely to be <strong>nominal</strong>, and as such can be executed <strong>on-demand</strong>, allowing for outputs reflective of the current state of available data.</p>
+<ul class="simple">
+<li><p>For <strong>example</strong>, a simple analytic tool that takes stage height data from hydrologically connected RTHS stations, and produces travel time estimates between the two, produces a single data point for each execution.</p></li>
+<li><p>Both the computational <strong>cost</strong> and the storage cost are <strong>nominal</strong>.</p></li>
+<li><p>However, travel time <strong>estimates</strong> for two RTHS stations can <strong>change over time</strong> as the bathymetry of the intervening channel evolves, and under deferring upstream and downstream flow conditions.</p></li>
+<li><p><strong>Storage</strong> of the different travel time estimates <strong>can be useful over time</strong> to provide insights into the changing topography of the region.</p></li>
+</ul>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Information" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="visualization.html" class="btn btn-neutral float-right" title="Visualization" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Research, Applied Technology, Education &amp; Service, Inc..</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

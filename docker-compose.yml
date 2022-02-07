@@ -3,12 +3,12 @@ version: '3.4'
 # Common Django template for GeoNode and Celery services below
 x-common-django:
   &default-common-django
-#  image: geonode/geonode:latest
+  image: geonode/geonode:latest
   restart: on-failure
   env_file:
     - .env
   volumes:
-    - ${SSH_AUTH_SOCK}:/ssh-agent
+    #- ${SSH_AUTH_SOCK}:/ssh-agent
     - statics:/mnt/volumes/statics
     - geoserver-data-dir:/geoserver_data/data
     - backup-restore:/backup_restore
@@ -45,7 +45,7 @@ services:
       context: ./src/docker/geonode/
       dockerfile: Dockerfile
     container_name: django4${COMPOSE_PROJECT_NAME}
-#    image: reon/geonode:v3.3.0
+    image: reon/rgvflood:v0.1
     healthcheck:
       test: "curl --fail --silent --write-out 'HTTP CODE : %{http_code}\n' --output /dev/null http://127.0.0.1:8001/"
       interval: 60s
@@ -54,7 +54,7 @@ services:
       start_period: 60s
     environment:
       - IS_CELERY=False
-      - SSH_AUTH_SOCK=/ssh-agent
+      #- SSH_AUTH_SOCK=/ssh-agent
     entrypoint: ["/usr/src/geonode/entrypoint.sh"]
     command: "uwsgi --ini /usr/src/geonode/uwsgi.ini --log-master --logger syslog:uwsgi"
 
@@ -160,6 +160,22 @@ services:
     volumes:
       - rabbitmq:/var/lib/rabbitmq
     restart: on-failure
+
+  docs:
+    build:
+      context: .
+      dockerfile: ./src/docker/docs/Dockerfile
+    container_name: docs4${COMPOSE_PROJECT_NAME}
+    environment:
+      - VIRTUAL_HOST=docs.${HTTP_HOST}
+
+  slides:
+    build:
+      context: .
+      dockerfile: ./src/docker/slides/Dockerfile
+    container_name: slides4${COMPOSE_PROJECT_NAME}
+    environment:
+      - VIRTUAL_HOST=slides.${HTTP_HOST}
 
 volumes:
   statics:

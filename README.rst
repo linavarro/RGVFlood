@@ -7,7 +7,7 @@ RGVFlood is a cloud-based Regional Water Resource Decision Support System focuse
 For More Information
 --------------------
 
-*   RGVFlood_ Application (currently points to documentation)
+*   RGVFlood_ Application
 
 *   Documentation_
 
