@@ -158,6 +158,19 @@ def backup(c):
     c.run("docker exec django4rgvflood sh -c 'rm /backup_restore/*.*'", in_stream = IN_STREAM_ARG)
 
 @task
+def recreate(c):
+    """ Recreate from backup 
+    """
+    clean(c)
+    delete(c)
+    docs_for_docker(c)
+    build_no_cache(c)
+    up(c)
+    c.run("docker cp -a /srv/REON/backup/tigger/RGVFlood/backup_restore django4rgvflood:/", in_stream = IN_STREAM_ARG)
+    c.run("docker exec django4rgvflood sh -c 'python manage.py restore -f --backup-files-dir=/backup_restore/ --config=/backup_restore/settings.ini'", in_stream = IN_STREAM_ARG)
+    c.run("docker exec django4rgvflood sh -c 'rm /backup_restore/*.*'", in_stream = IN_STREAM_ARG)
+
+@task
 def host(c):
     print(socket.gethostname())
 
