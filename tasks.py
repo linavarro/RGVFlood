@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from invoke import task
-import os
+import os, socket
 from os import system, getenv
 import sys, shutil
 from dotenv import load_dotenv
@@ -153,9 +153,13 @@ def backup(c):
     """
     c.run("docker cp br/settings.ini django4rgvflood:/backup_restore/", in_stream = IN_STREAM_ARG)
     c.run("docker exec django4rgvflood python manage.py backup -f --backup-dir=/backup_restore --config=/backup_restore/settings.ini", in_stream = IN_STREAM_ARG)
-    c.run("docker cp -a django4rgvflood:/backup_restore/ br/", in_stream = IN_STREAM_ARG)
+    target = os.path.join("/srv/REON/backup", socket.gethostname(), "RGVFlood")
+    c.run("docker cp -a django4rgvflood:/backup_restore/ "+target, in_stream = IN_STREAM_ARG)
     c.run("docker exec django4rgvflood sh -c 'rm /backup_restore/*.*'", in_stream = IN_STREAM_ARG)
-    c.run("docker exec django4rgvflood sh -c 'ls -alh /backup_restore/'", in_stream = IN_STREAM_ARG)
+
+@task
+def host(c):
+    print(socket.gethostname())
 
 @task
 def all(c):
