@@ -143,13 +143,19 @@ def docs_for_docker(c):
     """
     Build docs for docker
     """
-    #c.run("cd src/docker; docker-compose down -v --rmi local", in_stream = IN_STREAM_ARG)
     clean(c)
     html(c)
     single(c)
-    #latexpdf(c)
-    #up(c)
-    #pdf(c)
+
+@task
+def backup(c):
+    """ Backup 
+    """
+    c.run("docker cp br/settings.ini django4rgvflood:/backup_restore/", in_stream = IN_STREAM_ARG)
+    c.run("docker exec django4rgvflood python manage.py backup -f --backup-dir=/backup_restore --config=/backup_restore/settings.ini", in_stream = IN_STREAM_ARG)
+    c.run("docker cp -a django4rgvflood:/backup_restore/ br/", in_stream = IN_STREAM_ARG)
+    c.run("docker exec django4rgvflood sh -c 'rm /backup_restore/*.*'", in_stream = IN_STREAM_ARG)
+    c.run("docker exec django4rgvflood sh -c 'ls -alh /backup_restore/'", in_stream = IN_STREAM_ARG)
 
 @task
 def all(c):
@@ -158,10 +164,11 @@ def all(c):
     """
     clean(c)
     delete(c)
+    docs_for_docker(c)
     build_no_cache(c)
     up(c)
     install_reondj(c)
-    add_reondf(c)
+    add_reondj(c)
     provision_reondj(c)
 
 if __name__ == "__main__":
