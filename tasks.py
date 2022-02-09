@@ -154,7 +154,8 @@ def backup(c):
     c.run("docker cp br/settings.ini django4rgvflood:/backup_restore/", in_stream = IN_STREAM_ARG)
     c.run("docker exec django4rgvflood python manage.py backup -f --backup-dir=/backup_restore --config=/backup_restore/settings.ini", in_stream = IN_STREAM_ARG)
     target = os.path.join("/srv/REON/backup", socket.gethostname(), "RGVFlood")
-    c.run("docker cp -a django4rgvflood:/backup_restore/ "+target, in_stream = IN_STREAM_ARG)
+    c.run("docker cp -a django4rgvflood:/backup_restore br/", in_stream = IN_STREAM_ARG)
+    c.run("rsync -avzh --progress  br/backup_restore tigger.water-wizard.org:"+target)
     c.run("docker exec django4rgvflood sh -c 'rm /backup_restore/*.*'", in_stream = IN_STREAM_ARG)
 
 @task
@@ -166,7 +167,6 @@ def recreate(c):
     docs_for_docker(c)
     # #build_no_cache(c)
     up(c)
-<<<<<<< HEAD
 
 @task
 def reondj(c):
@@ -176,11 +176,8 @@ def reondj(c):
 
 @task
 def restore(c):
-=======
-    install_reondj(c)
-    add_reondj(c)
->>>>>>> a4f91e97d062d39c0be58cdcd515998d25dd7459
-    c.run("docker cp -a /srv/REON/backup/tigger/RGVFlood/backup_restore django4rgvflood:/", in_stream = IN_STREAM_ARG)
+    c.run("rsync -avzh --progress  tigger.water-wizard.org:/srv/REON/backup/tigger/RGVFlood/backup_restore br")
+    c.run("docker cp -a br/backup_restore django4rgvflood:/", in_stream = IN_STREAM_ARG)
     c.run("docker exec django4rgvflood sh -c 'python manage.py restore -f --backup-files-dir=/backup_restore/ --config=/backup_restore/settings.ini'", in_stream = IN_STREAM_ARG)
     c.run("docker exec django4rgvflood sh -c 'rm /backup_restore/*.*'", in_stream = IN_STREAM_ARG)
     c.run("docker exec django4rgvflood sh -c 'python manage.py migrate_baseurl -f --source-address=rgvflood.com --target-address=rgvflood.water-wizard.org'", in_stream = IN_STREAM_ARG)
