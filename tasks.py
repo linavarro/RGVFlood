@@ -166,6 +166,7 @@ def recreate(c):
     docs_for_docker(c)
     # #build_no_cache(c)
     up(c)
+<<<<<<< HEAD
 
 @task
 def reondj(c):
@@ -175,6 +176,10 @@ def reondj(c):
 
 @task
 def restore(c):
+=======
+    install_reondj(c)
+    add_reondj(c)
+>>>>>>> a4f91e97d062d39c0be58cdcd515998d25dd7459
     c.run("docker cp -a /srv/REON/backup/tigger/RGVFlood/backup_restore django4rgvflood:/", in_stream = IN_STREAM_ARG)
     c.run("docker exec django4rgvflood sh -c 'python manage.py restore -f --backup-files-dir=/backup_restore/ --config=/backup_restore/settings.ini'", in_stream = IN_STREAM_ARG)
     c.run("docker exec django4rgvflood sh -c 'rm /backup_restore/*.*'", in_stream = IN_STREAM_ARG)
