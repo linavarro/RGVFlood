@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from invoke import task
-import os, socket
+import os, socket, datetime
 from os import system, getenv
 import sys, shutil
 from dotenv import load_dotenv
@@ -176,15 +176,19 @@ def reondj(c):
 
 @task
 def restore(c):
-    c.run("rsync -avzh --progress  tigger.water-wizard.org:/srv/REON/backup/tigger/RGVFlood/backup_restore br")
+    nameroot = datetime.datetime.utcnow().strftime("%Y-%m-%d_%H*.*")
+    source = os.path.join("/srv/REON/backup/tigger/RGVFlood/backup_restore/", nameroot)
+    c.run("rsync -avzh --progress  tigger.water-wizard.org:"+source+" br/backup_restore/")
     c.run("docker cp -a br/backup_restore django4rgvflood:/", in_stream = IN_STREAM_ARG)
-    c.run("docker exec django4rgvflood sh -c 'python manage.py restore -f --backup-files-dir=/backup_restore/ --config=/backup_restore/settings.ini'", in_stream = IN_STREAM_ARG)
+    c.run("docker exec django4rgvflood sh -c 'python manage.py restore -f --soft-reset --backup-files-dir=/backup_restore/ --config=/backup_restore/settings.ini'", in_stream = IN_STREAM_ARG)
     c.run("docker exec django4rgvflood sh -c 'rm /backup_restore/*.*'", in_stream = IN_STREAM_ARG)
     c.run("docker exec django4rgvflood sh -c 'python manage.py migrate_baseurl -f --source-address=rgvflood.com --target-address=rgvflood.water-wizard.org'", in_stream = IN_STREAM_ARG)
 
 @task
 def host(c):
     print(socket.gethostname())
+    name = datetime.datetime.utcnow().strftime("%Y-%m-%d_%H*")
+    print(name)
 
 @task
 def all(c):
