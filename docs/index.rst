@@ -17,9 +17,9 @@ RGVFlood
        introduction.rst
        requirements/index.rst
        predevelopment/index.rst
+       implementation/index
        glossary.rst
     ..   Requirements Validation
-    ..   Implementation
     ..   Quality Assurance Demonstration
     ..   Deployment
     ..   End-User Acceptance Testing
@@ -44,9 +44,9 @@ RGVFlood
        introduction.rst
        requirements/index.rst
        predevelopment/index.rst
+       implementation/index
     ..   glossary.rst
     ..   Requirements Validation
-    ..   Implementation
     ..   Quality Assurance Demonstration
     ..   Deployment
     ..   End-User Acceptance Testing

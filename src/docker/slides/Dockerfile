@@ -1,2 +1,2 @@
 FROM nginx
-COPY ./docs/singlefile-slides /usr/share/nginx/html
+COPY ./build/singlefile-slides /usr/share/nginx/html
