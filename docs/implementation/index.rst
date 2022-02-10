@@ -8,6 +8,7 @@ RGVFlood User interface Implementation
        :caption: Table of Contents
 
        introduction.rst
+       registration/index
 
 .. ifslides::
 
@@ -19,6 +20,7 @@ RGVFlood User interface Implementation
        :hidden:
 
        introduction.rst
+       registration/index
 
 .. ifnotslides::
     Indices and tables
