@@ -25,6 +25,13 @@ if not os.path.exists("src/docker/.env"):
     shutil.copy("src/docker/template.env", "src/docker/.env")
 
 @task
+def restore_volumes(c):
+    """ Retore the Docker Volumes
+    """
+    c.sudo("rsync -avzh --progress --delete tigger.water-wizard.org:/var/lib/docker/volumes/rgvflood* /var/lib/docker/volumes/")
+    c.sudo("( cd /home/anernest/RGVFlood; sudo -u anernest docker exec django4rgvflood sh -c 'python manage.py migrate_baseurl -f --source-address=rgvflood.com --target-address=rgvflood.water-wizard.org")
+
+@task
 def install_latex(c):
     """
     Install the package
@@ -35,13 +42,23 @@ def install_latex(c):
     c.run("pip install --upgrade -e .", in_stream = IN_STREAM_ARG)
 
 @task
+def rebuild_django(c):
+    """ Rebuild the django container
+    """
+    c.run("docker-compose build --no-cache django", in_stream = IN_STREAM_ARG)
+    c.run("docker-compose down", in_stream = IN_STREAM_ARG)
+    c.run("docker-compose up -d", in_stream = IN_STREAM_ARG)
+    #c.run("inv install-reondj", in_stream = IN_STREAM_ARG)
+    #c.run("inv add-reondj", in_stream = IN_STREAM_ARG)
+
+@task
 def install_reondj(c):
     """ Install the REONdj app in the docker container
     """
     c.run('docker exec django4rgvflood sh -c "mkdir -p -m 0600 ~/.ssh"', in_stream = IN_STREAM_ARG)
     c.run('docker exec django4rgvflood sh -c "ssh-keyscan -H github.com bitbucket.org >> ~/.ssh/known_hosts"', in_stream = IN_STREAM_ARG)
     c.run('docker cp ~/.ssh/id_rsa django4rgvflood:/root/.ssh/', in_stream = IN_STREAM_ARG)
-    c.run('docker exec django4rgvflood sh -c "pip install git+ssh://git@github.com/RATESResearch/REONapp"', in_stream = IN_STREAM_ARG)
+    c.run('docker exec django4rgvflood sh -c "pip install --no-cache-dir --upgrade git+ssh://git@github.com/RATESResearch/REONapp.git"', in_stream = IN_STREAM_ARG)
 
 @task
 def add_reondj(c):

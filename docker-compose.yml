@@ -17,13 +17,13 @@ x-common-django:
 
 services:
 
-#  django:
-#    << : *default-common-django
-#    build:
-#      context: ..
-#      dockerfile: ./RGVFlood/src/docker/rgvflood/Dockerfile
-#    container_name: django4${COMPOSE_PROJECT_NAME}
-#    image: reon/rgvflood:v0.1
+  buster:
+    << : *default-common-django
+    build:
+      context: .
+      dockerfile: ./src/docker/buster/Dockerfile
+    container_name: buster4${COMPOSE_PROJECT_NAME}
+    image: reon/buster:v1.0
 #    depends_on:
 #      - geonode
 #    healthcheck:
@@ -46,6 +46,8 @@ services:
       dockerfile: Dockerfile
     container_name: django4${COMPOSE_PROJECT_NAME}
     image: reon/rgvflood:v0.1
+    depends_on:
+      - buster
     healthcheck:
       test: "curl --fail --silent --write-out 'HTTP CODE : %{http_code}\n' --output /dev/null http://127.0.0.1:8001/"
       interval: 60s
