@@ -1,4 +1,4 @@
-RGVFlood User interface Implementation
+RGVFlood User Interface Implementation
 ======================================
 
 .. ifnotslides::
