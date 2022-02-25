@@ -29,7 +29,7 @@ copyright = '2021, Research, Applied Technology, Education & Service, Inc.'
 author = 'Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE'
 
 # The full version, including alpha/beta/rc tags
-release = '0.1.1'
+release = '0.9.1'
 
 
 # -- General configuration ---------------------------------------------------

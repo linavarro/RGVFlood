@@ -7,8 +7,12 @@ RGVFlood User interface Implementation
        :maxdepth: 3
        :caption: Table of Contents
 
-       introduction.rst
-       registration/index
+       information/index
+       introduction/index
+       goals/index
+       interface/index
+       instantiation/index
+       glossary
 
 .. ifslides::
 
