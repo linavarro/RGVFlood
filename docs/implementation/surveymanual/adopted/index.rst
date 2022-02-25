@@ -29,6 +29,10 @@ Information contained in this Survey Manual is has been adopted from industry st
   * - TxDOT
     - TxDOT Survey Manual 4/2016 http://onlinemanuals.txdot.gov/txdotmanuals/ess/index.htm
     - Provides surveying within TxDOT ROW.
+  * - TWDB
+    - TWDB Field Safety Manual UM-53 7/2004 https://www.twdb.texas.gov/groundwater/docs/UMs/UM-53.pdf?d=8634.800000011921
+    - Provides Field Safety procedures when involved in surveying or collecting water data.
+    
     
 Where standards and requirements contained and described in this manual are more comprehensive you are refered to the original standard documents.
 
