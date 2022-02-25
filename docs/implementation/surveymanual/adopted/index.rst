@@ -3,6 +3,7 @@ Adopted Industry Standards
 
 Information contained in this Survey Manual is has been adopted from industry standards.
 
+:Industry Standard: Document :Usage
 :NOAA NGS: RATES Survey Manual 0.1
 :Author: Stacey D. Lyle, PhD, RPLS
 :Authority: Christofer Fuller, PhD
