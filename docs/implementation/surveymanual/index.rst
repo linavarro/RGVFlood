@@ -19,25 +19,42 @@ This document versions are maintained an authorized as follows:
 :Editor: Linda Navarro
 
 
-Table of Contents
------------------
+.. ifnotslides::
 
-Introduction
-Adopted Standards
-Geodetic Datums
-Station Control Surveying
-Station Site Surveying
-Hydrological Cross Section Surveying
-GNSS on Benchmark Surveying
+   .. toctree::
+      :maxdepth: 1
+      :caption: Table of Contents
+
+      introduction/index.rst
+      goals/index.rst
+      adopted/index.rst
+      geodetic/index.rst
+      stationcontrol/index.rst
+      stationsurvey/index.rst
+      hydroxsection/index.rst
+      gnssonbm/index.rst
+      reporting/index.rst
+      glossary/index.rst
+      
+
+.. ifslides::
+
+   Andrew N.S. Ernest, Ph.D., P.E., BCEE, D.WRE
+
+   .. toctree::
+      :hidden:
+
+      introduction/index.rst
+      goals/index.rst
+      adopted/index.rst
+      geodetic/index.rst
+      stationcontrol/index.rst
+      stationsurvey/index.rst
+      hydroxsection/index.rst
+      gnssonbm/index.rst
+      reporting/index.rst
+      glossary/index.rst
 
 
 
-REON
-----
 
-The core REON applications, developed and maintained independent of this project, are ingested into the GeoNode application at container instantiation time. RTHS data is provisioned at this time, and updated periodically for currency.
-
-RGVFlood
---------
-
-RGVFlood is the result on integration of all the above elements along with project specific applictions such as the Tier 1 and Tier 2 model integrations, and LRGV-specific analytics.
