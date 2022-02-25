@@ -34,7 +34,7 @@ Information contained in this Survey Manual is has been adopted from industry st
     - Provides Field Safety procedures when involved in surveying or collecting water data.
   * - TBPELS
     - TTexas Board of Professional Engineers and Land Surveyors Law and Rules https://pels.texas.gov/downloads/lawrules.pdf
-    -Minimum Standards of practice concerning Professional Engineering and Surveying.
+    - Minimum Standards of practice concerning Professional Engineering and Surveying.
     
 Where standards and requirements contained and described in this manual are more comprehensive you are refered to the original standard documents.
 
