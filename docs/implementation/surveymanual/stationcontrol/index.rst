@@ -18,7 +18,7 @@ The following is the general workflow.  Please refer to the NGS OPUS Shared Stat
 6. Place GNSS level on RATES Station Benchmark Contorl Point
 7. Start Survey: Collect RINEX 3 data (Conversion from Vendor format to Rinx may occur in office download) for 4 hours and 15 minutes.
 8. Occationally check level of instrument and note time checked.  If off more then half bubble stop measuring.  Level and restart 4 hours and 15 minutes.
-9. Complete `Observer Field Log for GNSS Surveys <https://geodesy.noaa.gov/surveys/forms/obslog-OPUS.pdf?`_
+9. Complete `Observer Field Log for GNSS Surveys <https://geodesy.noaa.gov/surveys/forms/obslog-OPUS.pdf?>`_
   - Obtain pictures of setup
   - Obtain measurments and description to find RATES Station Control
 10. Optional: `Complete Visibility Obstruction Diagram <https://geodesy.noaa.gov/surveys/forms/#visibility>`_
