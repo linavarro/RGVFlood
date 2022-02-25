@@ -17,15 +17,7 @@ Units
   * - Coordinate
     - Units
     - Format
-  * - Cartesian Coordinate 
-    - Meters (carried out to .001 meter)
-    - X, Y, Z 
- * - Geodetic Coordintes
-    - (degrees, minutes, and seconds with 8 decimals), Ellispoidal Height US Survey Feet (carried out to .001 feet)
-    - Latidue, (-)Longidude, Ellipsoidal Height 
-  * - Grid Projected State Plane  Coordinates
-    - Feet Horizontal coordinates and Orthometric Height (carried out to .001 feet)
-    - Northing, Easting, Orthometeric Height
+
     
 Cartesian Coordinate should be supplied in meters.
 
