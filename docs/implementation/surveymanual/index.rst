@@ -1,31 +1,36 @@
-Platform Instantiation
+Survey Manual
 ======================
+This manual is primarily intended to be accessed online to obtain the latest version.  The online version takes precedence over printed copies, changes, updates, and edits. However, paper copies may be used in the field complete logs, task, surveys, and reports.
 
-Container Configuration
+This Survey Manual is intended to provide guidance for planning, excuting, verifying, and reporting surveys needed for stated RATE projects.
+
+It is the responbility of Professional Land Surveyor to follow the State of Texas Rules and Acts, Federal, other State, Local and RATES standards of care.
+
+
+Documentation Version
 -----------------------
 
-RGVFlood is instantiated via a Docker Container stack providing the following services:
+This document versions are maintained an authorized as follows:
 
-:celery: a powerful asynchronous job queue used for running tasks in the background.
-:db: an instance of PostGIS, a spatially enabled relational database manager.
-:django: a Python web framework upon which RGVFlood is built.
-:docs: an nginx static web page server for the documentation.
-:geoserver: a geospatial data server.
-:gsconf: a service specifically for initially provisioning the geospatial data server.
-:letsencrypt: a service for securing and maintaining an SSL certificate
-:nginx: a high performance web server.
-:rabbitmq: a message proker used by celery for inter-task communication.
-:slides: an nginx static web page server for the documentation slides.
+:Version: RATES Survey Manual 0.1
+:Author: Stacey D. Lyle, PhD, RPLS
+:Authority: Christofer Fuller, PhD
+:Date: 2/18/2022
+:Editor: Linda Navarro
 
-GeoNode
--------
 
-The GeoNode application is installed in the **django** container, using the PostGIS database server in the **db** container to store both mode and geospatial data used by the **geoserver** container.
+Table of Contents
+-----------------
 
-Documentation
--------------
+Introduction
+Adopted Standards
+Geodetic Datums
+Station Control Surveying
+Station Site Surveying
+Hydrological Cross Section Surveying
+GNSS on Benchmark Surveying
 
-Project documentation is developed in parallel to the application development and produced for deployment simultaneously. Sphinx is used for documentation production, permitting both HTML and PDF deloyment in concert. Hieroglyph is used to co-produce slides from the documentation.
+
 
 REON
 ----
