@@ -9,6 +9,14 @@ Please refer to the Geospatial Data Model for more details on submitted data for
 
 Units
 -------
+.. list-table:: Industry Table
+  :widths: 25 25 50
+  :header-rows: 1
+  
+  * - Standard
+    - Document
+    - Purpose
+
 
 .. list-table:: Coordinates Units
   :widths: 25 50 50
@@ -17,7 +25,15 @@ Units
   * - Coordinate
     - Units
     - Format
-
+  * - Cartesian Coordinate 
+    - Meters (carried out to .001 meter)
+    - X, Y, Z 
+ * - Geodetic Coordintes
+    - (degrees, minutes, and seconds with 8 decimals), Ellispoidal Height US Survey Feet (carried out to .001 feet)
+    - Latidue, (-)Longidude, Ellipsoidal Height 
+  * - Grid Projected State Plane  Coordinates
+    - Feet Horizontal coordinates and Orthometric Height (carried out to .001 feet)
+    - Northing, Easting, Orthometeric Height
     
 Cartesian Coordinate should be supplied in meters.
 
