@@ -2,7 +2,8 @@ Adopted Industry Standards
 ==========================
 
 Information contained in this Survey Manual is has been adopted from industry standards.
-:term:`sdl <http://cnn.com>`
+
+:ref:`sdl <http://cnn.com>`
 
 .. list-table:: Industry Table
   :widths: 25 25 50
