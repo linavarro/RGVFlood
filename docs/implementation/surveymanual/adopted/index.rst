@@ -26,7 +26,9 @@ Information contained in this Survey Manual is has been adopted from industry st
   * - USACE
     - HEC-RAS River User Manual 2/2016 https://www.hec.usace.army.mil/software/hec-ras/documentation/HEC-RAS%205.0%20Users%20Manual.pdf
     - Provides instructions to preform one-dimensional steady flow, one and two-dimensional unsteady flow calculation, sediment transport bed compuations and water quality modeling.   
-
+  * - NOAA NGS
+    - OPUS Shared Solutions https://geodesy.noaa.gov/OPUS/view.jsp
+    - Provides procedures to collect and submit data to the National Spatial Reference System (NSRS).
     
 Where standards and requirements contained and described in this manual are more comprehensive you are refered to the original standard documents.
 
