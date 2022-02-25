@@ -12,7 +12,7 @@ Information contained in this Survey Manual is has been adopted from industry st
     - Document
     - Purpose
   * - NOAA NGS
-    - OPUS Shared Solutions https://geodesy.noaa.gov/OPUS/view.jsp
+    - `OPUS Shared Solutions <https://geodesy.noaa.gov/OPUS/view.jsp>`_  
     - Provides procedures to collect and submit data to the National Spatial Reference System (NSRS).
   * - USGS
     - Levels at Gaging Stations https://pubs.er.usgs.gov/publication/tm3A19
