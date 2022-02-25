@@ -3,7 +3,7 @@ Adopted Industry Standards
 
 Information contained in this Survey Manual is has been adopted from industry standards.
 
-[ngs](http://cnn.com)
+[ngs] (http://cnn.com)
 
 .. list-table:: Industry Table
   :widths: 25 25 50
