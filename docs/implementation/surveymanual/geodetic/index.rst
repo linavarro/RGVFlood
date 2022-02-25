@@ -28,6 +28,7 @@ Units
     - Northing, Easting, Orthometeric Height
     
 .. note::
+
 Currently, U.S. Survey Feet is used in Texas. (Adoption of International Feet is expected.)
 
 Horizontial Datum
