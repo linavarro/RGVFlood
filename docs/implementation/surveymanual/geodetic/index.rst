@@ -1,15 +1,17 @@
 Geodetic Datums and Units
 ==========================
 
-Please refer to the Geospatial Data Model for more details on submitted data format, units, and methods.  All points collected must be supplied in all units stated
+Please refer to the Geospatial Data Model for more details on submitted data format, units, and methods.  All points collected must be supplied in all units stated:
+
 - Cartesian Coordinates
 - Geodetic Coordinates
 - Grid Projected State Plane Coordinates
 
 Units
 -------
+
 .. list-table:: Coordinates Units
-  :widths: 25 25 25
+  :widths: 25 50 50
   :header-rows: 1
   
   * - Coordinate
