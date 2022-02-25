@@ -8,7 +8,7 @@ Please refer to the Geospatial Data Model for more details on submitted data for
 - Grid Projected State Plane Coordinates
 
 Units
-
+-----
 
 .. list-table:: Supplied Coordinates
   :widths: 25 25 50
@@ -38,3 +38,6 @@ Unless otherwise expressed State Plane Coordinate System in NAD83 (2011) with GR
 Vertical Datum
 --------------
 Unless otherwise expressed NAVD 1988 with the most current Geoid should.
+
+`Open Food
+Facts database <https://world.openfoodfacts.org/>`_ 
