@@ -10,7 +10,7 @@ Please refer to the Geospatial Data Model for more details on submitted data for
 Units
 
 
-.. list-table:: Industry Table
+.. list-table:: Supplied Coordinates
   :widths: 25 25 50
   :header-rows: 1
   
@@ -27,8 +27,6 @@ Units
     - Feet Horizontal coordinates and Orthometric Height (carried out to .001 feet)
     - Northing, Easting, Orthometeric Height
     
-Cartesian Coordinate should be supplied in meters.
-
 Currently, U.S. Survey Feet is used in Texas. (Adoption of International Feet is expected.)
 
 Horizontial Datum
