@@ -3,7 +3,7 @@ Adopted Industry Standards
 
 Information contained in this Survey Manual is has been adopted from industry standards.
 
-.. list-table: Industry Table
+.. list-table:: Industry Table
   :widths: 25 25 50
   :header-rows: 1
   
