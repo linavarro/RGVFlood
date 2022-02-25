@@ -1,10 +1,8 @@
-Survey Manual
+Survey Data Model Manual
 ======================
-This manual is primarily intended to be accessed online to obtain the latest version.  The online version takes precedence over printed copies, changes, updates, and edits. However, paper copies may be used in the field complete logs, task, surveys, and reports.
+The purpose of this Survey Data Model Manual is to provide guidance preparing digital survey databases to be delievered to RATES partners.  This is not intended to specify the process used, but to present standards and requirements of outpusts and deliverables.
 
-This Survey Manual is intended to provide guidance for planning, excuting, verifying, and reporting surveys needed for stated RATE projects.
-
-It is the responbility of Professional Land Surveyor to follow the State of Texas Rules and Acts, Federal, other State, Local and RATES standards of care.
+The Survey Manual will provide specific details of data collection methods to meet RATES partner and industry standard deliverables. 
 
 
 Documentation Version
@@ -12,7 +10,7 @@ Documentation Version
 
 This document versions are maintained an authorized as follows:
 
-:Version: RATES Survey Manual 0.1
+:Version: RATES Survey Data Model Manual 0.1
 :Author: Stacey D. Lyle, PhD, RPLS
 :Authority: Christofer Fuller, PhD
 :Date: 2/18/2022
