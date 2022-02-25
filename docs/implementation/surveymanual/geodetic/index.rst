@@ -27,6 +27,7 @@ Units
     - Feet Horizontal coordinates and Orthometric Height (carried out to .001 feet)
     - Northing, Easting, Orthometeric Height
     
+.. note::
 Currently, U.S. Survey Feet is used in Texas. (Adoption of International Feet is expected.)
 
 Horizontial Datum
