@@ -3,12 +3,16 @@ Adopted Industry Standards
 
 Information contained in this Survey Manual is has been adopted from industry standards.
 
-::Industry Standard: Document Usage
-:NOAA NGS: RATES Survey Manual 0.1
-:Author: Stacey D. Lyle, PhD, RPLS
-:Authority: Christofer Fuller, PhD
-:Date: 2/18/2022
-:Editor: Linda Navarro
+.. list-table: Industry Table
+  :widths: 25 25 50
+  :header-rows: 1
+  
+  * - Standard
+    - Document
+    - Purpose
+  * - NOAA NGS
+    - 'OPUS Shared Solutions <https://geodesy.noaa.gov/OPUS/view.jsp>'_
+    - Your data helps maintain local ties to the National Spatial Reference System (NSRS).
 
 Where standards and requirements contained and described in this manual are more comprehensive you are refered to the original standard documents.
 
