@@ -33,9 +33,7 @@ The following is the general workflow.  Please refer to the NGS OPUS Shared Stat
   - In X,Y, Z (m); Lat, Lon, ellipsoidal height (ftus); Northing, Easting, Orthometric Height (ftus) with RMS in File format outlined in Geospatial Data Model document in the \Station\01_BM\RTK directory 
   - In any raw vendor data format \Station\01_BM\RTK directory 
   
-  
-
-  
+.. note::
  
 Your shared solution must be a high-quality solution:
 ≥ 70% observations used and ambiguities fixed
