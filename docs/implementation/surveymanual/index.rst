@@ -14,7 +14,7 @@ This document versions are maintained an authorized as follows:
 
 :Version: RATES Survey Manual 0.1
 :Author: Stacey D. Lyle, PhD, RPLS
-:Authority: Christofer Fuller, PhD
+:Subject Authority: Chris Fuller, PhD
 :Date: 2/18/2022
 :Editor: Linda Navarro
 
