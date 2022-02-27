@@ -120,4 +120,64 @@ Data will be collected using FEMA Data Capture- Workflow Details.
  * - RAIL:	
    - Rail	
    - Top of rail to define limits and height of railing on structures.
+ * - RAILBOT:	
+   - Rail Bottom	
+   - Bottom of rail to define limits and height of railing on structures.
+ * - RDCL:	
+  - Road Centerline	
+  - The centerline on a crowned road or the high side of a road with super elevation.
+ * - SFLOOR:	
+   - Sea Floor	Shots either direct or combination of bathymetric and conventional/Global Positioning System (GPS) survey of coastal area which can be collected during structure  or transect survey.
+ * - TEMP:	
+   - Temporary Control Point	
+   - Temporary control point used for data collection of cross sections and structures. TEMPs are established when ERMs are not present.
+ * - TOB:	
+   - Top of Bank	
+   - Top of bank in a multiple channel scenario.
+ * - TOBL:	
+   - Top of Bank Left	
+   - Break point from over bank to channel on the left side when looking downstream.
+ * - TOBR:	
+   - Top of Bank Right	
+   - Break point from over bank to channel on the right side when looking downstream.
+ * - TOD:	
+   - Top of Deck	
+   - To show an irregular arch or dip in a bridge deck between the bridge corner shots.
+ * - TODDSL:	
+   - Top of Deck Down Stream Left	
+   - Downstream left corner of a bridge on the deck directly above the LCDSL shot to measure deck thickness and width¹.
+ * - TODDSR:	
+   - Top of Deck Down Stream Right	
+   - Downstream right corner of a bridge on the deck directly above the LCDSR shot to measure deck thickness and width¹.
+ * - TODUSL:	
+   - Top of Deck Up Stream Left	
+   - Upstream left corner of a bridge on the deck directly above the LCUSL shot to measure deck thickness and width¹.
+ * - TODUSR:	
+   - Top of Deck Up Stream Right	
+   - Upstream right corner of a bridge on the deck directly above the LCUSR shot to measure deck thickness and width¹.
+ * - TOS:	
+   - Toe of Slope	
+   - The toe in a multiple channel scenario.
+ * - TOSL	
+   - Toe of Slope Left	
+   - Break point from channel bank to channel bed on the left side when looking downstream.
+ * - TOSR	
+   - Toe of Slope Right	
+   - Break point from channel bank to channel bed on the right side when looking downstream.
+ * - WALL	
+   - Wall	
+   - Top of a retaining wall, also used outside TOBL and TOBR when the stream banks are vertical walls or rock cuts.
+ * - WALLBOT 
+   - Wall Bottom	
+   - Bottom of a retaining wall, also used outside TOBL and TOBR when the stream banks are vertical walls or rock cuts.
+ * - WEIR	
+   - Weir	
+   - Top of dam spillways and outlet structures. Multiple weir codes may be used to collect data for gates, flashboards, and other operable structures. The explanation of the multiple shots should be shown in the structure sketch.
+ * - WW	
+   - Wing Wall	
+   - Top face of each end of a wing wall or headwall on a structure to define height and length.
+ * - WWBOT	
+   - Wing Wall Bottom	
+   - Base of each end of a wing wall or head wall on a structure to define height and length.
+
  
