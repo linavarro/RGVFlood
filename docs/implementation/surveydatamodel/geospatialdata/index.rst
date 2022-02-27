@@ -13,7 +13,9 @@ Data will be collected using FEMA Data Capture- Workflow Details.
 
 Survey Code List
 -----------------
-.. list-table:: Supplied Coordinates
+.. list-table:: 
+  :widths: 25 25 50
+  :header-rows: 1
   
  * - Code: 
    - Description	
