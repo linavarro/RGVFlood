@@ -12,6 +12,7 @@ The Geospatial Data shall represent the feature being identified to the level of
 Data will be collected using FEMA Data Capture- Workflow Details.
 
 .. list-table:: Survey Codes
+
    :widths: 25 25 50
    :header-rows: 1
   
