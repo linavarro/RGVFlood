@@ -51,6 +51,7 @@ Data will be collected using FEMA Data Capture- Workflow Details.
  * - CULUSCR:	
    - Culvert Up Stream Crown	
    - The highest point of the upstream end of a culvert.
+ 
  * - CULUSINV:	
    - Culvert Up Stream Invert	
    - The lowest point of the upstream end of a culvert.
