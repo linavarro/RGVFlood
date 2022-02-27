@@ -30,4 +30,9 @@ Semi-Codelss receivers that tract Anti-Spoofing (A/S) (P(y)-code)   shall measur
 
 Receivers shall be able to generate RINEX 3 and connect to a RTK-RTN network.
 
-GNSS Antenna should be able to 
+GNSS Antenna should be able to be mounted on Fixed Height Pole; 5/8” x 11 female threaded stainless steel mount point fitting at the Station Gauge Staff; Roof-Based Mounting; or other mobile vehicle.
+
+All necessary hardware, conduits, junction boxes and fittings required for a complete and functional system in accordance with manufacturer’s recommendations and NGS CORS guidelines shall be provided.
+
+
+
