@@ -127,7 +127,8 @@ Data will be collected using FEMA Data Capture- Workflow Details.
    - Road Centerline	
    - The centerline on a crowned road or the high side of a road with super elevation.
  * - SFLOOR:	
-   - Sea Floor	Shots either direct or combination of bathymetric and conventional/Global Positioning System (GPS) survey of coastal area which can be collected during structure  or transect survey.
+   - Sea Floor	
+   - Shots either direct or combination of bathymetric and conventional/Global Positioning System (GPS) survey of coastal area which can be collected during structure  or transect survey.
  * - TEMP:	
    - Temporary Control Point	
    - Temporary control point used for data collection of cross sections and structures. TEMPs are established when ERMs are not present.
