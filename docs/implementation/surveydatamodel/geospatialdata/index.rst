@@ -12,7 +12,7 @@ The Geospatial Data shall represent the feature being identified to the level of
 Data will be collected using FEMA Data Capture- Workflow Details.
 
 .. list-table:: Supplied Coordinates
-  :header-rows: 1
+  : header-rows: 1
   
  * - Code: 
    - Description	
