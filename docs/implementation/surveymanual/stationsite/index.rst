@@ -27,8 +27,10 @@ Ground Targets
 Software
 ---------
 
+Pix4Dcapture
 RATE Pix4D account or consultant Pix4D account should be used to login intitate Pix4Dcapture. Logging in requires Internet connection. It can be skipped up to five times so that the app can be temporarily used without login. The Login screen has several items.
 
+Suncalc
 `SunCalc <https://www.suncalc.org/>`_ should be used to determine the best sun angle to reduce the shadows that effect the 3D modeling
 
 Workflow
