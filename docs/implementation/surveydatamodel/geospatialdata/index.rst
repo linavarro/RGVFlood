@@ -7,9 +7,21 @@ All collected data shall be coordinated with RATES using  the means and methods 
 
 The data collection for the new project work areas shall be consistent for the same types of entities in each location. 
 
+File Nameing:
+-------------
+
+Survey data files shall be organized and named based on the Gauge Station Name or Steam Name with Date. TWB1_02-25-2022.CSV
+
+Images and photo taken at a Station Site or Hydrological Cross Section should shall be organized and named based on the Gauge Station Name or Steam Name with Date. TWB1_02-25-2022.JPG
+
+Geospatial Accuracy
+-------------------
+
 The Geospatial Data shall represent the feature being identified to the level of 1 centimeter and 2-centimeter accuracy for the horizontal and vertical coordinate, respectively. A geodatabase template for all required features and associated data will be provided to, and be used.
 
 Data will be collected using FEMA Data Capture- Workflow Details.
+
+
 
 Survey Code List
 -----------------
