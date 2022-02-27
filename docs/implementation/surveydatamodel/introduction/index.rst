@@ -18,6 +18,7 @@ Data will be collected using FEMA Data Capture- Workflow Details.
  * - Code: 
    - Description	
    - Field Survey Location
+ 
  * - ABT:	
    - Abutment	
    - Face/foot of abutment of bridge.
@@ -33,8 +34,7 @@ Data will be collected using FEMA Data Capture- Workflow Details.
  * - CH:	
    - Channel
    - Stream bottom between Toe of Slope (TOS) shots.
- 
- * - CHCL:	
+  * - CHCL:	
    - Channel Centerline	
    - Center of the main flow area of the stream.
  * - CUL:	
