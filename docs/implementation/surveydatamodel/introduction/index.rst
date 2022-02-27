@@ -33,6 +33,7 @@ Data will be collected using FEMA Data Capture- Workflow Details.
  * - CH:	
    - Channel
    - Stream bottom between Toe of Slope (TOS) shots.
+ 
  * - CHCL:	
    - Channel Centerline	
    - Center of the main flow area of the stream.
