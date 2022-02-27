@@ -1,3 +1,25 @@
-Geospatial Data Model
+Geospatial Data Model Standards
 ====================================
-RGVFlood is a cloud-based Regional Water Resource Decision Support System focused on the Lower Rio Grande Valley. It is built on the GeoNode geospatial content management system with extensions from REON. REON Extensions include integration of geolocated real-time data streams and application hooks to execute decision support tools based on the geospatial data.
+
+The various elements such as Station Benchmark, Station Site Survey, Hydrological Cross Section, etc, shall be collected using the Geospatial Data Model Standards. The data associated with the polyline elements shall be as indicated below for the respective elements constructed, with the date of installation, (month and year) being provided for all new work materials. 
+
+All collected data shall be coordinated with RATES using  the means and methods for achieving the end results for the data indicated in the Geospatial Data Model Standard.
+
+The data collection for the new project work areas shall be consistent for the same types of entities in each location. 
+
+The Geospatial Data shall represent the feature being identified to the level of 1 centimeter and 2-centimeter accuracy for the horizontal and vertical coordinate, respectively. A geodatabase template for all required features and associated data will be provided to, and be used.
+
+Data will be collected using FEMA Data Capture- Workflow Details.
+
+:Code:	Description	Field Survey Location
+:ABT:	Abutment	Face/foot of abutment of bridge.
+:BOCEDS:	Back of Curb Edge Down Stream	Where slope meets top of culvert or top of headwall above culvert centerline on downstream end for determining outlet projection.
+:BOCEUS:	Back of Curb Edge Up Stream	Where slope meets top of culvert or top of headwall above culvert centerline on upstream end for determining inlet projection.
+:BRCL:	Bridge Centerline	Centerline of bridge in overtopping section.
+:CH:	Channel	Stream bottom between Toe of Slope (TOS) shots.
+:CHCL:	Channel Centerline	Center of the main flow area of the stream.
+:CUL:	Culvert Shape	Multiple CUL codes can be used to define shapes for culverts, especially irregular shapes.
+:CULCL:	Culvert Centerline	Centerline of culvert in overtopping section.
+:CULDSCR:	Culvert Down Stream Crown	The highest point of the downstream end of a culvert.
+:CULDSINV:	Culvert Down Stream Invert	The lowest point of the downstream end of a culvert.
+:CULUSCR:	Culvert Up Stream Crown	The highest point of the upstream end of a culvert.
