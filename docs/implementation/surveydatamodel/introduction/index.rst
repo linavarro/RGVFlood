@@ -1,6 +1,14 @@
 Introduction
 =============
+
+All contributing parties shall complete the RATES Survey Data Model microcertificate course with a minimal pass score. Tthe submittal of the micro certificate and example methods shall be completed and accepted through the submittal process. 
+
 Geospatial data should be provided in a format consistent with the current Survey Manual. 
+
+All field data collected by the Rover Units shall meet or exceed accuracy standards as defined by the Survey Manual Standards.
+ 
+Field Surveys
+--------------
 
 Field surveys are performed to collect information that is needed as input into the hydraulic models for Special Flood Hazard Areas (SFHAs) with high flood risk and may be needed for SFHAs with moderate flood risk. The field-surveyed data may include information for the following types of features:
 
@@ -16,7 +24,6 @@ Field surveys are performed to collect information that is needed as input into 
   -	Levees
   -	Coastal Structures
 
-Survey data files should be stored in a comma delimited text file, spreadsheet, or database format and include all hydraulic feature data and benchmarks surveyed for that stream. 
 
 The file should be developed in a format that includes data that correspond to the fields in the Geospatial Data Model section.
 
