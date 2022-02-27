@@ -6,41 +6,40 @@ A 3D model of the RATES Station Benchmark Site Surveying shall be conducted with
 Method 1- Unmanned Aircraft System (UAS)
 =========================================
 
-A UAS utilizes hardward and software to generate a 3D point cloud Digital Surface Model (DSM) of the RATES Station Benchmark Site.
+A UAS utilizes hardward and software to generate a 3D point cloud Digital Surface Model (DSM) of the RATES Station Benchmark Site. Only 14 CFR FAA 107 Certified Remote Piolts for commericial operation shall have conduct UAS Surveys.  The Operations Over People rule became effective on April 21, 2021. Drone pilots operating under Part 107 may fly at night, over people and moving vehicles without a waiver as long as they meet the requirements defined in the rule. Airspace authorizations are still required for night operations in controlled airspace under 400 feet.  Certified Remote Pilots are full responsible for opperation of UAS for RATES Station Benchmark Site Surveying.
 
 Equipment
 ------------
 
-Equipment used must be capibile of working with Pix4D Capture that can be found at `Suported Drones Pix4Dcapture <https://support.pix4d.com/hc/en-us/articles/203991609-Supported-drones-cameras-and-controllers-PIX4Dcapture>`_
+UAS 
+ - UAS equipment used shall be capibile of working with Pix4Dcapture that can be found at `Suported Drones Pix4Dcapture <https://support.pix4d.com/hc/en-us/articles/203991609-Supported-drones-cameras-and-controllers-PIX4Dcapture>`_
+ - Smartphone suport Pix4Dcapture
 
-Monument locations shall be installed in a stable surface that is not subject to effects of geologic and soil activity in the region, in accordance with Geospatial Data Model. 
+GNSS
+ - GNSS equipment used for Ground Control Points (GCPs) shall be a Real Time Kinematic (RTK) GNSS rover equipment, operating at centimeter-level (i.e. survey-grade) 
+accuracy.
 
-Monuments must be highly visible away from vegetation, moving structures, or high traffic areas subject to movements. Descriptions of monuments should be added to the NOAA NGS OPUS Shared Solutions.
+Ground Targets
+ - GCPs are a points with of known coordinates in the area of interest. Coordinates are measured with GNSS RTK surveying methods and used to georeference the generated point cloud.
+ - 10 GCP Targes shall be set at the RATES Station Benchmark Site to obtain the coordinates needed to georeference and check the generated point cloud.
 
-Monuments shall be navigated to using the record coordinates  obtained from OPUS. 
 
-NOAA NGS OPUS Shared Soluions. 
---------------------
+Software
+---------
 
-NOAA NGS OPUS Shared solutions shall be used to process and publish the location of the RATES Station Control Benchmark.  When possible, Static observations shall be collected on the GNSS Reference Station  simultaneous to all reference monuments being observed, to ensure  simultaneous data is collected on both the reference station and all 
-reference monuments for final evaluation and approval of adjusted coordinates.
+RATE Pix4D account or consultant Pix4D account should be used to login intitate Pix4Dcapture. Logging in requires Internet connection. It can be skipped up to five times so that the app can be temporarily used without login. The Login screen has several items.
 
-The residual error shall be noted shall  be within tolerances set forth. 
-Your shared solution must be a high-quality solution:
- - ≥ 70% observations used and ambiguities fixed
- - ≤ 3 cm RMS
- - ≤ 4 cm peak-to-peak error ranges for latitude and longitude
- - ≤ 8 cm peak-to-peak error range for ellipsoid height
+`SunCalc <https://www.suncalc.org/>`_ should be used to determine the best sun angle to reduce the shadows that effect the 3D modeling
 
 Workflow
 -----------
 
-The following is the general workflow.  Please refer to the NGS OPUS Shared Static Solutions for more details.
+The following is the general workflow.  Please refer to the Pix4Dcapture manual details.
 
 .. code-block:: yaml
-1. Complete the NGS and RATE Tutorial on How to Submit an OPUS Share Observatoin
-2. Refer to the referenced Documents for setting NGS Monuments and Submit an OPUS Share Observatoin
-3. Utilize Multi Frequency GNSS Receiver
+1. Optain 14 CFR FAA 107 Certified Remote Piolts
+2. Complete the RATE's Tutorial on UAS Station Benchmark Surveying Training
+3. Verify all equipment is 
 4. Utilize a Fixed Height Pole with proper tripod legs
 5. Scout the location and set a Station Mark
  - Marks are defined IN USGS TM3A19 or `NGS Special Application Mark Description <https://geodesy.noaa.gov/marks/descriptors.shtml#setting>`_
