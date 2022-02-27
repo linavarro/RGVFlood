@@ -18,6 +18,7 @@ Data will be collected using FEMA Data Capture- Workflow Details.
  * - Code: 
    - Description	
    - Field Survey Location
+ * - ABT:	
+   - Abutment	
+   - Face/foot of abutment of bridge.
  
-
-
