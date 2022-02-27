@@ -51,7 +51,7 @@ Data will be collected using FEMA Data Capture- Workflow Details.
  * - CULUSCR:	
    - Culvert Up Stream Crown	
    - The highest point of the upstream end of a culvert.
-* - CULUSINV:	
+ * - CULUSINV:	
    - Culvert Up Stream Invert	
    - The lowest point of the upstream end of a culvert.
  * - DAMCL:	
@@ -78,3 +78,4 @@ Data will be collected using FEMA Data Capture- Workflow Details.
    - Guardrail	Top of guardrail at ends to define limit and height.
  * - GDRBOT:	
    - Guardrail at Bottom	Base of guardrail at ends to define and height.
+ 
