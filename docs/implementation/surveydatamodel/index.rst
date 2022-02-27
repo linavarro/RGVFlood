@@ -25,12 +25,8 @@ This document versions are maintained an authorized as follows:
 
       introduction/index.rst
       goals/index.rst
-      adopted/index.rst
-      geodetic/index.rst
-      stationcontrol/index.rst
-      stationsurvey/index.rst
-      hydroxsection/index.rst
-      gnssonbm/index.rst
+      drawing/index.rst
+      geospatialdata/index.rst
       reporting/index.rst
       glossary/index.rst
       
@@ -44,12 +40,8 @@ This document versions are maintained an authorized as follows:
 
       introduction/index.rst
       goals/index.rst
-      adopted/index.rst
-      geodetic/index.rst
-      stationcontrol/index.rst
-      stationsurvey/index.rst
-      hydroxsection/index.rst
-      gnssonbm/index.rst
+      drawing/index.rst
+      geospatialdata/index.rst
       reporting/index.rst
       glossary/index.rst
 
