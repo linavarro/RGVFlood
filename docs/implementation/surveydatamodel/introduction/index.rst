@@ -75,7 +75,8 @@ Data will be collected using FEMA Data Capture- Workflow Details.
  * - FBCL:	
    - Foot Bridge Centerline	Centerline of non-vehicular bridges in overtopping section.
  * - GDR:	
-   - Guardrail	Top of guardrail at ends to define limit and height.
+   - Guardrail	
+   - Top of guardrail at ends to define limit and height.
  * - GDRBOT:	
    - Guardrail at Bottom	
    - Base of guardrail at ends to define and height.
