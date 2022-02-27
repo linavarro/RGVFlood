@@ -93,6 +93,31 @@ Data will be collected using FEMA Data Capture- Workflow Details.
  * - INVUS:	
    - Invert Up Stream	
    - Channel invert at upstream end of structure, used to define aprons.
-
-
+ * - LC:	
+   - Low Chord	
+   - Change in bridge deck thickness, usually at center of a pile row or pier. Multiple low chord codes can be used to define irregular shaped bridges such as arched bridges  with the explanation of the multiple LC shots shown in the sketch for the structure.
+ * - LCDSL:	
+   - Low Chord Down Stream Left	
+   - Bottom of deck and beam at the downstream left corner of bridge¹.
+ * - LCDSR:	
+   - Low Chord Down Stream Right	
+   - Bottom of deck and beam at the downstream right corner of bridge¹.
+ * - LCUSL:	
+   - Low Chord Up Stream Left	
+   - Bottom of deck and beam at the upstream left corner of bridge¹.
+ * - LCUSR:	
+   - Low Chord Up Stream Right	
+   - Bottom of deck and beam at the upstream right corner of bridge¹.
+ * - LV:	
+   - Levee	
+   - The centerline of the top of a levee.
+ * - PIER:	
+   - Pier	
+   - The up and downstream centerline of a pier.
+ * - PILE:	
+   - Pile	
+   - The up and downstream centerline of a row of piles.
+ * - RAIL:	
+   - Rail	
+   - Top of rail to define limits and height of railing on structures.
  
