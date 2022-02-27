@@ -8,9 +8,9 @@ Field surveys are performed to collect information that is needed as input into 
  -  Temporary Bench Marks
  -	High Water Marks
  - 	Structures
- -- 	Bridges
- --	Channels
- --	Culverts
- --	Dams
- --	Levees
- --	Coastal Structures
+  - 	Bridges
+  -	Channels
+  -	Culverts
+  -	Dams
+  -	Levees
+  -	Coastal Structures
