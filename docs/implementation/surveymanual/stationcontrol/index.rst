@@ -3,6 +3,31 @@ RATES Station Control Benchmark Surveying
 
 To ensure that the best horizontial and vertical coordinates to determine the elevation of the RATES Station NOAA NGS Online Processing User Service (OPUS) Shared Static Solutions will be used.
 
+Monuments:
+-----------
+
+Monument locations shall be installed in a stable surface that is not subject to effects of geologic and soil activity in the region, in accordance with Geospatial Data Model. 
+
+Monuments must be highly visible away from vegetation, moving structures, or high traffic areas subject to movements. Descriptions of monuments should be added to the NOAA NGS OPUS Shared Solutions.
+
+Monuments shall be navigated to using the record coordinates  obtained from OPUS. 
+
+NOAA NGS OPUS Shared Soluions. 
+--------------------
+
+NOAA NGS OPUS Shared solutions shall be used to process and publish the location of the RATES Station Control Benchmark.  When possible, Static observations shall be collected on the GNSS Reference Station  simultaneous to all reference monuments being observed, to ensure  simultaneous data is collected on both the reference station and all 
+reference monuments for final evaluation and approval of adjusted coordinates.
+
+The residual error shall be noted shall  be within tolerances set forth. 
+Your shared solution must be a high-quality solution:
+ - ≥ 70% observations used and ambiguities fixed
+ - ≤ 3 cm RMS
+ - ≤ 4 cm peak-to-peak error ranges for latitude and longitude
+ - ≤ 8 cm peak-to-peak error range for ellipsoid height
+
+Workflow
+-----------
+
 The following is the general workflow.  Please refer to the NGS OPUS Shared Static Solutions for more details.
 
 .. code-block:: yaml
