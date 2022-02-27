@@ -15,14 +15,14 @@ Companion Files or Exteranl Reference Files
 --------------------------------------------
 
 Often CAD has external references files (XREF) and data reference files (DREF) attched to the DWG such as:
-- Project Files
-- Objects
-- Images
-- GIS
-- Other CAD Files
-- Survey Databases SQL
-- DTM, DSM, TIM, GRID, DEM, SDF, MBD, ASC, XML, RAW, CSV, PDF
-- Reports, Spreadsheets, Oject Sets
+ - Project Files
+ - Objects
+ - Images
+ - GIS
+ - Other CAD Files
+ - Survey Databases SQL
+ - DTM, DSM, TIM, GRID, DEM, SDF, MBD, ASC, XML, RAW, CSV, PDF
+ - Reports, Spreadsheets, Oject Sets
 
 All files must follow DDR and be provied when sharing or providing a delieverable which include:
 - Drawing Naming
