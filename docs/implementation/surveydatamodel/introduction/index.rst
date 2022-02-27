@@ -11,10 +11,18 @@ The Geospatial Data shall represent the feature being identified to the level of
 
 Data will be collected using FEMA Data Capture- Workflow Details.
 
-:Code: Description	Field Survey Location
-:ABT:	Abutment	Face/foot of abutment of bridge.
-:BOCEDS:	Back of Curb Edge Down Stream	Where slope meets top of culvert or top of headwall above culvert centerline on downstream end for determining outlet projection.
-:BOCEUS:	Back of Curb Edge Up Stream	Where slope meets top of culvert or top of headwall above culvert centerline on upstream end for determining inlet projection.
+.. list-table:: Supplied Coordinates
+  :widths: 25 25 50
+  :header-rows: 1
+  
+ * - Code: 
+   - Description	
+   - Field Survey Location
+* -ABT:	Abutment	Face/foot of abutment of bridge.
+  -BOCEDS:	Back of Curb Edge Down Stream	Where slope meets top of culvert or top of headwall above culvert centerline on downstream end for determining outlet projection.
+  -BOCEUS:	Back of Curb Edge Up Stream	Where slope meets top of culvert or top of headwall above culvert centerline on upstream end for determining inlet projection.
+
+
 :BRCL:	Bridge Centerline	Centerline of bridge in overtopping section.
 :CH:	Channel	Stream bottom between Toe of Slope (TOS) shots.
 :CHCL:	Channel Centerline	Center of the main flow area of the stream.
