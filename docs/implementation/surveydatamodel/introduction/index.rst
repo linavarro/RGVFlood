@@ -63,19 +63,4 @@ Data will be collected using FEMA Data Capture- Workflow Details.
  * - DP:	
    - Dune Peak	
    - Peak or rear shoulder of primary frontal dune.
- * - DT:	
-   - Dune Toe	
-   - Seaward toe of primary frontal dune.
- * - EOB:	
-   - End of Bridge	
-   - End of the bridge deck at the road/rail elevation.
- * - ERM:	
-   - Elevation Reference Mark	
-   - Permanent elevation monument. An ERM must be set at every structure and at cross sections if they are more than half a mile to the nearest structure.
- * - FBCL:	
-   - Foot Bridge Centerline	Centerline of non-vehicular bridges in overtopping section.
- * - GDR:	
-   - Guardrail	Top of guardrail at ends to define limit and height.
- * - GDRBOT:	
-   - Guardrail at Bottom	Base of guardrail at ends to define and height.
  
