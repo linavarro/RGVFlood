@@ -73,7 +73,8 @@ Data will be collected using FEMA Data Capture- Workflow Details.
    - Elevation Reference Mark	
    - Permanent elevation monument. An ERM must be set at every structure and at cross sections if they are more than half a mile to the nearest structure.
  * - FBCL:	
-   - Foot Bridge Centerline	Centerline of non-vehicular bridges in overtopping section.
+   - Foot Bridge Centerline	
+   - Centerline of non-vehicular bridges in overtopping section.
  * - GDR:	
    - Guardrail	
    - Top of guardrail at ends to define limit and height.
