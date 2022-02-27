@@ -81,4 +81,8 @@ Data will be collected using FEMA Data Capture- Workflow Details.
  * - GDRBOT:	
    - Guardrail at Bottom	
    - Base of guardrail at ends to define and height.
-
+ * - GR:	
+   - Ground	
+   - On ground to show elevation changes, used outside Top of Bank (TOB) shots, between TOB and TOS, and to indicate islands or bars within the channel. When used in  channel cross-section surveys, a GR point must be placed at least 15 feet past the top of bank or until there is no overhead obstruction from foliage. If overhead foliage is too  thick for the entire overbank area, full valley cross sections should be a consideration for modeling.
+ 
+ 
