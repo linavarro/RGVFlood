@@ -30,4 +30,25 @@ Data will be collected using FEMA Data Capture- Workflow Details.
  * - BRCL:	
    - Bridge Centerline	
    - Centerline of bridge in overtopping section.
+ * - CH:	
+   - Channel
+   - Stream bottom between Toe of Slope (TOS) shots.
+ * - CHCL:	
+   - Channel Centerline	
+   - Center of the main flow area of the stream.
+ * - CUL:	
+   - Culvert Shape	
+   - Multiple CUL codes can be used to define shapes for culverts, especially irregular shapes.
+ * - CULCL:	
+   - Culvert Centerline	
+   - Centerline of culvert in overtopping section.
+ * - CULDSCR:	
+   - Culvert Down Stream Crown	
+   - The highest point of the downstream end of a culvert.
+ * - CULDSINV:	
+   - Culvert Down Stream Invert	
+   - The lowest point of the downstream end of a culvert.
+ * - CULUSCR:	
+   - Culvert Up Stream Crown	
+   - The highest point of the upstream end of a culvert.
  
