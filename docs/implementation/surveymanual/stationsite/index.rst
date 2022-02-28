@@ -105,34 +105,10 @@ Workflow
 The following is the general workflow.  Please refer to the Pix4Dcapture manual details.
 
 .. code-block:: yaml
-1. Optain 14 CFR FAA 107 Certified Remote Piolts
-2. Complete the RATE's Tutorial on UAS Station Benchmark Surveying Training
-3. Verify all equipment is charged and updated with current software.
-4. Verify that a rights and premissions to opperate UAS at RATES Station Benchmark Site are secure.
-5. Set GCPs 
- - Place in a geometeric distribution 
- - At least 6 targets should be placed per site to ensure the algorithm will run successfully.
- - Targets should be separated by at least 10 meters (~30 ft).
- - Targets should be placed on flat and static surfaces.
- - Targets should always be visible in the images that capture the location of the target.The mark must be durable, have a stable setting, and good satellite visibility.
- - Collect RTK solutions on each GCP
-6. Configure Pix4Dcapture
- - Select Dobule Grid 3D Mission
- - Select safe flying heith that generates a minimal Ground Sample Distance (GSD) of 0.80 in/pixel
- - Select Angle Camera at 60%
- - Select Front and Side Overlap of 85% 
- - Select Drone Speed Normal
-7. In the Map view move Area of Interest (AOI) mission area centered on RATES Station Benchmark Site and resize to capture topographic relief area needed for best surface model (For example 300' x 300'). 
-8. Collect data following your safety standards.
-9. Consider a second backup data collection, but rotate the AOI 45 degrees from first flight mission.
-10. Additional images might be necssary to obtain under any structures using the Pix4Dcapture Circular for signle model.
-11. Download to RATES shared drive
-- All images
-- GCP RTK solutions following Survey Data Model
-- Pix4D mission Project files
-12. Consultant or RATES will process captured images and GCP using Pix4Dmapper
-
-  
-.. note::
- 
+1. Blah
+2. Blah
+3. Blah
+  - yes
+  - no
+  - Yes
 Point cloud results will be tested in RATES mapping software against existing surface and surveying models.
