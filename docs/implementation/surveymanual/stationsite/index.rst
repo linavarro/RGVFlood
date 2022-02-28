@@ -52,7 +52,7 @@ The following is the general workflow.  Please refer to the Pix4Dcapture manual 
  - Targets should always be visible in the images that capture the location of the target.The mark must be durable, have a stable setting, and good satellite visibility.
  - Collect RTK solutions on each GCP
 6. Configure Pix4Dcapture
-.. figure:: pix4dcapture.jpg
+.. figure:: pix4dcapture.PNG
  - Select Dobule Grid 3D Mission
  - Select safe flying heith that generates a minimal Ground Sample Distance (GSD) of 0.80 in/pixel
  - Select Angle Camera at 60%
