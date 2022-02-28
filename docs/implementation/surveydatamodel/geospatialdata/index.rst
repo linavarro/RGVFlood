@@ -107,11 +107,11 @@ Survey Code List
    - Base of guardrail at ends to define and height.
  * - GR:	
    - Ground	
-   - On ground to show elevation changes, used outside Top of Bank (TOB) shots, between TOB and TOS, and to indicate islands or bars within the channel. When used in  channel cross-section surveys, a GR point must be placed at least 15 feet past the top of bank or until there is no overhead obstruction from foliage. If overhead foliage is too  thick for the entire overbank area, full valley cross sections should be a consideration for modeling.
-* - HW:	
+   - On ground to show elevation changes, used outside Top of Bank (TOB) shots, between TOB and TOS, and to indicate islands or bars within the channel. When used in  channel        cross-section surveys, a GR point must be placed at least 15 feet past the top of bank or until there is no overhead obstruction from foliage. If overhead foliage is too        thick for the entire overbank area, full valley cross sections should be a consideration for modeling.
+ * - HW:	
    - Head Wall	
    - Wall built at a pipe inlet. 
-* - HWMARK:	
+ * - HWMARK:	
    - High Water Mark	
    - Historical high water marks-mud/stain lines, drift lines, parole evidence, etc.
  * - INVDS:	
@@ -122,7 +122,7 @@ Survey Code List
    - Channel invert at upstream end of structure, used to define aprons.
  * - LC:	
    - Low Chord	
-   - Change in bridge deck thickness, usually at center of a pile row or pier. Multiple low chord codes can be used to define irregular shaped bridges such as arched bridges  with the explanation of the multiple LC shots shown in the sketch for the structure.
+   - Change in bridge deck thickness, usually at center of a pile row or pier. Multiple low chord codes can be used to define irregular shaped bridges such as arched bridges          with the explanation of the multiple LC shots shown in the sketch for the structure.
  * - LCDSL:	
    - Low Chord Down Stream Left	
    - Bottom of deck and beam at the downstream left corner of bridge¹.
