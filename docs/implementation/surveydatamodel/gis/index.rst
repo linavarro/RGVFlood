@@ -1,8 +1,9 @@
 Geographic Information System (GIS)
 ===================================
 
+RGVFlood web application serves as a platform to manage and display geospatial data, domain data, which includes layers from distinct sources: national, state, and local. The goal is to provide all available data relevant to the needs of the user. Therefore, there are two forms to upload data: via remote service and a manual upload of the layer files 
 
-   .. figure:: Domian-Data Diagram.jpg
+.. figure:: Domian-Data Diagram.jpg
    
 The required GNSS/GIS work shall result in a fully integrated GIS/GNSS system with covering entire developed portion of the RTHS Station. The GIS elements that are created shall be sufficient to allow the display visible items on RGVFlood website application.
 
