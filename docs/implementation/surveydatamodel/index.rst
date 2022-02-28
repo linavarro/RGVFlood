@@ -27,7 +27,7 @@ This document versions are maintained an authorized as follows:
       goals/index.rst
       geospatialdata/index.rst
       drawing/index.rst
-      gis.rst
+      gis/index.rst
       reporting/index.rst
       glossary/index.rst
       
@@ -43,7 +43,7 @@ This document versions are maintained an authorized as follows:
       goals/index.rst
       geospatialdata/index.rst
       drawing/index.rst
-      gis.rst
+      gis/index.rst
       reporting/index.rst
       glossary/index.rst
 
