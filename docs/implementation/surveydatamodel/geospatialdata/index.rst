@@ -36,6 +36,9 @@ Survey Code List
  * - ABT:	
    - Abutment	
    - Face/foot of abutment of bridge.
+ * - BM:	
+   - Benchmark
+   - Permanent mark created at a recognized height which is used as the basis for measuring different altitude of topographical point.
  * - BOCEDS:	
    - Back of Curb Edge Down Stream	
    - Where slope meets top of culvert or top of headwall above culvert centerline on downstream end for determining outlet projection.
@@ -51,6 +54,9 @@ Survey Code List
  * - CHCL:	
    - Channel Centerline	
    - Center of the main flow area of the stream.
+ * - CONC:	
+   - Concrete	
+   - Areas with concrete (e.g, concrete banks).
  * - CUL:	
    - Culvert Shape	
    - Multiple CUL codes can be used to define shapes for culverts, especially irregular shapes.
@@ -81,6 +87,9 @@ Survey Code List
  * - DT:	
    - Dune Toe	
    - Seaward toe of primary frontal dune.
+ * - EG:	
+   - Existing Ground	
+   - The level of the land surface on a land unit.
  * - EOB:	
    - End of Bridge	
    - End of the bridge deck at the road/rail elevation.
@@ -99,7 +108,10 @@ Survey Code List
  * - GR:	
    - Ground	
    - On ground to show elevation changes, used outside Top of Bank (TOB) shots, between TOB and TOS, and to indicate islands or bars within the channel. When used in  channel cross-section surveys, a GR point must be placed at least 15 feet past the top of bank or until there is no overhead obstruction from foliage. If overhead foliage is too  thick for the entire overbank area, full valley cross sections should be a consideration for modeling.
- * - HWMARK:	
+* - HW:	
+   - Head Wall	
+   - Wall built at a pipe inlet. 
+* - HWMARK:	
    - High Water Mark	
    - Historical high water marks-mud/stain lines, drift lines, parole evidence, etc.
  * - INVDS:	
@@ -144,6 +156,12 @@ Survey Code List
  * - SFLOOR:	
    - Sea Floor	
    - Shots either direct or combination of bathymetric and conventional/Global Positioning System (GPS) survey of coastal area which can be collected during structure  or transect survey.
+ * - STAB:	
+   - Base Station	
+   - RTHS Base Station
+ * - STILLW:	
+   - Stilling Well
+   - Top of the stilling well.
  * - TEMP:	
    - Temporary Control Point	
    - Temporary control point used for data collection of cross sections and structures. TEMPs are established when ERMs are not present.
