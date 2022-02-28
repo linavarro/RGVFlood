@@ -1,7 +1,7 @@
-RATES Station Benchmark Site Surveying
+Hydrological Cross Section Survey
 =========================================
 
-A 3D model of the RATES Station Benchmark Site Surveying shall be conducted with the requested two methods.
+A 3D model of Hyrdological Cross Sections shall be conducted with the requested two methods.
 
 Method 1- Unmanned Aircraft System (UAS)
 =========================================
