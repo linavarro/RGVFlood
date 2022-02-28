@@ -10,11 +10,11 @@ The data collection for the new project work areas shall be consistent for the s
 File Nameing:
 -------------
 
-Survey data files shall be organized and named based on the Gauge Station Name or Steam Name with Date. TWB1_02-25-2022.CSV 
+Survey data files shall be organized and named based on the Gauge Station Name or Steam Name with Date. TWDB1_02-25-2022.CSV 
 
 Survey data files should be stored in a comma delimited text file, spreadsheet, or database format and include all hydraulic feature data and benchmarks surveyed for that stream. 
 
-Images and photo taken at a Station Site or Hydrological Cross Section should shall be organized and named based on the Gauge Station Name or Steam Name with Date. TWB1_02-25-2022.JPG
+Images and photo taken at a Station Site or Hydrological Cross Section should shall be organized and named based on the Gauge Station Name or Steam Name, Image Number, and Date. TWDB1_#_02-25-2022.JPG
 
 Geospatial Accuracy
 -------------------
