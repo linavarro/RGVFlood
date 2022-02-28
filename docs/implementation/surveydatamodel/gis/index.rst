@@ -2,7 +2,8 @@ Geographic Information System (GIS)
 ===================================
 
 
-   .. figure:: user_interface.jpg
+   .. figure:: Domian-Data Diagram.jpg
+   
 The required GNSS/GIS work shall result in a fully integrated GIS/GNSS system with covering entire developed portion of the RTHS Station. The GIS elements that are created shall be sufficient to allow the display visible items on RGVFlood website application.
 
 The various elements that will be used to depict the site using the GIS mapping are to be made up of points, polylines and closed polygons that shall be created and displayed.
