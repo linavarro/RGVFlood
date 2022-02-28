@@ -2,9 +2,9 @@ Goals of Survey Data Model
 ==========================
 
 RATES will utilize Survey Data Model to provide stakeholders with a greater understanding of how data models areas are:
-- Planned 
-- Collected
-- Shared
+ - Planned 
+ - Collected
+ - Shared
 
 Goal of Record Management
 -------------------------
