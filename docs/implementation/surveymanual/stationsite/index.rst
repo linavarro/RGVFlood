@@ -62,9 +62,9 @@ The following is the general workflow.  Please refer to the Pix4Dcapture manual 
 9. Consider a second backup data collection, but rotate the AOI 45 degrees from first flight mission.
 10. Additional images might be necssary to obtain under any structures using the Pix4Dcapture Circular for signle model.
 11. Download to RATES shared drive
-- All images
-- GCP RTK solutions following Survey Data Model
-- Pix4D mission Project files
+ - All images
+ - GCP RTK solutions following Survey Data Model
+ - Pix4D mission Project files
 12. Consultant or RATES will process captured images and GCP using Pix4Dmapper
 13. RATES will notify professional of the acceptance of tne RATES Station Benchmark Site survey
 
